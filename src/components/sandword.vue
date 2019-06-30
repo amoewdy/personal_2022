@@ -447,9 +447,9 @@
     <div class="light-page">
         <div class="content-container">
             <div class="ending-pointer">
-                <div onclick="window.location.href='/#/wandpoint'">
+                <div onclick="window.location.href='/#/daydreaming'">
                     <span class="next">Next Project</span><br/>
-                    <span class="project">Wandpoint</span>
+                    <span class="project">daydreaming</span>
                 </div>
             </div>
         </div>

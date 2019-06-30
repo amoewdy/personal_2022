@@ -114,7 +114,24 @@ body{
 .image-middle-container{
     text-align: center;
 }
-
+figcaption{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: rgba(0,0,0,.68);
+    letter-spacing: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+blockquote{
+    font-size: 24px;
+    line-height: 1.6;
+    letter-spacing: 0.006em;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    color: rgba(0,0,0,.68);
+}
 @media (max-width: 40em)  {
   /* Pull out the header and footer */
   .nav{
@@ -319,6 +336,7 @@ span{
     font-size: 24px;
     font-weight: bold;
 }
+
 
 
 </style>

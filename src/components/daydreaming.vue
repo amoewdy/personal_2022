@@ -328,9 +328,9 @@
     <div class="light-page">
         <div class="content-container">
             <div class="ending-pointer">
-                <div onclick="window.location.href='/#/hemago'">
+                <div onclick="window.location.href='/#/clubhusky'">
                     <span class="next">Next Project</span><br/>
-                    <span class="project">HemaGo</span>
+                    <span class="project">clubhusky</span>
                 </div>
             </div>
         </div>

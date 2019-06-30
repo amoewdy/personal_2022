@@ -1,7 +1,10 @@
 <template>
     <div class="animated fadeIn delay-0.5s">
   <div class = 'container'>
-    <img src="/static/icushion/1.png" class="bannner">
+    <!-- <img src="/static/icushion/1.png" class="bannner"> -->
+    <div class="content-container-large">
+            <img src="static/icushion/1-2.png" width='100%' class='large-img'>
+    </div>
     <div class="first-page">
         <div class="content-container-title">
             <div class="parent">
@@ -361,9 +364,9 @@
     <div class="light-page">
         <div class="content-container">
             <div class="ending-pointer">
-                <div onclick="window.location.href='/#/daydreaming'">
+                <div onclick="window.location.href='/#/wandpoint'">
                     <span class="next">Next Project</span><br/>
-                    <span class="project">Daydreaming</span>
+                    <span class="project">wandpoint</span>
                 </div>
             </div>
         </div>

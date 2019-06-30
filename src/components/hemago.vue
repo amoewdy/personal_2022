@@ -1,7 +1,10 @@
 <template>
     <div class="animated fadeIn delay-0.5s">
   <div class = 'container'>
-    <img src="/static/hema/1.png" class="bannner">
+    <!-- <img src="/static/hema/1.png" class="bannner"> -->
+    <div class="content-container-large">
+            <img src="static/hema/1-2.png" width='100%' class='large-img'>
+    </div>
     <div class="first-page">
         <div class="content-container-title">
             <div class="parent">

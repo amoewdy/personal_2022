@@ -1,7 +1,10 @@
 <template>
     <div class="animated fadeIn delay-0.5s">
   <div class = 'container'>
-    <img src="/static/wandpoint/bannner.png" class="bannner">
+    <!-- <img src="/static/wandpoint/bannner.png" class="bannner"> -->
+    <div class="content-container-large">
+            <img src="static/wandpoint/1-2.png" width='100%' class='large-img'>
+    </div>
     <div class="first-page">
         <div class="content-container-title">
         <div class="parent">
@@ -401,9 +404,9 @@
     <div class="light-page">
         <div class="content-container">
             <div class="ending-pointer">
-                <div onclick="window.location.href='/#/clubhusky'">
+                <div onclick="window.location.href='/#/hemago'">
                     <span class="next">Next Project</span><br/>
-                    <span class="project">clubHusky</span>
+                    <span class="project">HemaGo</span>
                 </div>
             </div>
         </div>

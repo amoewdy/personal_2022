@@ -58,17 +58,17 @@
             </div>
         </div>
         <div class="item">
-            <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/sandword'"/>
-            <div class="hint">
-                    <h2>SandWord</h2>
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p>
-            </div>
-        </div>
-        <div class="item">
             <img class="itemImg" src="/static/home/img3.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/wandpoint'"/>
             <div class="hint">
                     <h2>Wandpoint</h2>
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Adding a new dimension to reality <br/>| Product Design | Augmented Reality |</p>
+            </div>
+        </div>
+        <div class="item">
+            <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/sandword'"/>
+            <div class="hint">
+                    <h2>SandWord</h2>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p>
             </div>
         </div>
         <div class="item">
@@ -79,17 +79,17 @@
             </div>
         </div>
         <div class="item">
-            <img class="itemImg" src="/static/home/img2.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/icushion'"/>
-            <div class="hint">
-                <h2>iCushion</h2>
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> A smart cushion that helps children improve their sitting posture <br/>| Design Research | UX Design |</p>
-            </div>
-        </div>
-        <div class="item">
             <img class="itemImg" src="/static/home/img5.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/daydreaming'"/>
             <div class="hint">
                     <h2>Daydreaming</h2>
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>The tension between dream and reality<br/>| Interactive Installation |</p>
+            </div>
+        </div>
+        <div class="item">
+            <img class="itemImg" src="/static/home/img2.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/icushion'"/>
+            <div class="hint">
+                <h2>iCushion</h2>
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> A smart cushion that helps children improve their sitting posture <br/>| Design Research | UX Design |</p>
             </div>
         </div>
         <div class="item">

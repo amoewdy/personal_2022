@@ -57,7 +57,16 @@ a {
 .nav {
     position: relative;
     margin: 5rem 1rem 1rem 1rem;
-    height: 7rem
+    /* padding-top:2rem; */
+    height: 7rem;
+    /* position: fixed;
+    top: 0rem;
+    margin:auto;
+    background-color: #ffffff;
+    /* width: 96vw; */
+    /* width: 100vw;
+    z-index: 1000; */ 
+
 }
 body{
   margin:0;
@@ -77,6 +86,8 @@ body{
     line-height: normal;
     font-size: 32px;
     color: #202020;
+    
+
 }
 .nav >ul{
     list-style-type:none;

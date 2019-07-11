@@ -20,12 +20,26 @@
                         <h3>TIMELINE</h3>
                         <h3>TOPIC</h3>
                         <h3>TEAM</h3>
+                        <h3>&nbsp</h3>
+                        <h3>&nbsp</h3>
                         <h3>SPONSOR</h3>
                         </div>
                         <div class= "left-right">
                             <p>Mar - May 2019, 10 Weeks</p>
-                            <p>IoT, Smartband, Medical Device</p>      
-                            <p>Feng Wang, Jason Cui, Sixuan Li</p>
+                            <p>IoT, Smartband, Medical Device</p>  
+                            <p>
+                                <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://github.com/chemwolf6922" target="blank">
+                            Feng Wang
+                            </a> 
+                             /Hardware Engineer,   
+                            </p>    
+                            <p> 
+                            <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://github.com/Cutuy" target="blank">
+                            Jason Cui 
+                            </a> 
+                            /Software Engineer,   
+                            </p> 
+                            <p>Sixuan Li</p>
                             <p>Jennifer Sonney, Ph.D., ARNP, PPCNP-BC, Assistant Professor, Department of Family and Child Nursing, University of Washington</p>
                         </div>
                     </div>
@@ -47,7 +61,6 @@
                             <p>
                                 Figma<br>
                                 ReactJS<br>
-                                d3.js<br>
                                 material-ui
                             </p>     
                     </div>

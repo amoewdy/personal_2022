@@ -10,6 +10,7 @@ import icushion from '@/components/icushion'
 import daydreaming from '@/components/daydreaming'
 import hemago from '@/components/hemago'
 import camt from '@/components/camt'
+import spimo from '@/components/spimo'
 
 Vue.use(Router)
     // Vue.use(BootstrapVue);
@@ -59,6 +60,11 @@ export default new Router({
             path: '/camt',
             name: 'CAMT',
             component: camt
+        },
+        {
+            path: '/spimo',
+            name: 'spimo',
+            component: spimo
         },
     ]
 })

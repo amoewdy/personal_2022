@@ -14,7 +14,7 @@
         <div class="image-middle-container">
             <img src="./assets/muben logo 2.png" width="24px" hight="24px" style="margin: 20px 0" >
         </div>
-        Design & Code by Sixuan Li &copy; 2018
+        Design &  Handcoded with  ♫  by Sixuan Li &copy; 2018
     </div>
   </div>
 </template>

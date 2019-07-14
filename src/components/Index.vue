@@ -62,7 +62,7 @@
 
     <div class="imageContainer">
     <div id="root">
-        <div class="item">
+        <div class="item triggerOnScroll">
             <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/>
             <div class="hint">
                     <h2 style="color:#C4C4C4;margin-top:16px"><b>Child Asthma Management Toolkit</b></h2>
@@ -71,7 +71,7 @@
             
             </div>
         </div>
-        <div class="item">
+        <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img3.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/wandpoint'"/>
             <div class="hint">
                     <h2 style="color:#C4C4C4;margin-top:16px"><b>Wandpoint</b></h2>
@@ -80,7 +80,7 @@
             
             </div>
         </div>
-        <div class="item">
+        <div class="item triggerOnScroll">
             <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/sandword'"/>
             <div class="hint">
                     <h2 style="color:#C4C4C4;margin-top:16px"><b>SandWord</b></h2>
@@ -89,7 +89,7 @@
             </div>
         </div>
         
-        <div class="item">
+        <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
                 <h2 style="color:#C4C4C4;margin-top:16px"><b>clubHusky</b></h2>
@@ -98,7 +98,7 @@
            
             </div>
         </div>
-        <div class="item">
+        <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img5.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/daydreaming'"/>
             <div class="hint">
                     <h2 style="color:#C4C4C4;margin-top:16px"><b>Daydreaming</b></h2>
@@ -106,7 +106,7 @@
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Interactive Installation</p>   
             </div>
         </div>
-        <div class="item">
+        <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img2.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/icushion'"/>
             <div class="hint">
                 <h2 style="color:#C4C4C4;margin-top:16px"><b>iCushion</b></h2>
@@ -114,7 +114,8 @@
                 <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Design Research | UX Design </p>
             </div>
         </div>
-        <div class="item">
+
+        <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img7.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/hemago'" />
             <div class="hint">
                     <h2 style="color:#C4C4C4;margin-top:16px"><b>HEMA-GO Fresh</b></h2>
@@ -145,6 +146,7 @@ export default {
     },
     mounted: function() {
         this.snow();
+        this.indexAnimation();
     },
     methods: {
         IndexImageMoveIn:function(){
@@ -152,6 +154,27 @@ export default {
         },
         IndexImageMoveOut:function(){
             this.seen = false;
+        },
+        indexAnimation:function(){
+            const sections = document.querySelectorAll('.triggerOnScroll');
+            const observerConfig = {
+            root: null,
+            // rootMargin: '600px 0px 0px',
+            threshold: 0.1
+            };
+            const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+                } else {
+                entry.target.classList.remove('active');
+                }
+            });
+            }, observerConfig);
+
+            sections.forEach(section => {
+            observer.observe(section);
+            });
         },
         snow:function(){
             // (function() {
@@ -281,7 +304,22 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
+// $zease: cubic-bezier(0.165, 0.84, 0.44, 1);
+$zease: cubic-bezier(0.12, 0.6, 0.2, 1);
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+.triggerOnScroll{
+  opacity: 0;
+  will-change: transform, scale, opacity;
+  transform: translateY(6rem) scale(0.93);
+  transition:0.8s $zease;
+}
+.active{
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  }
+
 .container{
     margin: 10rem 2rem 5rem 2rem;
     float: middle;
@@ -453,6 +491,14 @@ p{
 }
 }
 @media (max-width: 50em)  {
+    #root { 
+     margin:auto;
+     width: 320px;
+     column-count: 1;
+     column-width: 150px;
+     column-gap: 10px;
+    } 
+
     .part1{
     float:none;
     text-align:center;
@@ -487,10 +533,9 @@ p{
     font-family: 'Lato', sans-serif;
     font-size: 24px;
 }  
-    .item .hint {
-    display:none;
-}
-
+    // .item .hint {
+    // display:none;
+// }
 
 }
 
@@ -506,7 +551,7 @@ p{
 @media (min-width: 1200px) { 
     #root { 
      margin:auto;
-     width: 960px;
+     width: 980px;
      column-count: 3;
      column-width: 200px;
      column-gap: 24px;
@@ -519,7 +564,7 @@ p{
      background-size: cover;
      /* background: #fff; */
      border-radius: 5px;
-    transition: 0.3s ease;
+    // transition: 1.5s ease;
 }
 .item:hover {
      /* box-shadow: 5px 5px 20px rgba(0, 0, 0, .06); */

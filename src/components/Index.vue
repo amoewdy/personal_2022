@@ -61,6 +61,7 @@
 
 
     <div class="imageContainer">
+     <a name="project-overview"></a>
     <div id="root">
         <div class="item triggerOnScroll">
             <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/>
@@ -88,7 +89,14 @@
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> App Development | Interaction Design </p>   
             </div>
         </div>
-
+       <div class="item triggerOnScroll">
+            <img class="itemImg" src="/static/home/img11.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/icushion'"/>
+            <div class="hint">
+                <h2 style="color:#C4C4C4;margin-top:16px"><b>iCushion</b></h2>
+                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> A smart cushion that helps children improve their sitting posture <br/>| Design Research | UX Design |</p> -->
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Design Research | UX Design </p>
+            </div>
+        </div>
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
@@ -98,20 +106,14 @@
            
             </div>
         </div>
-        <div class="item triggerOnScroll">
+
+ 
+                <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img5.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/daydreaming'"/>
             <div class="hint">
                     <h2 style="color:#C4C4C4;margin-top:16px"><b>Daydreaming</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>The tension between dream and reality<br/>| Interactive Installation |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Interactive Installation</p>   
-            </div>
-        </div>
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img11.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/icushion'"/>
-            <div class="hint">
-                <h2 style="color:#C4C4C4;margin-top:16px"><b>iCushion</b></h2>
-                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> A smart cushion that helps children improve their sitting posture <br/>| Design Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Design Research | UX Design </p>
             </div>
         </div>
 

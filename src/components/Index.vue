@@ -107,7 +107,7 @@
             </div>
         </div>
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img2.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/icushion'"/>
+            <img class="itemImg" src="/static/home/img11.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/icushion'"/>
             <div class="hint">
                 <h2 style="color:#C4C4C4;margin-top:16px"><b>iCushion</b></h2>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> A smart cushion that helps children improve their sitting posture <br/>| Design Research | UX Design |</p> -->

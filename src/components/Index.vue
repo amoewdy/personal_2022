@@ -88,7 +88,7 @@
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> App Development | Interaction Design </p>   
             </div>
         </div>
-        
+
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
@@ -114,6 +114,7 @@
                 <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Design Research | UX Design </p>
             </div>
         </div>
+
 
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img7.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/hemago'" />
@@ -160,7 +161,7 @@ export default {
             const observerConfig = {
             root: null,
             // rootMargin: '600px 0px 0px',
-            threshold: 0.1
+            threshold: 0
             };
             const observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {

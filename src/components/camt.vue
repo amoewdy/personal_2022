@@ -330,8 +330,12 @@
                     WEB APP IMPLEMENTATION
                 </h4>
                 <div class='image-middle-container'>
+                    <img src="/static/CAMT/Asthma_Visual.png" width="100%">
+                    <figcaption>Mid-fi user interface designed with Figma</figcaption>
+                </div>
+                <div class='image-middle-container'>
                     <img src="/static/CAMT/20.gif" width="100%">
-                    <figcaption>Screenshot of the web app built with react, d3js and material-ui</figcaption>
+                    <figcaption>Screenshot of the web app built with react, d3.js and material-ui</figcaption>
                 </div>
                 <p>
                     Based on the feedback we collected from the first round of user evaluation, we decide to only implement the most crucial features, which is the medication tracking and symptom report. ( We haven’t had time to implement any animation yet)

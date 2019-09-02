@@ -4,6 +4,8 @@
         <div class="nav-title" onclick="window.location.href='/'" style="cursor: pointer;"><img src="./assets/muben logo 2.png" width="20rem">  Sixuan Li</div>
         <ul>
             <li onclick="window.location.href='/'">WORK</li>
+            <!-- <li ><a href="" @click="custormAnchor('project-overview')">WORK</a></li> -->
+
              <!-- <li onclick="https://drive.google.com/file/d/1PDsDDt2Ex-EwX7r8kiax3OM7ld3jfxjm/view?usp=sharing'">Resume</li> -->
             <li><a target="blank" style="text-decoration: none;" href="https://drive.google.com/file/d/1bODZzJw4iro1DvaifTJIBmCNg3S7XKlX/view?usp=sharing">RESUME</a></li>
             <li onclick="window.location.href='/'">ABOUT</li> 
@@ -21,8 +23,26 @@
 
 <script>
 export default {
-  name: 'App'
-}
+  name: 'App',
+  mounted: function() {
+        this.$nextTick(()=>[
+                    this.custormAnchor(window.location.hash)
+                ])
+    },
+  methods: {
+    custormAnchor:function(anchorName){ 
+      var anchor = this.$el.querySelector(anchorName)
+      console.log('get anchor')
+    //   if(anchor) {anchor.scrollIntoView(); }
+        // chrome
+        document.body.scrollTop = anchor.offsetTop;
+        // firefox
+        document.documentElement.scrollTop = anchor.offsetTop;
+          }     
+        }
+    }
+
+
 // add google statistics later
 </script>
 
@@ -55,6 +75,9 @@ a {
     color: #000000;
 }
 .nav {
+    /* added for fixed header*/
+    display:block;
+
     position: relative;
     margin: 5rem 1rem 1rem 1rem;
     /* padding-top:2rem; */

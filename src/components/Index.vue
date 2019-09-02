@@ -61,7 +61,7 @@
 
 
     <div class="imageContainer">
-     <a name="project-overview"></a>
+     <a id="#project-overview"></a>
     <div id="root">
         <div class="item triggerOnScroll">
             <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/>

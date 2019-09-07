@@ -1,5 +1,6 @@
 <template>
-  <div class = 'container'>
+  <div class = 'container' >
+      <div class ="animated fadeIn delay-0.5s">
       <div class='intro'>
         <!-- <div class='parent'> -->
       <div class='part1'>
@@ -56,6 +57,7 @@
 
     </div>
     </div>
+    </div>
 
 
 
@@ -68,7 +70,7 @@
             <div class="hint">
                     <h2 style="color:#C4C4C4;margin-top:16px"><b>Child Asthma Management Toolkit</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> User Research | Usability Testing | Web App | IoT</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> UX Design | Front-End | Web App | IoT</p>
             
             </div>
         </div>
@@ -81,14 +83,7 @@
             
             </div>
         </div>
-        <div class="item triggerOnScroll">
-            <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/sandword'"/>
-            <div class="hint">
-                    <h2 style="color:#C4C4C4;margin-top:16px"><b>SandWord</b></h2>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> App Development | Interaction Design </p>   
-            </div>
-        </div>
+
        <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img11.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/icushion'"/>
             <div class="hint">
@@ -97,6 +92,16 @@
                 <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Design Research | UX Design </p>
             </div>
         </div>
+
+        <div class="item triggerOnScroll">
+            <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/sandword'"/>
+            <div class="hint">
+                    <h2 style="color:#C4C4C4;margin-top:16px"><b>SandWord</b></h2>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> App Development | Interaction Design | Unity </p>   
+            </div>
+        </div>
+
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
@@ -107,8 +112,19 @@
             </div>
         </div>
 
+
+
+        <div class="item triggerOnScroll">
+            <img class="itemImg" src="/static/home/img9.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href=*https://medium.com/@sixuanli/spimo-3afbf13eda85*" />
+            <div class="hint">
+                    <h2 style="color:#C4C4C4;margin-top:16px"><b>Spimo</b></h2>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping | Machine Learning</p>
+            </div>
+        </div>
+
  
-                <div class="item triggerOnScroll">
+        <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img5.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/daydreaming'"/>
             <div class="hint">
                     <h2 style="color:#C4C4C4;margin-top:16px"><b>Daydreaming</b></h2>
@@ -117,13 +133,21 @@
             </div>
         </div>
 
-
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img7.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/hemago'" />
             <div class="hint">
                     <h2 style="color:#C4C4C4;margin-top:16px"><b>HEMA-GO Fresh</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Business Design</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Business Design | Service Design</p>
+            </div>
+        </div>
+
+        <div class="item triggerOnScroll">
+            <img class="itemImg" src="/static/home/china.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="" />
+            <div class="hint">
+                    <h2 style="color:#C4C4C4;margin-top:16px"><b>Craft</b></h2>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Craft work, china, drawings and more</p>
             </div>
         </div>
         <!-- <div class="item">
@@ -150,6 +174,12 @@ export default {
     mounted: function() {
         this.snow();
         this.indexAnimation();
+    },
+    created() {  
+        var delayInMilliseconds = 800;
+        setTimeout(function() {
+            document.body.removeChild(document.getElementById('Loading'))   
+        }, delayInMilliseconds); 
     },
     methods: {
         IndexImageMoveIn:function(){

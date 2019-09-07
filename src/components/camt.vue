@@ -1,5 +1,14 @@
 <template>
     <div class="animated fadeIn delay-0.5s">
+
+    <!-- <div id="Loading">
+        <div class="loader-inner ball-beat">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div> -->
+
   <div class = 'container'>
      <div class="content-container-large">
             <img src="static/CAMT/1.png" width='100%' class='large-img'>
@@ -494,6 +503,7 @@
 </div>
 </div>
 </template>
+
 
 <style>
 

@@ -1,14 +1,14 @@
 <template>
-  <div class = 'container' >
+  <div class = 'container-snow-large' >
       <div class ="animated fadeIn delay-0.5s">
       <div class='intro'>
         <!-- <div class='parent'> -->
-      <div class='part1'>
+      <div class='part1-large'>
         <!-- <div class='left'> -->
           <canvas id="canvas"  class="animated fadeIn delay-0.8s"></canvas>
           <!-- <img v-bind:src=imgSrc width='450px'> -->
       </div>
-      <div class='part2'>
+      <div class='part2-large'>
     <!-- <div class='right' style='background:none'> -->
      <h1>Hello, </h1>
      <h1>I'm Sixuan.</h1>
@@ -70,7 +70,7 @@
             <div class="hint">
                     <h2 style="color:#C4C4C4;margin-top:16px"><b>Child Asthma Management Toolkit</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> UX Design | Front-End | Web App | IoT</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> UX Design | Front-End | Product Design | IoT</p>
             
             </div>
         </div>
@@ -115,7 +115,7 @@
 
 
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img9.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href=*https://medium.com/@sixuanli/spimo-3afbf13eda85*" />
+            <img class="itemImg" src="/static/home/img9.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />
             <div class="hint">
                     <h2 style="color:#C4C4C4;margin-top:16px"><b>Spimo</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
@@ -147,7 +147,7 @@
             <div class="hint">
                     <h2 style="color:#C4C4C4;margin-top:16px"><b>Craft</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Craft work, china, drawings and more</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Craft work, porcelain, drawings and more</p>
             </div>
         </div>
         <!-- <div class="item">
@@ -226,8 +226,8 @@ export default {
                 mY = -100
                 // canvas.width = window.innerWidth;
                 // canvas.height = window.innerHeight;
-                canvas.width = 450;
-                canvas.height =450;
+                canvas.width = 896;
+                canvas.height = 611;
 
             function snow2() {
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -325,8 +325,8 @@ export default {
             window.addEventListener("resize",function(){
                 // canvas.width = window.innerWidth;
                 // canvas.height = window.innerHeight;
-                canvas.width = 450;
-                canvas.height = 450;
+                canvas.width = 896;
+                canvas.height = 611;
             })
             init();
             snow2();
@@ -355,6 +355,10 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 .container{
     margin: 10rem 2rem 5rem 2rem;
+    float: middle;
+}
+.container-snow-large{
+    margin: 7rem 2rem 5rem 0rem;
     float: middle;
 }
 .icon-elements{
@@ -450,6 +454,10 @@ h2{
     float: left;
     margin: 0rem 0rem 3rem 15rem;
 }
+.part1-large{
+    float: left;
+    margin: 0rem 0rem 3rem 0rem; 
+}
 .part1 .icon-container{
     margin-top:1rem;
 }
@@ -457,9 +465,12 @@ h2{
     float: right;
     margin: 0rem 10rem 7rem 1rem;
 }
-
+.part2-large{
+    float: right;
+    margin: 4rem 14rem 7rem 0rem;
+}
 .intro{
-    margin: 0rem 5rem 5rem 5rem;
+    margin: 0rem 0rem 5rem 0rem;
     float: middle;
 }
 i{
@@ -478,15 +489,17 @@ p{
 }
 #canvas{
     /* background-image: url('/static/snowBackgroundFigma.png');    */
-    background-image: url('/static/snowBackground2.png');   
+    background-image: url('/static/snowBackgroudLarge.png');   
     background-size:     cover;                      
     background-repeat:   no-repeat;
     background-position: center center;
-    width:450px; 
-    height:450px;
+    // width:450px; 
+    width : 896px;
+    height:611px;
 }
 .imageContainer{
     margin-top:80px;
+    margin-left:2rem;
     float:medium;
 }
 #root {

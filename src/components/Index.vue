@@ -5,6 +5,7 @@
         <!-- <div class='parent'> -->
       <div class='part1-large'>
         <!-- <div class='left'> -->
+            <img src="/static/snowWidth.png" id="img-snow" style="display:none"></img>
           <canvas id="canvas"  class="animated fadeIn delay-0.8s"></canvas>
           <!-- <img v-bind:src=imgSrc width='450px'> -->
       </div>
@@ -174,6 +175,7 @@ export default {
     mounted: function() {
         this.snow();
         this.indexAnimation();
+        // this.changeCanvas();
     },
     created() {  
         var delayInMilliseconds = 800;
@@ -209,6 +211,13 @@ export default {
             observer.observe(section);
             });
         },
+        // changeCanvas:function(){
+        //     var myCanvas = document.createElement("canvas");
+        //     myCanvas.setAttribute("width", screen.availWidth);
+        //     myCanvas.setAttribute("height", screen.availHeight);
+        //     myCanvas.setAttribute("id", "canvas");
+        //     document.body.appendChild(canvas);
+        // },
         snow:function(){
             // (function() {
             //     var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame ||
@@ -219,15 +228,27 @@ export default {
             // })();
 
             var flakes = [],
-                canvas = document.getElementById("canvas"),
-                ctx = canvas.getContext("2d"),
-                flakeCount = 400,
-                mX = -100,
-                mY = -100
-                // canvas.width = window.innerWidth;
-                // canvas.height = window.innerHeight;
-                canvas.width = 896;
-                canvas.height = 611;
+            canvas = document.getElementById("canvas"),
+            ctx = canvas.getContext("2d"),
+            flakeCount = 500,
+            mX = -100,
+            mY = -100
+            // canvas.width = 0.806* window.innerWidth;
+            // canvas.height = 0.550* window.innerHeight;
+            canvas.width = 0.58* window.innerWidth;
+            canvas.height = 0.79*window.innerHeight;
+            // var imgs = document.getElementById('img-snow');
+            // ctx.drawImage(imgs,0,0,canvas.width,canvas.height);
+            // var imgs = new Image();
+            // imgs.src = "/static/snowBackgroudLarge.png";
+            // window.onload = function(){
+            // ctx.drawImage(imgs,canvas.width,canvas.height);
+            // var bg = ctx.createPattern(imgs,"no-repeat");
+            // var bg = ctx.drawImage(imgs,"no-repeat");
+            // ctx.fillStyle = bg;
+            // ctx.fillRect(0,0,canvas.width,canvas.height);
+            // };
+
 
             function snow2() {
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -284,10 +305,10 @@ export default {
                 flake.x = Math.floor(Math.random() * canvas.width);
                 flake.y = 0;
                 flake.size = (Math.random() * 3) + 1.8;
-                flake.speed = (Math.random() * 1) + 0.5;
+                flake.speed = (Math.random() * 1) + 0.6;
                 flake.velY = flake.speed;
                 flake.velX = 0;
-                flake.opacity = (Math.random() * 0.5) + 0.5;
+                flake.opacity = (Math.random() * 0.5) + 0.6;
             }
 
             function init() {
@@ -295,8 +316,8 @@ export default {
                     var x = Math.floor(Math.random() * canvas.width),
                         y = Math.floor(Math.random() * canvas.height),
                         size = (Math.random() * 3) + 1.7,
-                        speed = (Math.random() * 1) + 0.5,
-                        opacity = (Math.random() * 0.5) + 0.4;
+                        speed = (Math.random() * 1) + 0.6,
+                        opacity = (Math.random() * 0.5) + 0.5;
 
                     flakes.push({
                         speed: speed,
@@ -325,8 +346,12 @@ export default {
             window.addEventListener("resize",function(){
                 // canvas.width = window.innerWidth;
                 // canvas.height = window.innerHeight;
-                canvas.width = 896;
-                canvas.height = 611;
+                canvas.width = 0.58* window.innerWidth;
+                canvas.height = 0.79*window.innerHeight;
+                // canvas.width = 896;
+                // canvas.height = 611;
+                // canvas.width = 1075;
+                // canvas.height = 733;
             })
             init();
             snow2();
@@ -358,7 +383,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     float: middle;
 }
 .container-snow-large{
-    margin: 7rem 2rem 5rem 0rem;
+    margin: 2rem 2rem 6rem 0rem;
     float: middle;
 }
 .icon-elements{
@@ -455,6 +480,7 @@ h2{
     margin: 0rem 0rem 3rem 15rem;
 }
 .part1-large{
+    z-index: -1 !important;
     float: left;
     margin: 0rem 0rem 3rem 0rem; 
 }
@@ -466,8 +492,9 @@ h2{
     margin: 0rem 10rem 7rem 1rem;
 }
 .part2-large{
+    z-index: 1000 !important;
     float: right;
-    margin: 4rem 14rem 7rem 0rem;
+    margin: 5rem 10rem 7rem -50rem;
 }
 .intro{
     margin: 0rem 0rem 5rem 0rem;
@@ -489,13 +516,17 @@ p{
 }
 #canvas{
     /* background-image: url('/static/snowBackgroundFigma.png');    */
-    background-image: url('/static/snowBackgroudLarge.png');   
+    background-image: url('/static/snowWidth.png');   
     background-size:     cover;                      
     background-repeat:   no-repeat;
     background-position: center center;
     // width:450px; 
-    width : 896px;
-    height:611px;
+    // width : 896px; 
+    // width : 1075px;
+    // // // height:611px; 
+    // height:733px;
+    width : 100%;
+    // height :100%;
 }
 .imageContainer{
     margin-top:80px;

@@ -79,9 +79,9 @@ a {
     display:block;
 
     position: relative;
-    margin: 5rem 1rem 1rem 1rem;
+    margin: 3rem 1rem 1rem 1rem;
     /* padding-top:2rem; */
-    height: 7rem;
+    height: 5rem;
     /* position: fixed;
     top: 0rem;
     margin:auto;

@@ -75,13 +75,15 @@
             
             </div>
         </div>
+
+
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img3.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/wandpoint'"/>
+            <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
-                    <h2 style="argin-top:16px"><b>Wandpoint</b></h2>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Adding a new dimension to reality <br/>| Product Design | Augmented Reality |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Product Design ・ Augmented Reality </p>
-            
+                <h2 style="margin-top:16px"><b>clubHusky</b></h2>
+                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Exercise </p>
+           
             </div>
         </div>
 
@@ -95,27 +97,6 @@
         </div>
 
         <div class="item triggerOnScroll">
-            <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/sandword'"/>
-            <div class="hint">
-                    <h2 style="margin-top:16px"><b>SandWord</b></h2>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> App Dev ・ Interaction Design ・ Unity </p>   
-            </div>
-        </div>
-
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/clubhusky'"/>
-            <div class="hint">
-                <h2 style="margin-top:16px"><b>clubHusky</b></h2>
-                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Exercise </p>
-           
-            </div>
-        </div>
-
-
-
-        <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img9.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />
             <div class="hint">
                     <h2 style="margin-top:16px"><b>Spimo</b></h2>
@@ -124,13 +105,31 @@
             </div>
         </div>
 
- 
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img5.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/daydreaming'"/>
             <div class="hint">
                     <h2 style="margin-top:16px"><b>Daydreaming</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>The tension between dream and reality<br/>| Interactive Installation |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Interactive Installation</p>   
+            </div>
+        </div>
+
+        <div class="item triggerOnScroll">
+            <img class="itemImg" src="/static/home/img3.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/wandpoint'"/>
+            <div class="hint">
+                    <h2 style="argin-top:16px"><b>Wandpoint</b></h2>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Adding a new dimension to reality <br/>| Product Design | Augmented Reality |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Product Design ・ Augmented Reality </p>
+            
+            </div>
+        </div>
+
+        <div class="item triggerOnScroll">
+            <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/sandword'"/>
+            <div class="hint">
+                    <h2 style="margin-top:16px"><b>SandWord</b></h2>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> App Dev ・ Interaction Design ・ Unity </p>   
             </div>
         </div>
 
@@ -631,10 +630,10 @@ p{
 @media (min-width: 1200px) { 
     #root { 
      margin:auto;
-     width: 980px;
+     width: 1000px;
      column-count: 3;
-     column-width: 200px;
-     column-gap: 24px;
+     column-width: 220px;
+     column-gap: 20px;
     }
 }
 .item {

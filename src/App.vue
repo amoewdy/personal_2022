@@ -56,7 +56,7 @@ export default {
   margin: 6rem 0rem 0rem 0rem;
 }
 .container{
-    margin: 0rem 0rem 5rem 0rem;
+    margin: 10rem 0rem 5rem 0rem;
     float: middle;
 }
 .icon {
@@ -78,19 +78,20 @@ a {
     /* added for fixed header*/
     display:block;
 
-    position: relative;
+    /* position: relative; */
     margin: 3rem 1rem 1rem 1rem;
-    /* padding-top:2rem; */
-    height: 5rem;
-    /* position: fixed;
-    top: 0rem;
+    padding-top:2rem;
+    height: 10rem;
+    position: fixed;
     margin:auto;
-    background-color: #ffffff;
-    /* width: 96vw; */
-    /* width: 100vw;
-    z-index: 1000; */ 
-
+    top:3rem;
+    /* background-color: #ffffff; */
+    /* width: 96vw;  */
+    width: 100vw;
+    z-index: 1000;
 }
+
+
 body{
   margin:0;
   padding:0;

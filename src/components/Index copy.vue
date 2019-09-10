@@ -3,13 +3,13 @@
       <div class ="animated fadeIn delay-0.5s">
       <div class='intro'>
         <!-- <div class='parent'> -->
-      <div class='part1'>
+      <div class='part1-large'>
         <!-- <div class='left'> -->
             <img src="/static/snowWidth.png" id="img-snow" style="display:none"></img>
           <canvas id="canvas"  class="animated fadeIn delay-0.8s"></canvas>
           <!-- <img v-bind:src=imgSrc width='450px'> -->
       </div>
-      <div class='part2'>
+      <div class='part2-large'>
     <!-- <div class='right' style='background:none'> -->
      <h1>Hello, </h1>
      <h1>I'm Sixuan.</h1>
@@ -69,18 +69,18 @@
         <div class="item triggerOnScroll">
             <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/>
             <div class="hint">
-                    <h2 style="margin-top:16px"><b>Child Asthma Management Toolkit</b></h2>
+                    <h2 style="color:#C4C4C4;margin-top:16px"><b>Child Asthma Management Toolkit</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> UX ・ Front-End ・ Product Design ・ IoT</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> UX Design | Front-End | Product Design | IoT</p>
             
             </div>
         </div>
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img3.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/wandpoint'"/>
             <div class="hint">
-                    <h2 style="argin-top:16px"><b>Wandpoint</b></h2>
+                    <h2 style="color:#C4C4C4;margin-top:16px"><b>Wandpoint</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Adding a new dimension to reality <br/>| Product Design | Augmented Reality |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Product Design ・ Augmented Reality </p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Product Design | Augmented Reality </p>
             
             </div>
         </div>
@@ -88,25 +88,25 @@
        <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img11.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/icushion'"/>
             <div class="hint">
-                <h2 style="margin-top:16px"><b>iCushion</b></h2>
+                <h2 style="color:#C4C4C4;margin-top:16px"><b>iCushion</b></h2>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> A smart cushion that helps children improve their sitting posture <br/>| Design Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Design Research ・ UX Design </p>
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Design Research | UX Design </p>
             </div>
         </div>
 
         <div class="item triggerOnScroll">
             <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/sandword'"/>
             <div class="hint">
-                    <h2 style="margin-top:16px"><b>SandWord</b></h2>
+                    <h2 style="color:#C4C4C4;margin-top:16px"><b>SandWord</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> App Dev ・ Interaction Design ・ Unity </p>   
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> App Development | Interaction Design | Unity </p>   
             </div>
         </div>
 
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
-                <h2 style="margin-top:16px"><b>clubHusky</b></h2>
+                <h2 style="color:#C4C4C4;margin-top:16px"><b>clubHusky</b></h2>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
                 <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Exercise </p>
            
@@ -118,9 +118,9 @@
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img9.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />
             <div class="hint">
-                    <h2 style="margin-top:16px"><b>Spimo</b></h2>
+                    <h2 style="color:#C4C4C4;margin-top:16px"><b>Spimo</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping ・ Machine Learning</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping | Machine Learning</p>
             </div>
         </div>
 
@@ -128,7 +128,7 @@
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img5.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/daydreaming'"/>
             <div class="hint">
-                    <h2 style="margin-top:16px"><b>Daydreaming</b></h2>
+                    <h2 style="color:#C4C4C4;margin-top:16px"><b>Daydreaming</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>The tension between dream and reality<br/>| Interactive Installation |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Interactive Installation</p>   
             </div>
@@ -137,16 +137,16 @@
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img7.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/hemago'" />
             <div class="hint">
-                    <h2 style="margin-top:16px"><b>HEMA-GO Fresh</b></h2>
+                    <h2 style="color:#C4C4C4;margin-top:16px"><b>HEMA-GO Fresh</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Business Design ・ Service Design</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Business Design | Service Design</p>
             </div>
         </div>
 
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/china.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="" />
             <div class="hint">
-                    <h2 style="margin-top:16px"><b>Craft</b></h2>
+                    <h2 style="color:#C4C4C4;margin-top:16px"><b>Craft</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Craft work, porcelain, drawings and more</p>
             </div>
@@ -230,12 +230,12 @@ export default {
             var flakes = [],
             canvas = document.getElementById("canvas"),
             ctx = canvas.getContext("2d"),
-            flakeCount = 1000,
+            flakeCount = 500,
             mX = -100,
             mY = -100
             // canvas.width = 0.806* window.innerWidth;
             // canvas.height = 0.550* window.innerHeight;
-            canvas.width = window.innerWidth;
+            canvas.width = 0.58* window.innerWidth;
             canvas.height = 0.79*window.innerHeight;
             // var imgs = document.getElementById('img-snow');
             // ctx.drawImage(imgs,0,0,canvas.width,canvas.height);
@@ -257,7 +257,7 @@ export default {
                     var flake = flakes[i],
                         x = mX,
                         y = mY,
-                        minDist = 250,
+                        minDist = 150,
                         x2 = flake.x,
                         y2 = flake.y;
 
@@ -304,8 +304,8 @@ export default {
             function reset(flake) {
                 flake.x = Math.floor(Math.random() * canvas.width);
                 flake.y = 0;
-                flake.size = (Math.random() * 3) + 2.2;
-                flake.speed = (Math.random() * 1) + 1.1
+                flake.size = (Math.random() * 3) + 1.8;
+                flake.speed = (Math.random() * 1) + 0.6;
                 flake.velY = flake.speed;
                 flake.velX = 0;
                 flake.opacity = (Math.random() * 0.5) + 0.6;
@@ -315,8 +315,8 @@ export default {
                 for (var i = 0; i < flakeCount; i++) {
                     var x = Math.floor(Math.random() * canvas.width),
                         y = Math.floor(Math.random() * canvas.height),
-                        size = (Math.random() * 3) + 2.1,
-                        speed = (Math.random() * 1) + 1.1,
+                        size = (Math.random() * 3) + 1.7,
+                        speed = (Math.random() * 1) + 0.6,
                         opacity = (Math.random() * 0.5) + 0.5;
 
                     flakes.push({
@@ -333,6 +333,7 @@ export default {
                 }
             }
 
+            
 
             canvas.addEventListener("mousemove", function(e) {
                 let rect = canvas.getBoundingClientRect();
@@ -345,9 +346,12 @@ export default {
             window.addEventListener("resize",function(){
                 // canvas.width = window.innerWidth;
                 // canvas.height = window.innerHeight;
-                canvas.width = window.innerWidth;
+                canvas.width = 0.58* window.innerWidth;
                 canvas.height = 0.79*window.innerHeight;
-
+                // canvas.width = 896;
+                // canvas.height = 611;
+                // canvas.width = 1075;
+                // canvas.height = 733;
             })
             init();
             snow2();
@@ -386,9 +390,8 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   margin-bottom:100px;
 }
 ul{
-//   width:400px;
-//   margin:0 auto;
-    margin-top:-0.6rem;
+  width:500px;
+  margin:0 auto;
   vertical-align:left;
   padding:0px;
     content: "";
@@ -462,33 +465,39 @@ h1{
     text-transform:uppercase;
 }
 h2{
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing:1px;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-    color: #333333; 
-    // color: rgb(0, 0, 0);
+    /* color: #C9C9C9; */
+    color: rgb(0, 0, 0);
     margin:20px 0 0 0 ;
     letter-spacing:1.6px;
     text-align:left;
 }
 .part1{
-    width:100%;
-    z-index:-1 !important;
+    float: left;
+    margin: 0rem 0rem 3rem 15rem;
+}
+.part1-large{
+    z-index: -1 !important;
+    float: left;
+    margin: 0rem 0rem 3rem 0rem; 
 }
 .part1 .icon-container{
     margin-top:1rem;
 }
 .part2{
-    float:right;
-    position:absolute;
-    margin:auto;
-    margin-top:-32rem;
-    margin-left:60%;
+    float: right;
+    margin: 0rem 10rem 7rem 1rem;
+}
+.part2-large{
+    z-index: 1000 !important;
+    float: right;
+    margin: 5rem 10rem 7rem -50rem;
 }
 .intro{
-    position:relative;
-    margin: 12rem 0rem 5rem 0rem;
+    margin: 0rem 0rem 5rem 0rem;
     float: middle;
 }
 i{
@@ -497,12 +506,11 @@ i{
 }
 p{
     font-family: 'Lora', serif;
-    margin-top: 0rem !important;
-    // line-height: 29px;
+    margin:0;
+    line-height: 29px;
     font-size: 14px;
     letter-spacing: 0.04em;
-    font-weight: 300;
-    // font-weight: lighter;
+    font-weight: lighter;
     color: #000000;
     text-align:left;
 }
@@ -543,28 +551,17 @@ p{
 }
 } */
 @media (max-width: 60em) and (min-width: 50em) {
-    // .part1{
-    // float:none;
-    // text-align:center;
-    // margin: 2rem 2rem 2rem 2rem;
-    // }
-    .part1 .icon-container{
-    margin-top:1rem;
+    .part1{
+    float:none;
+    text-align:center;
+    margin: 2rem 2rem 2rem 2rem;
     }
     .part2{
-    float:right;
-    position:absolute;
-    margin:auto;
-    margin-top:-32rem;
-    margin-left:34%;
-    }
-    
-//     .part2{
-//     display:block;
-//     float:none;
-//     text-align:center;
-//     margin: auto;
-// }
+    display:block;
+    float:none;
+    text-align:center;
+    margin: auto;
+}
     .container{
     margin: 12rem 0rem 5rem 0rem;
     float: middle;
@@ -578,29 +575,29 @@ p{
      column-width: 150px;
      column-gap: 10px;
     } 
-    .part1 .icon-container{
-    margin-top:1rem;
-    }   
 
-    .part2{
-    float:right;
-    position:absolute;
-    margin:auto;
-    margin-top:-32rem;
-    margin-left:10%;
+    .part1{
+    float:none;
+    text-align:center;
+    margin: 0rem 0rem 0rem 0rem;
     }
+    .part2{
+    float:none;
+    text-align:center;
+    margin: 0rem 0rem 0rem 0rem;
+}
     .container{
     margin: 5rem 0rem 5rem 0rem;
     float: middle;
 }
-//     .intro{
-//     margin: 0rem 0rem 5rem 1rem;
-//     float: middle;
-// }
-//     #canvas{
-//     width:350px; 
-//     height:350px;
-// }   
+    .intro{
+    margin: 0rem 0rem 5rem 1rem;
+    float: middle;
+}
+    #canvas{
+    width:350px; 
+    height:350px;
+}   
     p{
     font-family: 'Lora', serif;
     margin:0;
@@ -609,9 +606,9 @@ p{
     }
     h1{
     font-weight: bold;
-    letter-spacing:10px;
+    letter-spacing:2px;
     font-family: 'Lato', sans-serif;
-    font-size: 32px;
+    font-size: 24px;
 }  
     // .item .hint {
     // display:none;

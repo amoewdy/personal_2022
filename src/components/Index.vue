@@ -65,10 +65,13 @@
 
     <div class="imageContainer">
     <div class="project-menu">
-    <button v-on:click="show('all')" >ALL</button>
-    <button v-on:click="show('design')">DESIGN</button>
-    <button v-on:click="show('build')">BUILD</button>
-    <button v-on:click="show('craft')">CRAFT</button>
+    <label v-on:click="show('all')" v-bind:style="{ fontWeight: fontWeightAll}" >ALL</label>
+    <label> ・ </label>
+    <label v-on:click="show('design')" v-bind:style="{ fontWeight: fontWeightDesign}" >DESIGN</label>
+    <label> ・ </label>
+    <label v-on:click="show('build')" v-bind:style="{ fontWeight: fontWeightBuild}" >BUILD</label>
+    <label> ・ </label>
+    <label v-on:click="show('craft')"v-bind:style="{ fontWeight: fontWeightCraft}" >CRAFT</label>
     </div>
      <a id="#project-overview"></a>
     <div id="root">
@@ -195,6 +198,10 @@ export default {
         imgSrc: '../static/home/snowBackgroundFigma.png',
         showAll:true,
         projectType:'',
+        fontWeightAll:700,
+        fontWeightDesign:300,
+        fontWeightBuild:300,
+        fontWeightCraft:300,
         }
     },
     mounted: function() {
@@ -240,20 +247,36 @@ export default {
         if(type=='design'){
             this.projectType='design';
             this.showAll=false;
+            this.fontWeightDesign=700;
+            this.fontWeightAll=300;
+            this.fontWeightBuild=300;
+            this.fontWeightCraft=300;
             console.log('click desig',this.projectType,this.showAll);
         }
         else if(type=='build'){
             this.projectType='build';
             this.showAll=false;
+            this.fontWeightDesign=300;
+            this.fontWeightAll=300;
+            this.fontWeightBuild=700;
+            this.fontWeightCraft=300;
             console.log('click build',this.projectType,this.showAll);
         }
         else if(type=='craft'){
             this.projectType='craft';
             this.showAll=false;
+            this.fontWeightDesign=300;
+            this.fontWeightAll=300;
+            this.fontWeightBuild=300;
+            this.fontWeightCraft=700;
             console.log('click craft',this.projectType,this.showAll);
         }
         else if(type=='all'){
-            this.showAll=true;   
+            this.showAll=true; 
+            this.fontWeightDesign=300;
+            this.fontWeightAll=700;
+            this.fontWeightBuild=300;
+            this.fontWeightCraft=300;  
             console.log('click all',this.projectType,this.showAll);  
        
         }
@@ -270,7 +293,7 @@ export default {
             var flakes = [],
             canvas = document.getElementById("canvas"),
             ctx = canvas.getContext("2d"),
-            flakeCount = 1000,
+            flakeCount = 800,
             mX = -100,
             mY = -100
             // canvas.width = 0.806* window.innerWidth;
@@ -344,7 +367,7 @@ export default {
             function reset(flake) {
                 flake.x = Math.floor(Math.random() * canvas.width);
                 flake.y = 0;
-                flake.size = (Math.random() * 3) + 2.2;
+                flake.size = (Math.random() * 3) + 2.4;
                 flake.speed = (Math.random() * 1) + 1.1
                 flake.velY = flake.speed;
                 flake.velX = 0;
@@ -355,7 +378,7 @@ export default {
                 for (var i = 0; i < flakeCount; i++) {
                     var x = Math.floor(Math.random() * canvas.width),
                         y = Math.floor(Math.random() * canvas.height),
-                        size = (Math.random() * 3) + 2.1,
+                        size = (Math.random() * 3) + 2.3,
                         speed = (Math.random() * 1) + 1.1,
                         opacity = (Math.random() * 0.5) + 0.5;
 
@@ -511,7 +534,7 @@ h2{
     font-weight: 600;
     letter-spacing:1px;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     color: #333333; 
     // color: rgb(0, 0, 0);
     margin:20px 0 0 0 ;
@@ -529,7 +552,7 @@ h2{
     float:right;
     position:absolute;
     margin:auto;
-    margin-top:-32rem;
+    margin-top:-36rem;
     margin-left:60%;
 }
 .intro{
@@ -542,16 +565,29 @@ i{
     margin: 0.8rem 0.5rem 0 0;
 }
 p{
-    font-family: 'Lora', serif;
     margin-top: 0rem !important;
     // line-height: 29px;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.04em;
     font-weight: 300;
     // font-weight: lighter;
     color: #000000;
     text-align:left;
 }
+label{
+    font-family:'Lato', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    letter-spacing: 0.1em;
+    font-weight: 300;
+}
+label:hover{
+    color: #BDBDBD;
+    font-weight: 300;
+
+}
+
+
 #canvas{
     /* background-image: url('/static/snowBackgroundFigma.png');    */
     background-image: url('/static/snowWidth.png');   

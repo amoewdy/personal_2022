@@ -79,16 +79,16 @@ a {
     display:block;
 
     /* position: relative; */
-    margin: 3rem 1rem 1rem 1rem;
+    margin: 0rem 1rem 0rem 1rem;
     padding-top:2rem;
-    height: 10rem;
+    /* height: 10rem; */
     position: fixed;
     margin:auto;
-    top:3rem;
+    top:0rem;
     /* background-color: #ffffff; */
     /* width: 96vw;  */
     width: 100vw;
-    z-index: 1000;
+    z-index: 1;
 }
 
 

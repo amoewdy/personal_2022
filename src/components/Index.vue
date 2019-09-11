@@ -64,10 +64,18 @@
 
 
     <div class="imageContainer">
+    <div class="project-menu">
+    <button v-on:click="show('all')" >ALL</button>
+    <button v-on:click="show('design')">DESIGN</button>
+    <button v-on:click="show('build')">BUILD</button>
+    <button v-on:click="show('craft')">CRAFT</button>
+    </div>
      <a id="#project-overview"></a>
     <div id="root">
-        <div class="item triggerOnScroll">
-            <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/>
+        <div v-show="showAll||projectType=='design'"  >
+        <div class="item triggerOnScroll" :key="componentKey"  >
+            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
+            <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%"  onclick="window.location.href='/#/camt'"/>
             <div class="hint">
                     <h2 style="margin-top:16px"><b>Child Asthma Management Toolkit</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
@@ -75,10 +83,11 @@
             
             </div>
         </div>
+        </div>
 
-
+        <div v-show="showAll||projectType=='design'" >
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/clubhusky'"/>
+            <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
                 <h2 style="margin-top:16px"><b>clubHusky</b></h2>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
@@ -86,36 +95,44 @@
            
             </div>
         </div>
+        </div>
 
+        <div v-show="showAll||projectType=='design'" >
        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img11.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/icushion'"/>
+            <img class="itemImg" src="/static/home/img11.png" alt="" width="100%"  onclick="window.location.href='/#/icushion'"/>
             <div class="hint">
                 <h2 style="margin-top:16px"><b>iCushion</b></h2>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> A smart cushion that helps children improve their sitting posture <br/>| Design Research | UX Design |</p> -->
                 <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Design Research ・ UX Design </p>
             </div>
         </div>
+        </div>
 
+        <div v-show="showAll||projectType=='build'">
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img9.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />
+            <img class="itemImg" src="/static/home/img9.png" alt="" width="100%"  onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />
             <div class="hint">
                     <h2 style="margin-top:16px"><b>Spimo</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping ・ Machine Learning</p>
             </div>
         </div>
+        </div>
 
+        <div v-show="showAll||projectType=='craft'">
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img5.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/daydreaming'"/>
+            <img class="itemImg" src="/static/home/img5.png" alt="" width="100%"  onclick="window.location.href='/#/daydreaming'"/>
             <div class="hint">
                     <h2 style="margin-top:16px"><b>Daydreaming</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>The tension between dream and reality<br/>| Interactive Installation |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Interactive Installation</p>   
             </div>
         </div>
+        </div>
 
+        <div v-show="showAll||projectType=='design'">
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img3.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/wandpoint'"/>
+            <img class="itemImg" src="/static/home/img3.png" alt="" width="100%"  onclick="window.location.href='/#/wandpoint'"/>
             <div class="hint">
                     <h2 style="argin-top:16px"><b>Wandpoint</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Adding a new dimension to reality <br/>| Product Design | Augmented Reality |</p> -->
@@ -123,32 +140,39 @@
             
             </div>
         </div>
+        </div>
 
+        <div v-show="showAll||projectType=='design'">
         <div class="item triggerOnScroll">
-            <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/sandword'"/>
+            <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onclick="window.location.href='/#/sandword'"/>
             <div class="hint">
                     <h2 style="margin-top:16px"><b>SandWord</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> App Dev ・ Interaction Design ・ Unity </p>   
             </div>
         </div>
+        </div>
 
+        <div v-show="showAll==true||projectType=='design'">
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img7.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/hemago'" />
+            <img class="itemImg" src="/static/home/img7.png" alt="" width="100%"  onclick="window.location.href='/#/hemago'" />
             <div class="hint">
                     <h2 style="margin-top:16px"><b>HEMA-GO Fresh</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Business Design ・ Service Design</p>
             </div>
         </div>
+        </div>
 
+        <div v-show="showAll==true||projectType=='craft'">
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/china.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="" />
+            <img class="itemImg" src="/static/home/china.png" alt="" width="100%"  onclick="" />
             <div class="hint">
                     <h2 style="margin-top:16px"><b>Craft</b></h2>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Craft work, porcelain, drawings and more</p>
             </div>
+        </div>
         </div>
         <!-- <div class="item">
             <img class="itemImg" src="/static/home/img6.png" alt="" width="100%"/>
@@ -168,7 +192,9 @@ export default {
     data () {
         return {
         seen:false,  
-        imgSrc: '../static/home/snowBackgroundFigma.png'
+        imgSrc: '../static/home/snowBackgroundFigma.png',
+        showAll:true,
+        projectType:'',
         }
     },
     mounted: function() {
@@ -183,12 +209,12 @@ export default {
         }, delayInMilliseconds); 
     },
     methods: {
-        IndexImageMoveIn:function(){
-            this.seen = ture;
-        },
-        IndexImageMoveOut:function(){
-            this.seen = false;
-        },
+        // IndexImageMoveIn:function(){
+        //     this.seen = ture;
+        // },
+        // IndexImageMoveOut:function(){
+        //     this.seen = false;
+        // },
         indexAnimation:function(){
             const sections = document.querySelectorAll('.triggerOnScroll');
             const observerConfig = {
@@ -210,13 +236,28 @@ export default {
             observer.observe(section);
             });
         },
-        // changeCanvas:function(){
-        //     var myCanvas = document.createElement("canvas");
-        //     myCanvas.setAttribute("width", screen.availWidth);
-        //     myCanvas.setAttribute("height", screen.availHeight);
-        //     myCanvas.setAttribute("id", "canvas");
-        //     document.body.appendChild(canvas);
-        // },
+        show:function(type){
+        if(type=='design'){
+            this.projectType='design';
+            this.showAll=false;
+            console.log('click desig',this.projectType,this.showAll);
+        }
+        else if(type=='build'){
+            this.projectType='build';
+            this.showAll=false;
+            console.log('click build',this.projectType,this.showAll);
+        }
+        else if(type=='craft'){
+            this.projectType='craft';
+            this.showAll=false;
+            console.log('click craft',this.projectType,this.showAll);
+        }
+        else if(type=='all'){
+            this.showAll=true;   
+            console.log('click all',this.projectType,this.showAll);  
+       
+        }
+        },
         snow:function(){
             // (function() {
             //     var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame ||
@@ -447,7 +488,13 @@ a:hover i{
     color:#C70C00;
     transition: 0.3s ease;
 }
+.project-menu{
+    margin:5rem auto;
+    text-align: center;
+    float:middle;
 
+
+}
 
 h1{
     font-weight: 900;

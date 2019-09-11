@@ -65,13 +65,34 @@
 
     <div class="imageContainer">
     <div class="project-menu">
-    <label v-on:click="show('all')" v-bind:style="{ fontWeight: fontWeightAll}" >ALL</label>
-    <label> ・ </label>
-    <label v-on:click="show('design')" v-bind:style="{ fontWeight: fontWeightDesign}" >DESIGN</label>
-    <label> ・ </label>
-    <label v-on:click="show('build')" v-bind:style="{ fontWeight: fontWeightBuild}" >BUILD</label>
-    <label> ・ </label>
-    <label v-on:click="show('craft')"v-bind:style="{ fontWeight: fontWeightCraft}" >CRAFT</label>
+        <label>RECENT WORK</label>
+    </div>
+    <div class="recent-project">
+        <div class="left-large">
+            <img src="/static/home/CAMT.png" alt="" width="100%"  onclick="window.location.href='/#/camt'"/>
+            <div class="hint">
+                    <h2 style="margin-top:16px"><b>Child Asthma Management Toolkit</b></h2>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> UX ・ Front-End ・ Product Design ・ IoT
+                    </p>
+            </div>
+        </div>
+        <div class="right-large">
+        <img src="/static/home/harman.png" alt="" width="100%"  onclick="window.location.href=''"/>
+            <div class="hint">
+                    <h2 style="margin-top:16px"><b>Harmonica</b></h2>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Natural Interaction・Audio Experience・ML
+                    </p>
+        </div>
+        </div>
+    </div>
+    <div class="project-menu">
+        <label v-on:click="show('all')" v-bind:style="{ fontWeight: fontWeightAll}" >ALL</label>
+        <label> ・ </label>
+        <label v-on:click="show('design')" v-bind:style="{ fontWeight: fontWeightDesign}" >DESIGN</label>
+        <label> ・ </label>
+        <label v-on:click="show('build')" v-bind:style="{ fontWeight: fontWeightBuild}" >BUILD</label>
+        <label> ・ </label>
+        <label v-on:click="show('craft')"v-bind:style="{ fontWeight: fontWeightCraft}" >CRAFT</label>
     </div>
      <a id="#project-overview"></a>
     <div id="root">
@@ -512,11 +533,21 @@ a:hover i{
     transition: 0.3s ease;
 }
 .project-menu{
-    margin:5rem auto;
+    margin:0rem auto;
     text-align: center;
     float:middle;
 
 
+}
+.recent-project{
+    display: flex;
+}
+.left-large{
+    flex:1;
+    margin-right: 1rem;
+}
+.right-large{
+    flex: 0 0 385px;
 }
 
 h1{

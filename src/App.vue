@@ -174,9 +174,18 @@ blockquote{
 }
 @media (max-width: 40em)  {
   /* Pull out the header and footer */
+    #app {
+  margin: 2rem 0rem 0rem 0rem;
+    }
+
   .nav{
-      margin:0;
+    margin:0;
+    position: relative;
+    top:0rem;
+    padding-top:1rem;
   }
+
+
   .nav .nav-title {
     left: 0rem;
     font-size: 30px;

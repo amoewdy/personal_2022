@@ -5,7 +5,7 @@
         <!-- <div class='parent'> -->
       <div class='part1'>
         <!-- <div class='left'> -->
-            <img src="/static/snowWidth2.png" id="img-snow" style="display:none"></img>
+            <img src="/static/snowWidth3.png" id="img-snow" style="display:none"></img>
           <canvas id="canvas"  class="animated fadeIn delay-0.8s"></canvas>
           <!-- <img v-bind:src=imgSrc width='450px'> -->
       </div>
@@ -109,16 +109,6 @@
      <a id="project-overview"></a>
     <div id="root">
 
-        <div v-show="showAll||projectType=='design'">
-        <div class="item triggerOnScroll">
-            <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onclick="window.location.href='/#/sandword'"/>
-            <div class="hint">
-                    <h3><b>SandWord</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>iOS ・ Interaction Design ・ Unity</p>   
-            </div>
-        </div>
-        </div>
 
         <div v-show="showAll||projectType=='design'" >
         <div class="item triggerOnScroll">
@@ -133,6 +123,19 @@
         </div>
 
 
+        <div v-show="showAll==true||projectType=='design'">
+        <div class="item triggerOnScroll">
+            <img class="itemImg" src="/static/home/img7.png" alt="" width="100%"  onclick="window.location.href='/#/hemago'" />
+            <div class="hint">
+                    <h3><b>HEMA-GO Fresh</b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Business Design ・ Service Design</p>
+            </div>
+        </div>
+        </div>
+        
+
+
         <div v-show="showAll||projectType=='design'" >
        <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img11.png" alt="" width="100%"  onclick="window.location.href='/#/icushion'"/>
@@ -144,6 +147,19 @@
         </div>
         </div>
 
+        <div v-show="showAll==false&&projectType=='design'" >
+        <div class="item-blank" >
+            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
+            <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
+            <div class="hint">
+                    <h3><b></b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '></p>
+            
+            </div>
+        </div>
+        </div>
+
         <div v-show="showAll||projectType=='build'" >
         <div class="item triggerOnScroll" :key="componentKey"  >
             <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
@@ -151,11 +167,12 @@
             <div class="hint">
                     <h3><b>Robot Face</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Smart Home ・ Interface Programming</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Smart Home ・ UI Programming</p>
             
             </div>
         </div>
         </div>
+
 
         <div v-show="showAll||projectType=='design'">
         <div class="item triggerOnScroll">
@@ -164,6 +181,19 @@
                     <h3><b>Wandpoint</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Adding a new dimension to reality <br/>| Product Design | Augmented Reality |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Product Design ・ Augmented Reality</p>
+            
+            </div>
+        </div>
+        </div>
+
+        <div v-show="showAll==false&&projectType=='design'" >
+        <div class="item-blank" >
+            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
+            <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
+            <div class="hint">
+                    <h3><b></b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '></p>
             
             </div>
         </div>
@@ -194,16 +224,17 @@
         </div>
 
 
-        <div v-show="showAll==true||projectType=='design'">
+        <div v-show="showAll||projectType=='design'">
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img7.png" alt="" width="100%"  onclick="window.location.href='/#/hemago'" />
+            <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onclick="window.location.href='/#/sandword'"/>
             <div class="hint">
-                    <h3><b>HEMA-GO Fresh</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Business Design ・ Service Design</p>
+                    <h3><b>SandWord</b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>iOS ・ Interaction Design ・ Unity</p>   
             </div>
         </div>
         </div>
+
 
         <div v-show="showAll" >
         <div class="item-blank" >
@@ -626,7 +657,7 @@ h2{
     color: #333333; 
     // color: rgb(0, 0, 0);
     margin:20px 0 0 0 ;
-    letter-spacing:1.6px;
+    letter-spacing:0.6px;
     text-align:left;
 }
 h3{
@@ -637,7 +668,7 @@ h3{
     color: #333333; 
     // color: rgb(0, 0, 0);
     margin:12px 0 2px 0 ;
-    letter-spacing:1.6px;
+    letter-spacing:1.2px;
     text-align:left;
 }
 .part1{
@@ -651,8 +682,8 @@ h3{
     float:right;
     position:absolute;
     margin:auto;
-    margin-top:-34rem;
-    margin-left:58%;
+    margin-top:-30rem;
+    margin-left:56%;
 }
 .intro{
     position:relative;
@@ -664,9 +695,9 @@ i{
     margin: 0.8rem 0.5rem 0 0;
 }
 p{
-    margin-top: 0rem !important;
+    margin-top: 0.2rem !important;
     // line-height: 29px;
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 0.04em;
     font-weight: 300;
     // font-weight: lighter;
@@ -690,7 +721,7 @@ label:hover{
 
 #canvas{
     /* background-image: url('/static/snowBackgroundFigma.png');    */
-    background-image: url('/static/snowWidth.png');   
+    background-image: url('/static/snowWidth2.png');   
     background-size:     cover;                      
     background-repeat:   no-repeat;
     background-position: center center;
@@ -761,7 +792,7 @@ label:hover{
     float:right;
     position:absolute;
     margin:auto;
-    margin-top:-32rem;
+    margin-top:-30rem;
     margin-left:34%;
     }
     
@@ -776,7 +807,26 @@ label:hover{
     float: middle;
 }
 }
+@media (max-width: 40em){
+    .part1{
+    display:none;
+    }
+    .part2{
+    // float:right;
+    display:block;
+    position:relative;
+    margin:auto;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    margin-left:10%;
+    }
+    label{
+    font-size: 16px;
+    }
+}
+
 @media (max-width: 50em)  {
+
     #root { 
      margin:auto;
      width: 320px;
@@ -788,11 +838,20 @@ label:hover{
     margin-top:1rem;
     }   
 
+    // .part2{
+    // // float:right;
+    // float:right;
+    // position:absolute;
+    // margin:auto;
+    // margin-top:-10rem;
+    // margin-left:34%;
+    // }
     .part2{
-    float:right;
-    position:absolute;
+    display:block;
+    position:relative;
     margin:auto;
-    margin-top:-32rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
     margin-left:10%;
     }
     .container{

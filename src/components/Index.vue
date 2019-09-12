@@ -5,15 +5,18 @@
         <!-- <div class='parent'> -->
       <div class='part1'>
         <!-- <div class='left'> -->
-            <img src="/static/snowWidth.png" id="img-snow" style="display:none"></img>
+            <img src="/static/snowWidth2.png" id="img-snow" style="display:none"></img>
           <canvas id="canvas"  class="animated fadeIn delay-0.8s"></canvas>
           <!-- <img v-bind:src=imgSrc width='450px'> -->
       </div>
       <div class='part2'>
     <!-- <div class='right' style='background:none'> -->
-     <h1>Hello, </h1>
-     <h1>I'm Sixuan.</h1>
-     <h2>I'm a Product Designer and UX Engineer</h2><br>
+     <!-- <h1>Hello, </h1>
+     <h1>I'm Sixuan.</h1> -->
+     <h1>
+         I bring warmth to tech,
+        </br>delight to design.</h1>
+     <h2>Hello, I'm Sixuan, a Product Designer and UX Engineer</h2><br>
      <div class='icon-element'>
      <ul>
         <li><a class='icon' href="Mailto:sixuanli@outlook.com" target="blank"><i class="fa fa-envelope"></i></a></li>
@@ -64,13 +67,14 @@
 
 
     <div class="imageContainer">
-    <div class="project-menu">
-        <label>RECENT WORK</label>
+    <div class="project-menu" style="margin-top:-5rem">
+        <label style="font-weight:600" @click="custormAnchor('#project-recent')"> RECENT WORK ↓ </label>
     </div>
+    <a id="project-recent"></a>
     <div class="recent-project">
         <div class="left-large">
-            <div class="triggerOnScroll">
-                <img class="itemImg" src="/static/home/CAMT.png" alt="" width="100%"  onclick="window.location.href='/#/camt'"/>
+            <div class="triggerOnScroll" onclick="window.location.href='/#/camt'">
+                <img class="itemImg" src="/static/home/CAMT.png" alt="" width="100%" />
                 <div class="hint">
                         <h3 style="margin-top:16px"><b>Child Asthma Management Toolkit</b></h3>
                         <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> UX ・ Front-End ・ Product Design ・ IoT
@@ -82,7 +86,7 @@
         </div>
         <div class="right-large">
             <div class="triggerOnScroll">
-                <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick="window.location.href=''"/>
+                <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick=""/>
                 <div class="hint">
                         <h3 style="margin-top:16px"><b>Harmonica</b></h3>
                         <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> Natural Interaction・Audio Experience・ML
@@ -93,7 +97,7 @@
             </div>
         </div>
     </div>
-    <div class="project-menu">
+    <div class="project-menu" style="margin-top:6rem">
         <label v-on:click="show('all')" v-bind:style="{ fontWeight: fontWeightAll}" >ALL</label>
         <label> ・ </label>
         <label v-on:click="show('design')" v-bind:style="{ fontWeight: fontWeightDesign}" >DESIGN</label>
@@ -102,17 +106,16 @@
         <label> ・ </label>
         <label v-on:click="show('craft')"v-bind:style="{ fontWeight: fontWeightCraft}" >CRAFT</label>
     </div>
-     <a id="#project-overview"></a>
+     <a id="project-overview"></a>
     <div id="root">
-        <div v-show="showAll||projectType=='build'" >
-        <div class="item triggerOnScroll" :key="componentKey"  >
-            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
-            <img class="itemImg"  src="/static/home/robot.png" alt="" width="100%"  onclick=""/>
+
+        <div v-show="showAll||projectType=='design'">
+        <div class="item triggerOnScroll">
+            <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onclick="window.location.href='/#/sandword'"/>
             <div class="hint">
-                    <h3><b>Robot Face</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Smart Home ・ Interface Programming</p>
-            
+                    <h3><b>SandWord</b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>iOS ・ Interaction Design ・ Unity</p>   
             </div>
         </div>
         </div>
@@ -129,6 +132,7 @@
         </div>
         </div>
 
+
         <div v-show="showAll||projectType=='design'" >
        <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img11.png" alt="" width="100%"  onclick="window.location.href='/#/icushion'"/>
@@ -140,36 +144,14 @@
         </div>
         </div>
 
-        <div v-show="showAll||projectType=='build'">
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img9.png" alt="" width="100%"  onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />
-            <div class="hint">
-                    <h3><b>Spimo</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping ・ ML</p>
-            </div>
-        </div>
-        </div>
-
-        <div v-show="showAll||projectType=='craft'">
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img5.png" alt="" width="100%"  onclick="window.location.href='/#/daydreaming'"/>
-            <div class="hint">
-                    <h3><b>Daydreaming</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>The tension between dream and reality<br/>| Interactive Installation |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Interactive Installation</p>   
-            </div>
-        </div>
-        </div>
-
-        <div v-show="showAll" >
-        <div class="item-blank" >
+        <div v-show="showAll||projectType=='build'" >
+        <div class="item triggerOnScroll" :key="componentKey"  >
             <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
-            <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
+            <img class="itemImg"  src="/static/home/robot.png" alt="" width="100%"  onclick=""/>
             <div class="hint">
-                    <h3><b></b></h3>
+                    <h3><b>Robot Face</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '></p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Smart Home ・ Interface Programming</p>
             
             </div>
         </div>
@@ -187,13 +169,38 @@
         </div>
         </div>
 
-        <div v-show="showAll||projectType=='design'">
-        <div class="item triggerOnScroll">
-            <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onclick="window.location.href='/#/sandword'"/>
+        <div v-show="showAll" >
+        <div class="item-blank" >
+            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
+            <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
             <div class="hint">
-                    <h3><b>SandWord</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>iOS ・ Interaction Design ・ Unity</p>   
+                    <h3><b></b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '></p>
+            
+            </div>
+        </div>
+        </div>
+
+        <div v-show="showAll||projectType=='build'">
+        <div class="item triggerOnScroll">
+            <img class="itemImg" src="/static/home/img9.png" alt="" width="100%"  onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />
+            <div class="hint">
+                    <h3><b>Spimo</b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping ・ ML</p>
+            </div>
+        </div>
+        </div>
+
+
+        <div v-show="showAll==true||projectType=='design'">
+        <div class="item triggerOnScroll">
+            <img class="itemImg" src="/static/home/img7.png" alt="" width="100%"  onclick="window.location.href='/#/hemago'" />
+            <div class="hint">
+                    <h3><b>HEMA-GO Fresh</b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Business Design ・ Service Design</p>
             </div>
         </div>
         </div>
@@ -211,16 +218,17 @@
         </div>
         </div>
 
-        <div v-show="showAll==true||projectType=='design'">
+        <div v-show="showAll||projectType=='craft'">
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img7.png" alt="" width="100%"  onclick="window.location.href='/#/hemago'" />
+            <img class="itemImg" src="/static/home/img5.png" alt="" width="100%"  onclick="window.location.href='/#/daydreaming'"/>
             <div class="hint">
-                    <h3><b>HEMA-GO Fresh</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Business Design ・ Service Design</p>
+                    <h3><b>Daydreaming</b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>The tension between dream and reality<br/>| Interactive Installation |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Interactive Installation</p>   
             </div>
         </div>
         </div>
+
 
         <div v-show="showAll==true||projectType=='craft'">
         <div class="item triggerOnScroll">
@@ -278,6 +286,18 @@ export default {
         // IndexImageMoveOut:function(){
         //     this.seen = false;
         // },
+        custormAnchor:function(anchorName){ 
+            var anchor = this.$el.querySelector(anchorName)
+            console.log('get anchor')
+            //   if(anchor) {anchor.scrollIntoView(); }
+                // chrome
+                // document.body.scrollTop = anchor.offsetTop;
+                // document.body.animate({scrollTop: anchor.offsetTop},'slow');
+                $('html,body').animate({scrollTop: anchor.offsetTop},'slow');
+                // firefox
+                // $('html,body').animate({scrollTop: anchor.offsetTop},'slow');
+                document.documentElement.scrollTop = anchor.offsetTop;
+          },
         indexAnimation:function(){
             const sections = document.querySelectorAll('.triggerOnScroll');
             const observerConfig = {
@@ -355,7 +375,7 @@ export default {
             // canvas.width = 0.806* window.innerWidth;
             // canvas.height = 0.550* window.innerHeight;
             canvas.width = window.innerWidth;
-            canvas.height = 0.79*window.innerHeight;
+            canvas.height = 0.74*window.innerHeight;
             // var imgs = document.getElementById('img-snow');
             // ctx.drawImage(imgs,0,0,canvas.width,canvas.height);
             // var imgs = new Image();
@@ -465,7 +485,7 @@ export default {
                 // canvas.width = window.innerWidth;
                 // canvas.height = window.innerHeight;
                 canvas.width = window.innerWidth;
-                canvas.height = 0.79*window.innerHeight;
+                canvas.height = 0.74*window.innerHeight;
 
             })
             init();
@@ -574,7 +594,6 @@ a:hover i{
     margin-bottom: 4rem;
 }
 
-
 h1{
     font-weight: 900;
     /* letter-spacing:2px; */
@@ -583,9 +602,22 @@ h1{
     color: #202020;
     margin: 10px 0 12px 0px;
     text-align:left;
-    letter-spacing:16px;
-    text-transform:uppercase;
+    letter-spacing:10px;
+    // text-transform:uppercase;
 }
+
+//for previous version
+// h1{
+//     font-weight: 900;
+//     /* letter-spacing:2px; */
+//     font-family: 'Lato', sans-serif;
+//     font-size: 38px;
+//     color: #202020;
+//     margin: 10px 0 12px 0px;
+//     text-align:left;
+//     letter-spacing:16px;
+//     text-transform:uppercase;
+// }
 h2{
     font-weight: 600;
     letter-spacing:1px;
@@ -601,10 +633,10 @@ h3{
     font-weight: 600;
     letter-spacing:1px;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #333333; 
     // color: rgb(0, 0, 0);
-    margin:15px 0 2px 0 ;
+    margin:12px 0 2px 0 ;
     letter-spacing:1.6px;
     text-align:left;
 }
@@ -619,8 +651,8 @@ h3{
     float:right;
     position:absolute;
     margin:auto;
-    margin-top:-36rem;
-    margin-left:60%;
+    margin-top:-34rem;
+    margin-left:58%;
 }
 .intro{
     position:relative;
@@ -643,7 +675,7 @@ p{
 }
 label{
     font-family:'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #333333;
     letter-spacing: 0.1em;
     font-weight: 300;
@@ -807,6 +839,7 @@ label:hover{
     margin:2rem auto;
     }
     .left-large{
+    cursor: pointer;
         flex:2.05;
         margin-right: 3%;
     }
@@ -838,6 +871,7 @@ label:hover{
     margin:2rem auto;
     }
     .left-large{
+    cursor: pointer;
         flex:2.05;
         margin-right: 3%;
     }
@@ -854,11 +888,12 @@ label:hover{
      column-gap: 15px;
     }
     .item-blank {
+    z-index: -1;
     display: none;
     margin-bottom: 5px;
     pointer-events: none;
     cursor: default;
-    opacity: 0.6;
+    opacity: 0;
     } 
 }
 
@@ -885,6 +920,7 @@ label:hover{
     -webkit-column-count: 4; 
     }
     .item-blank {
+    z-index: -2;
     display: inline-block;
     margin-bottom: 5px;
     break-inside: avoid;
@@ -892,7 +928,7 @@ label:hover{
     background-size: cover;
     pointer-events: none;
     cursor: default;
-    opacity: 0.6;
+    opacity: 0;
     //  border-radius: 5px;
     // transition: 1.5s ease;
 }
@@ -905,10 +941,13 @@ label:hover{
     .left-large{
         flex:2.05;
         margin-right: 3%;
+        cursor: pointer;
+
     }
     .right-large{
-        flex:1;
+         flex:1;
         // flex: 0 0 385px;
+        // cursor: pointer;
     }
     
 
@@ -919,13 +958,15 @@ label:hover{
      break-inside: avoid;
      background: no-repeat;
      background-size: cover;
+    cursor: pointer;
     //  border-radius: 5px;
     // transition: 1.5s ease;
 }
 
 .itemImg:hover{
-transition: 0.4s ease;
-  box-shadow: 28px 44px 0px #CF6660;  
+transition: 0.4s ease-in-out;
+  box-shadow: 22px 36px 0px #CF6660;  
+cursor: pointer;
 }
 
 

@@ -30,15 +30,15 @@ export default {
                 ])
     },
   methods: {
-    custormAnchor:function(anchorName){ 
-      var anchor = this.$el.querySelector(anchorName)
-      console.log('get anchor')
-    //   if(anchor) {anchor.scrollIntoView(); }
-        // chrome
-        document.body.scrollTop = anchor.offsetTop;
-        // firefox
-        document.documentElement.scrollTop = anchor.offsetTop;
-          }     
+    // custormAnchor:function(anchorName){ 
+    //   var anchor = this.$el.querySelector(anchorName)
+    //   console.log('get anchor')
+    // //   if(anchor) {anchor.scrollIntoView(); }
+    //     // chrome
+    //     document.body.scrollTop = anchor.offsetTop;
+    //     // firefox
+    //     document.documentElement.scrollTop = anchor.offsetTop;
+    //       }     
         }
     }
 

@@ -69,20 +69,28 @@
     </div>
     <div class="recent-project">
         <div class="left-large">
-            <img src="/static/home/CAMT.png" alt="" width="100%"  onclick="window.location.href='/#/camt'"/>
-            <div class="hint">
-                    <h2 style="margin-top:16px"><b>Child Asthma Management Toolkit</b></h2>
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> UX ・ Front-End ・ Product Design ・ IoT
-                    </p>
+            <div class="triggerOnScroll">
+                <img class="itemImg" src="/static/home/CAMT.png" alt="" width="100%"  onclick="window.location.href='/#/camt'"/>
+                <div class="hint">
+                        <h3 style="margin-top:16px"><b>Child Asthma Management Toolkit</b></h3>
+                        <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> UX ・ Front-End ・ Product Design ・ IoT
+                        </p>
+                        <!-- <p style='font-family:Lato, sans-serif;margin-top:0.1rem;margin-bottom:0.5rem;color:#828282; '> Research Project with Department of Child Nursing @UW
+                        </p> -->
+                </div>
             </div>
         </div>
         <div class="right-large">
-        <img src="/static/home/harman.png" alt="" width="100%"  onclick="window.location.href=''"/>
-            <div class="hint">
-                    <h2 style="margin-top:16px"><b>Harmonica</b></h2>
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Natural Interaction・Audio Experience・ML
-                    </p>
-        </div>
+            <div class="triggerOnScroll">
+                <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick="window.location.href=''"/>
+                <div class="hint">
+                        <h3 style="margin-top:16px"><b>Harmonica</b></h3>
+                        <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> Natural Interaction・Audio Experience・ML
+                        </p>
+                        <p style='font-family:Lato, sans-serif;margin-top:0.1rem;margin-bottom:0.5rem;color:#828282; '> Capstone sponsored by Harman, in progress
+                        </p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="project-menu">
@@ -96,14 +104,14 @@
     </div>
      <a id="#project-overview"></a>
     <div id="root">
-        <div v-show="showAll||projectType=='design'"  >
+        <div v-show="showAll||projectType=='build'" >
         <div class="item triggerOnScroll" :key="componentKey"  >
             <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
-            <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%"  onclick="window.location.href='/#/camt'"/>
+            <img class="itemImg"  src="/static/home/robot.png" alt="" width="100%"  onclick=""/>
             <div class="hint">
-                    <h2 style="margin-top:16px"><b>Child Asthma Management Toolkit</b></h2>
+                    <h3><b>Robot Face</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> UX ・ Front-End ・ Product Design ・ IoT</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Smart Home ・ Interface Programming</p>
             
             </div>
         </div>
@@ -113,9 +121,9 @@
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
-                <h2 style="margin-top:16px"><b>clubHusky</b></h2>
+                <h3><b>clubHusky</b></h3>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Exercise </p>
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Exercise</p>
            
             </div>
         </div>
@@ -125,9 +133,9 @@
        <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img11.png" alt="" width="100%"  onclick="window.location.href='/#/icushion'"/>
             <div class="hint">
-                <h2 style="margin-top:16px"><b>iCushion</b></h2>
+                <h3><b>iCushion</b></h3>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> A smart cushion that helps children improve their sitting posture <br/>| Design Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Design Research ・ UX Design </p>
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Research ・ UX Design</p>
             </div>
         </div>
         </div>
@@ -136,9 +144,9 @@
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img9.png" alt="" width="100%"  onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />
             <div class="hint">
-                    <h2 style="margin-top:16px"><b>Spimo</b></h2>
+                    <h3><b>Spimo</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping ・ Machine Learning</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping ・ ML</p>
             </div>
         </div>
         </div>
@@ -147,9 +155,22 @@
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img5.png" alt="" width="100%"  onclick="window.location.href='/#/daydreaming'"/>
             <div class="hint">
-                    <h2 style="margin-top:16px"><b>Daydreaming</b></h2>
+                    <h3><b>Daydreaming</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>The tension between dream and reality<br/>| Interactive Installation |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Interactive Installation</p>   
+            </div>
+        </div>
+        </div>
+
+        <div v-show="showAll" >
+        <div class="item-blank" >
+            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
+            <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
+            <div class="hint">
+                    <h3><b></b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '></p>
+            
             </div>
         </div>
         </div>
@@ -158,9 +179,9 @@
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img3.png" alt="" width="100%"  onclick="window.location.href='/#/wandpoint'"/>
             <div class="hint">
-                    <h2 style="argin-top:16px"><b>Wandpoint</b></h2>
+                    <h3><b>Wandpoint</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Adding a new dimension to reality <br/>| Product Design | Augmented Reality |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> Product Design ・ Augmented Reality </p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Product Design ・ Augmented Reality</p>
             
             </div>
         </div>
@@ -170,9 +191,22 @@
         <div class="item triggerOnScroll">
             <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onclick="window.location.href='/#/sandword'"/>
             <div class="hint">
-                    <h2 style="margin-top:16px"><b>SandWord</b></h2>
+                    <h3><b>SandWord</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '> App Dev ・ Interaction Design ・ Unity </p>   
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>iOS ・ Interaction Design ・ Unity</p>   
+            </div>
+        </div>
+        </div>
+
+        <div v-show="showAll" >
+        <div class="item-blank" >
+            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
+            <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
+            <div class="hint">
+                    <h3><b></b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '></p>
+            
             </div>
         </div>
         </div>
@@ -181,7 +215,7 @@
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img7.png" alt="" width="100%"  onclick="window.location.href='/#/hemago'" />
             <div class="hint">
-                    <h2 style="margin-top:16px"><b>HEMA-GO Fresh</b></h2>
+                    <h3><b>HEMA-GO Fresh</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Business Design ・ Service Design</p>
             </div>
@@ -192,12 +226,13 @@
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/china.png" alt="" width="100%"  onclick="" />
             <div class="hint">
-                    <h2 style="margin-top:16px"><b>Craft</b></h2>
+                    <h3><b>Craft</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Craft work, porcelain, drawings and more</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Craft work, Porcelain, and Drawings</p>
             </div>
         </div>
         </div>
+
         <!-- <div class="item">
             <img class="itemImg" src="/static/home/img6.png" alt="" width="100%"/>
             <div class="hint">
@@ -533,22 +568,12 @@ a:hover i{
     transition: 0.3s ease;
 }
 .project-menu{
-    margin:0rem auto;
+    margin:auto;
     text-align: center;
     float:middle;
+    margin-bottom: 4rem;
+}
 
-
-}
-.recent-project{
-    display: flex;
-}
-.left-large{
-    flex:1;
-    margin-right: 1rem;
-}
-.right-large{
-    flex: 0 0 385px;
-}
 
 h1{
     font-weight: 900;
@@ -565,10 +590,21 @@ h2{
     font-weight: 600;
     letter-spacing:1px;
     font-family: 'Lato', sans-serif;
-    font-size: 17px;
+    font-size: 18px;
     color: #333333; 
     // color: rgb(0, 0, 0);
     margin:20px 0 0 0 ;
+    letter-spacing:1.6px;
+    text-align:left;
+}
+h3{
+    font-weight: 600;
+    letter-spacing:1px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #333333; 
+    // color: rgb(0, 0, 0);
+    margin:15px 0 2px 0 ;
     letter-spacing:1.6px;
     text-align:left;
 }
@@ -611,6 +647,7 @@ label{
     color: #333333;
     letter-spacing: 0.1em;
     font-weight: 300;
+    margin-bottom: 5rem;
 }
 label:hover{
     color: #BDBDBD;
@@ -661,6 +698,30 @@ label:hover{
     // text-align:center;
     // margin: 2rem 2rem 2rem 2rem;
     // }
+    .item-blank {
+    display: none;
+    margin-bottom: 5px;
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+    }
+
+    .recent-project{
+    display: flex;
+    width:60%;
+    margin:2rem auto;
+    }
+    .left-large{
+        flex:2.05;
+        margin-right: 3%;
+    }
+    .right-large{
+        flex:1;
+        // flex: 0 0 385px;
+    }
+    
+
+
     .part1 .icon-container{
     margin-top:1rem;
     }
@@ -729,44 +790,153 @@ label:hover{
     // .item .hint {
     // display:none;
 // }
+    .item-blank {
+    display: none;
+    margin-bottom: 5px;
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+    }
 
 }
 
-@media (min-width: 500px) { 
+@media (min-width: 560px) { 
+    .recent-project{
+    display: flex;
+    width:100%;
+    margin:2rem auto;
+    }
+    .left-large{
+        flex:2.05;
+        margin-right: 3%;
+    }
+    .right-large{
+        flex:1;
+        // flex: 0 0 385px;
+    }
+
     #root { 
      margin:auto;
      width: 600px;
      column-count: 2;
      column-width: 150px;
      column-gap: 15px;
+    }
+    .item-blank {
+    display: none;
+    margin-bottom: 5px;
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
     } 
 } 
-@media (min-width: 1200px) { 
+
+@media (min-width: 900px) {
+    .recent-project{
+    display: flex;
+    width:90%;
+    margin:2rem auto;
+    }
+    .left-large{
+        flex:2.05;
+        margin-right: 3%;
+    }
+    .right-large{
+        flex:1;
+        // flex: 0 0 385px;
+    }
+
     #root { 
      margin:auto;
-     width: 1000px;
+     width: 900px;
      column-count: 3;
-     column-width: 220px;
-     column-gap: 20px;
+     column-width: 180px;
+     column-gap: 15px;
     }
+    .item-blank {
+    display: none;
+    margin-bottom: 5px;
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+    } 
+}
+
+
+@media (min-width: 1200px) {
+
+//for column-count == 4 only
+    .grid-item { 
+    width: 200px; 
+    display: inline-block;
+    margin-bottom: 5px;
+    break-inside: avoid;
+    background: no-repeat;
+    background-size: cover;
+    }
+
+    #root { 
+    margin:auto;
+    width: 1250px;
+    column-count: 4;
+    // column-width: 160px;
+    column-gap: 15px;
+    -moz-column-count: 4;
+    -webkit-column-count: 4; 
+    }
+    .item-blank {
+    display: inline-block;
+    margin-bottom: 5px;
+    break-inside: avoid;
+    background: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+    //  border-radius: 5px;
+    // transition: 1.5s ease;
+}
+
+    .recent-project{
+    display: flex;
+    width:1250px;
+    margin:2rem auto;
+    }
+    .left-large{
+        flex:2.05;
+        margin-right: 3%;
+    }
+    .right-large{
+        flex:1;
+        // flex: 0 0 385px;
+    }
+    
+
 }
 .item {
+    display: inline-block;
      margin-bottom: 5px;
      break-inside: avoid;
      background: no-repeat;
      background-size: cover;
-     /* background: #fff; */
-     border-radius: 5px;
+    //  border-radius: 5px;
     // transition: 1.5s ease;
 }
-.item:hover {
-     /* box-shadow: 5px 5px 20px rgba(0, 0, 0, .06); */
-     transition: 0.3s ease;
-     box-shadow: 8px 8px 0px #f2f2f2;
-    /* margin-top: -2px; */
-    /* border-radius:10px; */
 
+.itemImg:hover{
+transition: 0.4s ease;
+  box-shadow: 28px 44px 0px #CF6660;  
 }
+
+
+// .item:hover {
+//      /* box-shadow: 5px 5px 20px rgba(0, 0, 0, .06); */
+//      transition: 0.3s ease;
+//      box-shadow: 8px 8px 0px #f2f2f2;
+//     /* margin-top: -2px; */
+//     /* border-radius:10px; */
+
+// }
 
 .hint-hind{
     /* display: none; */
@@ -774,7 +944,7 @@ label:hover{
 }
 .item .hint {
     position:relative;
-    background-color: #ffffffad;
+    // background-color: #ffffffad;
     width: 100%;
     height:80%;
     transition: 0.5s;

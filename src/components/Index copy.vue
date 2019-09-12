@@ -530,7 +530,7 @@ p{
 }
 .imageContainer{
     margin-top:80px;
-    margin-left:2rem;
+    // margin-left:2rem;
     float:medium;
 }
 #root {

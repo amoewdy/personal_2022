@@ -11,6 +11,7 @@ import daydreaming from '@/components/daydreaming'
 import hemago from '@/components/hemago'
 import camt from '@/components/camt'
 import spimo from '@/components/spimo'
+import porcelain from "@/components/porcelain"
 
 Vue.use(Router)
     // Vue.use(BootstrapVue);
@@ -65,6 +66,11 @@ export default new Router({
             path: '/spimo',
             name: 'spimo',
             component: spimo
+        },
+        {
+            path: '/porcelain',
+            name: 'porcelain',
+            component:  porcelain
         },
     ]
 })

@@ -263,9 +263,9 @@
 
         <div v-show="showAll==true||projectType=='craft'">
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/china.png" alt="" width="100%"  onclick="" />
+            <img class="itemImg" src="/static/home/china.png" alt="" width="100%"  onclick="window.location.href='/#/Porcelain'" />
             <div class="hint">
-                    <h3><b>Craft</b></h3>
+                    <h3><b>Porcelain</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Craft work, Porcelain, and Drawings</p>
             </div>

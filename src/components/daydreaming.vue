@@ -339,6 +339,18 @@
 </div>
 </template>
 
+<script>
+export default {
+        created() {  
+        var delayInMilliseconds = 800;
+        setTimeout(function() {
+            document.body.removeChild(document.getElementById('Loading'))   
+        }, delayInMilliseconds); 
+    },
+}
+</script>
+
+
 <style>
 
 p{

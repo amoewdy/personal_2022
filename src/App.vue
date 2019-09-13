@@ -8,7 +8,7 @@
 
              <!-- <li onclick="https://drive.google.com/file/d/1PDsDDt2Ex-EwX7r8kiax3OM7ld3jfxjm/view?usp=sharing'">Resume</li> -->
             <li><a target="blank" style="text-decoration: none;" href="https://drive.google.com/file/d/1bODZzJw4iro1DvaifTJIBmCNg3S7XKlX/view?usp=sharing">RESUME</a></li>
-            <li onclick="window.location.href='/'">ABOUT</li> 
+            <li onclick="window.location.href='/#/about'">ABOUT</li> 
         </ul>
     </div>
     <router-view/>

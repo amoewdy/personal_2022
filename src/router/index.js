@@ -12,6 +12,7 @@ import hemago from '@/components/hemago'
 import camt from '@/components/camt'
 import spimo from '@/components/spimo'
 import porcelain from "@/components/porcelain"
+import about from "@/components/about"
 
 Vue.use(Router)
     // Vue.use(BootstrapVue);
@@ -21,6 +22,11 @@ export default new Router({
             path: '/',
             name: 'home',
             component: index
+        },
+        {
+            path: '/about',
+            name: 'about',
+            component: about
         },
         {
             path: '/zipclean',

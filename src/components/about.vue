@@ -10,7 +10,8 @@
                         <img src="/static/about/me.jpg" width="100%">
                     </div>
                     <div class="right-about">
-                    <h2>Hello! This is Sixuan. </h2>
+                    <!-- <h2>Hello! This is Sixuan. </h2> -->
+                    <h2>HELLO, I'M SIXUAN. </h2>
                     <p>
                         I'm currently a master student studying Technology Innovation at Global Innovation Exchange, University of Washington. With a background in Industrial Design, I work on creating things that assist people in a delightful way and exploring scenarios for emerging technologies.
                     </p>
@@ -20,6 +21,18 @@
                     <p>
                         Hope you enjoy my work : D
                     </p>
+                    <div class='icon-element'>
+                        <ul>
+                            <li><a class='icon' href="Mailto:sixuanli@outlook.com" target="blank"><i class="fa fa-envelope"></i></a></li>
+                            <!-- <li><a class='icon' href="#"><i class="fa fa-dribbble"></i></a></li> -->
+                            <li><a class='icon' href="https://github.com/amoewdy" target="blank"><i class="fa fa-github"></i></a></li>
+                            <li><a class='icon' href="https://www.linkedin.com/in/sixuan-li-69a171155/" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a class='icon' href="https://medium.com/@sixuanli" target="blank"><i class="fa fa-medium"></i></a></li>
+                            <!-- <li><a class='icon' href="#"><i class="fa fa-facebook"></i></a></li> -->
+                        </ul>
+                    </div>
+
+
                     </div>
 
 
@@ -61,7 +74,7 @@ h2{
     /* color: #333333;  */
     color: rgb(0, 0, 0);
     margin:20px 0 0 0 ;
-    letter-spacing:0.6px;
+    letter-spacing:1.8px;
     text-align:left;
 }
 
@@ -82,7 +95,57 @@ h2{
 }
 .right-about{
     margin-top:0rem;
-    flex:1.2;
+    flex:1.1;
 }
+
+ li{
+    list-style:none;
+    float:left;
+    margin:0px 5px 10px 0px;
+    backface-visibility:hidden;
+  }
+  a.icon{
+    color:#C4C4C4;
+    padding:0px 10px 20px 10px;
+    border:1px solid #C4C4C4;
+    /* border-radius:50px; */
+  }
+  .fa-facebook{
+    padding:12px 4px 3px 3px;
+  }
+  .fa-dribbble{
+    padding:12px 2px 3px 2px;
+  }
+  .fa-envelope{
+    padding:12px 2px 3px 2px;
+  }
+  .fa-linkedin{
+    padding:12px 2px 3px 3px;
+  }
+  .fa-github{
+    padding:12px 2px 3px 2px;
+  }
+  .fa-medium{
+    padding:12px 2px 3px 2px;
+  }
+
+a:hover{
+    color:#C70C00 !important;
+    border-color:#C70C00 !important;
+    transition: 0.8s ease;
+}
+
+a:hover i{
+    -webkit-transform:scale(1.4);
+    -moz-transform:scale(1.4);
+    -o-transform:scale(1.4);
+    -ms-transform:scale(1.4);
+    transform:scale(1.4);
+    color:#C70C00;
+    transition: 0.3s ease;
+}
+.icon-element{
+    margin-left:-2.5rem;
+    }
 
 </style>

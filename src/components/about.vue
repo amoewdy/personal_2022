@@ -21,7 +21,7 @@
                     <p>
                         Hope you enjoy my work : D
                     </p>
-                    <div class='icon-element'>
+                    <div class='icon-element-about'>
                         <ul>
                             <li><a class='icon' href="Mailto:sixuanli@outlook.com" target="blank"><i class="fa fa-envelope"></i></a></li>
                             <!-- <li><a class='icon' href="#"><i class="fa fa-dribbble"></i></a></li> -->
@@ -144,7 +144,7 @@ a:hover i{
     color:#C70C00;
     transition: 0.3s ease;
 }
-.icon-element{
+.icon-element-about{
     margin-left:-2.5rem;
     }
 

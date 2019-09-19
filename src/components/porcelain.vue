@@ -24,7 +24,16 @@
                     </p>
                     </div> 
                     </div>
-
+                        <div class="light-page">
+                            <div class="content-container">
+                                <div class="ending-pointer">
+                                    <div onclick="window.location.href='/#/'">
+                                        <span class="next">Next Project</span><br/>
+                                        <span class="project">To Be Continued</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             <!-- </div> -->
         </div>

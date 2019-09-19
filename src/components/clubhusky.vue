@@ -241,9 +241,9 @@
     <div class="light-page">
         <div class="content-container">
             <div class="ending-pointer">
-                <div onclick="window.location.href='/#/icushion'">
+                <div onclick="window.location.href='/#/spimo'">
                     <span class="next">Next Project</span><br/>
-                    <span class="project">iCushion</span>
+                    <span class="project">Spimo</span>
                 </div>
             </div>
         </div>

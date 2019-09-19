@@ -160,15 +160,15 @@
         </div>
         </div>
 
-        <div v-show="showAll||projectType=='build'" >
-        <div class="item triggerOnScroll" :key="componentKey"  >
-            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
-            <img class="itemImg"  src="/static/home/robot.png" alt="" width="100%"  onclick=""/>
+
+        <div v-show="showAll||projectType=='build'">
+        <div class="item triggerOnScroll">
+            <img class="itemImg" src="/static/home/img9.png" alt="" width="100%"  onclick="window.location.href='/#/spimo'" />
+            <!-- <img class="itemImg" src="/static/home/img9.png" alt="" width="100%"  onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />  -->
             <div class="hint">
-                    <h3><b>Robot Face</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Smart Home ・ UI Programming</p>
-            
+                    <h3><b>Spimo</b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping ・ ML</p>
             </div>
         </div>
         </div>
@@ -212,13 +212,16 @@
         </div>
         </div>
 
-        <div v-show="showAll||projectType=='build'">
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img9.png" alt="" width="100%"  onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />
+
+        <div v-show="showAll||projectType=='build'" >
+        <div class="item triggerOnScroll" :key="componentKey"  >
+            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
+            <img class="itemImg"  src="/static/home/robot.png" alt="" width="100%"  onclick=""/>
             <div class="hint">
-                    <h3><b>Spimo</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping ・ ML</p>
+                    <h3><b>Robot Face</b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Smart Home ・ UI Programming</p>
+            
             </div>
         </div>
         </div>

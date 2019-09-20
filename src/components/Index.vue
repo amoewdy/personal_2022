@@ -16,7 +16,7 @@
      <h1>
          I bring warmth to tech,
         </br>delight to design.</h1>
-     <h2>Hello, I'm Sixuan, a Product Designer and UX Engineer</h2><br>
+     <h2>Hello, I'm Sixuan. A Product Designer and UX Engineer.</h2><br>
      <div class='icon-element'>
      <ul>
         <li><a class='icon' href="Mailto:sixuanli@outlook.com" target="blank"><i class="fa fa-envelope"></i></a></li>
@@ -636,7 +636,7 @@ h1{
     color: #202020;
     margin: 10px 0 12px 0px;
     text-align:left;
-    letter-spacing:10px;
+    letter-spacing:9px;
     // text-transform:uppercase;
 }
 

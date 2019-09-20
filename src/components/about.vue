@@ -11,14 +11,15 @@
                     </div>
                     <div class="right-about">
                     <!-- <h2>Hello! This is Sixuan. </h2> -->
-                    <h2>HELLO, I'M SIXUAN. </h2>
-                    <p>
+                    <h2 class='about-h2'>HELLO, </br>I'M SIXUAN. </h2>
+                    <!-- <h2 class='about-h2'>WELCOME!</h2> -->
+                    <p class='about-paragraph'>
                         I'm currently a master student studying Technology Innovation at Global Innovation Exchange, University of Washington. With a background in Industrial Design, I work on creating things that assist people in a delightful way and exploring scenarios for emerging technologies.
                     </p>
-                    <p>
+                    <p class='about-paragraph'>
                         I'm passionate about designing the dialog between machine and human. Trying to spice up the cold world of tech and incorporate human touch into smart devices, I equipped myself with skills in both human-centered design and software/hardware prototyping. 
                     </p>
-                    <p>
+                    <p class='about-paragraph'>
                         Hope you enjoy my work : D
                     </p>
                     <div class='icon-element-about'>
@@ -55,9 +56,10 @@ export default {
 </script>
 
 <style>
-p{
+
+p.about-paragraph{
     font-family: 'Lora', serif;
-    margin:0.8rem auto;
+    margin:1.2rem auto;
     line-height: 29px;
     font-size: 14px;
     letter-spacing: 0.04em;
@@ -66,7 +68,7 @@ p{
     text-align:left;
     /* margin-bottom:5rem; */
 }
-h2{
+h2.about-h2{
     font-weight: 600;
     letter-spacing:1px;
     font-family: 'Lato', sans-serif;
@@ -74,7 +76,7 @@ h2{
     /* color: #333333;  */
     color: rgb(0, 0, 0);
     margin:20px 0 0 0 ;
-    letter-spacing:1.8px;
+    letter-spacing:1rem;
     text-align:left;
 }
 

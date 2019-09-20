@@ -14,8 +14,8 @@
      <!-- <h1>Hello, </h1>
      <h1>I'm Sixuan.</h1> -->
      <h1>
-         I bring warmth to tech,
-        </br>delight to design.</h1>
+         I bring <b>warmth</b> to tech,
+        </br><b>delight</b> to design.</h1>
      <h2>Hello, I'm Sixuan. A Product Designer and UX Engineer.</h2><br>
      <div class='icon-element'>
      <ul>
@@ -547,6 +547,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transform: translateY(0) scale(1);
   }
 
+
 .container{
     margin: 10rem 2rem 5rem 2rem;
     float: middle;
@@ -638,6 +639,10 @@ h1{
     text-align:left;
     letter-spacing:9px;
     // text-transform:uppercase;
+}
+h1 b{
+    background-image: linear-gradient(180deg,transparent 70%,#D14343 0);
+    transition: background-size .4s ease;
 }
 
 //for previous version
@@ -1021,14 +1026,27 @@ label:hover{
      background: no-repeat;
      background-size: cover;
     cursor: pointer;
+    // overflow: hidden;
     //  border-radius: 5px;
     // transition: 1.5s ease;
 }
 
+// .item img{
+//     -webkit-transform: scale(1);
+// 	transform: scale(1);
+// 	-webkit-transition: .3s ease-in-out;
+// 	transition: .3s ease-in-out;
+// }
+// .item:hover img {
+// 	-webkit-transform: scale(1.1);
+// 	transform: scale(1.1);
+// }
+
 .itemImg:hover{
-transition: 0.4s ease-in-out;
-  box-shadow: 22px 36px 0px #CF6660;  
-cursor: pointer;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0px 10px 0px #D14343;  
+    // box-shadow: 0px 10px 0px #333333;
+    cursor: pointer;
 }
 
 

@@ -7,7 +7,7 @@
                     <div class="title">
                     </div>
                     <div class="left-about">
-                        <img src="/static/about/me.jpg" width="100%">
+                        <img src="/static/about/me2.png" width="100%">
                     </div>
                     <div class="right-about">
                     <!-- <h2>Hello! This is Sixuan. </h2> -->

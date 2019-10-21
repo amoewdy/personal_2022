@@ -110,7 +110,7 @@
     <div id="root">
 
 
-        <div v-show="showAll||projectType=='design'" >
+        <div v-show="showAll==true||projectType=='design'" >
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
@@ -136,7 +136,7 @@
         
 
 
-        <div v-show="showAll||projectType=='design'" >
+        <div v-show="showAll==true||projectType=='design'" >
        <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img11.png" alt="" width="100%"  onclick="window.location.href='/#/icushion'"/>
             <div class="hint">
@@ -161,7 +161,7 @@
         </div>
 
 
-        <div v-show="showAll||projectType=='build'">
+        <div v-show="showAll==true||projectType=='build'">
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img9.png" alt="" width="100%"  onclick="window.location.href='/#/spimo'" />
             <!-- <img class="itemImg" src="/static/home/img9.png" alt="" width="100%"  onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />  -->
@@ -174,7 +174,7 @@
         </div>
 
 
-        <div v-show="showAll||projectType=='design'">
+        <div v-show="showAll==true||projectType=='design'">
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img3.png" alt="" width="100%"  onclick="window.location.href='/#/wandpoint'"/>
             <div class="hint">
@@ -199,7 +199,7 @@
         </div>
         </div>
 
-        <div v-show="showAll" >
+        <div v-show="showAll==true" >
         <div class="item-blank" >
             <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
             <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
@@ -213,7 +213,7 @@
         </div>
 
 
-        <div v-show="showAll||projectType=='build'" >
+        <div v-show="showAll==true||projectType=='build'" >
         <div class="item triggerOnScroll" :key="componentKey"  >
             <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
             <img class="itemImg"  src="/static/home/robot.png" alt="" width="100%"  onclick=""/>
@@ -227,7 +227,7 @@
         </div>
 
 
-        <div v-show="showAll||projectType=='design'">
+        <div v-show="showAll==true||projectType=='design'">
         <div class="item triggerOnScroll">
             <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onclick="window.location.href='/#/sandword'"/>
             <div class="hint">
@@ -239,7 +239,7 @@
         </div>
 
 
-        <div v-show="showAll" >
+        <div v-show="showAll==true" >
         <div class="item-blank" >
             <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
             <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
@@ -252,7 +252,7 @@
         </div>
         </div>
 
-        <div v-show="showAll||projectType=='craft'">
+        <div v-show="showAll==true||projectType=='craft'">
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img5.png" alt="" width="100%"  onclick="window.location.href='/#/daydreaming'"/>
             <div class="hint">

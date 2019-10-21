@@ -76,8 +76,8 @@
             <div class="triggerOnScroll" onclick="window.location.href='/#/camt'">
                 <img class="itemImg" src="/static/home/CAMT.png" alt="" width="100%" />
                 <div class="hint">
-                        <h3 style="margin-top:16px"><b>Child Asthma Management Toolkit</b></h3>
-                        <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> UX ・ Front-End ・ Product Design ・ IoT
+                        <h3 style="margin-top:16px"><b>A-Watch</b></h3>
+                        <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> UX ・ Front-End ・ Product Design ・ IoT ・ Asthma Care
                         </p>
                         <!-- <p style='font-family:Lato, sans-serif;margin-top:0.1rem;margin-bottom:0.5rem;color:#828282; '> Research Project with Department of Child Nursing @UW
                         </p> -->
@@ -180,7 +180,7 @@
             <div class="hint">
                     <h3><b>Wandpoint</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Adding a new dimension to reality <br/>| Product Design | Augmented Reality |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Product Design ・ Augmented Reality</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Product Design ・ AR</p>
             
             </div>
         </div>
@@ -218,7 +218,7 @@
             <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
             <img class="itemImg"  src="/static/home/robot.png" alt="" width="100%"  onclick=""/>
             <div class="hint">
-                    <h3><b>Robot Face</b></h3>
+                    <h3><b>Social Robot</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Smart Home ・ UI Programming</p>
             
@@ -268,9 +268,9 @@
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/china.png" alt="" width="100%"  onclick="window.location.href='/#/Porcelain'" />
             <div class="hint">
-                    <h3><b>Porcelain</b></h3>
+                    <h3><b>Miscellaneous</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Craft work, Porcelain, and Drawings</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Craft, Porcelain, and Drawings</p>
             </div>
         </div>
         </div>

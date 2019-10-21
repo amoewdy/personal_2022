@@ -21,7 +21,7 @@
                         <h1>Child Asthma Management Toolkit</h1>
                         <h6>61 Days from Concept to Delivery</h6>
                         <p>
-                            Child Asthma Management Toolkit is an IoT solution that helps school-aged children with asthma to have better control over their health, foster an asthma management habit, improve their quality of life, and reduce their parent’s burden of responsibility.
+                            A-Watch (Child Asthma Management Toolkit) is an IoT solution that helps school-aged children with asthma to have better control over their health, foster an asthma management habit, improve their quality of life, and reduce their parent’s burden of responsibility.
                         </p>  
                     </div>
                     <div class="info">

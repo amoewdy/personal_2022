@@ -86,12 +86,13 @@
         </div>
         <div class="right-large">
             <div class="triggerOnScroll">
-                <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick=""/>
+                <!-- <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick="location.href = 'https://medium.com/@sixuanli/harmonica-da2b61d5a44c'"/> -->
+                <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/harmonica-da2b61d5a44c')"/> 
                 <div class="hint">
                         <h3 style="margin-top:16px"><b>Harmonica</b></h3>
                         <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> Natural Interaction・Audio Experience・ML
                         </p>
-                        <p style='font-family:Lato, sans-serif;margin-top:0.1rem;margin-bottom:0.5rem;color:#828282; '> Capstone sponsored by Harman, in progress
+                        <p style='font-family:Lato, sans-serif;margin-top:0.1rem;margin-bottom:0.5rem;color:#828282; '> Launch Project at GIX sponsored by HARMAN
                         </p>
                 </div>
             </div>

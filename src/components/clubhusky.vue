@@ -271,8 +271,8 @@ p{
     font-family: 'Lora', serif;
     margin:0;
     line-height: 29px;
-    font-size: 14px;
-    letter-spacing: 0.04em;
+    font-size: 16px;
+    letter-spacing: 0.05em;
     font-weight: lighter;
     color: #000000;
     text-align:left;
@@ -300,17 +300,18 @@ h3{
     font-weight: bold;
     letter-spacing:1px;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #202020;
     line-height: 29px;
     text-align:left;
+    /* text-transform: uppercase; */
     margin:0;
 }
 h4{
     font-weight:bolder;
     letter-spacing:0.2px;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color:#000000;
     text-align:left;
     margin-top:2rem;

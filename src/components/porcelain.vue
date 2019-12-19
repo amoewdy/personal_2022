@@ -58,8 +58,8 @@ p{
     font-family: 'Lora', serif;
     margin:0;
     line-height: 29px;
-    font-size: 14px;
-    letter-spacing: 0.04em;
+    font-size: 16px;
+    letter-spacing: 0.05em;
     font-weight: lighter;
     color: #000000;
     text-align:left;

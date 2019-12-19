@@ -323,10 +323,14 @@
                         Location: Apartment<br>
                         </p>
                     </div>
-                    <div class="right_p">
+                    <!-- <div class="right_p">
                         <p>  
                         “Zheng is a teacher in ZJU. During her work, usually she has little time to order food and think about what to prepare for her family at meal time. She has a daughter, age 5, which means she is responsible for preparing nutritious dishes for her. But sometimes after work Liu only has limited time for buying food and food preparation.”</p>
-                    </div>
+                    </div> -->
+                </div>
+                <div class="paragraph">
+                        <p>  
+                        “Zheng is a teacher in ZJU. During her work, usually she has little time to order food and think about what to prepare for her family at meal time. She has a daughter, age 5, which means she is responsible for preparing nutritious dishes for her. But sometimes after work Liu only has limited time for buying food and food preparation.”</p>
                 </div>                
             </div>
             <div class='paragraph'>
@@ -427,8 +431,8 @@ p{
     font-family: 'Lora', serif;
     margin:0;
     line-height: 29px;
-    font-size: 14px;
-    letter-spacing: 0.04em;
+    font-size: 16px;
+    letter-spacing: 0.05em;
     font-weight: lighter;
     color: #000000;
     text-align:left;
@@ -456,7 +460,7 @@ h3{
     font-weight: bold;
     letter-spacing:1px;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     color: #202020;
     line-height: 29px;
     text-align:left;
@@ -466,7 +470,7 @@ h4{
     font-weight:bolder;
     letter-spacing:0.2px;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color:#000000;
     text-align:left;
     margin-top:2rem;
@@ -511,7 +515,8 @@ p.video{
     flex: 0 0 7rem;
 }
 .left_p{
-    flex: 0 0 300px;
+    /* flex: 0 0 200px; */
+    flex:0.5;
 }
 img{
     /* margin: 0px 0 5px 0; */

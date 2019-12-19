@@ -79,6 +79,8 @@
                         <h3 style="margin-top:16px"><b>A-Watch</b></h3>
                         <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> UX ・ Front-End ・ Product Design ・ IoT ・ Asthma Care
                         </p>
+                        <p style='font-family:Lato, sans-serif;margin-top:0.1rem;margin-bottom:0.5rem;color:#828282; '> Sponsored by Department of Nursing, University of Washington
+                        </p>
                         <!-- <p style='font-family:Lato, sans-serif;margin-top:0.1rem;margin-bottom:0.5rem;color:#828282; '> Research Project with Department of Child Nursing @UW
                         </p> -->
                 </div>
@@ -90,7 +92,7 @@
                 <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/harmonica-da2b61d5a44c')"/> 
                 <div class="hint">
                         <h3 style="margin-top:16px"><b>Harmonica</b></h3>
-                        <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> Natural Interaction・Audio Experience・ML
+                        <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> Audio Experience・Machine Learning
                         </p>
                         <p style='font-family:Lato, sans-serif;margin-top:0.1rem;margin-bottom:0.5rem;color:#828282; '> Launch Project at GIX sponsored by HARMAN
                         </p>
@@ -169,7 +171,7 @@
             <div class="hint">
                     <h3><b>Spimo</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping ・ ML</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping・ ML</p>
             </div>
         </div>
         </div>
@@ -219,9 +221,9 @@
             <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
             <img class="itemImg"  src="/static/home/robot.png" alt="" width="100%"  onclick=""/>
             <div class="hint">
-                    <h3><b>Social Robot</b></h3>
+                    <h3><b>Smart Home Robot</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Smart Home ・ UI Programming</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Full-stack Web Development</p>
             
             </div>
         </div>

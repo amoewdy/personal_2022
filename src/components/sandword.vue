@@ -476,8 +476,8 @@ p{
     font-family: 'Lora', serif;
     margin:0;
     line-height: 29px;
-    font-size: 14px;
-    letter-spacing: 0.04em;
+    font-size: 16px;
+    letter-spacing: 0.05em;
     font-weight: lighter;
     color: #000000;
     text-align:left;
@@ -505,7 +505,7 @@ h3{
     font-weight: bold;
     letter-spacing:1px;
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #202020;
     line-height: 29px;
     text-align:left;
@@ -515,7 +515,7 @@ h4{
     font-weight: bold;
     letter-spacing:1px;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color:#000000;
     text-align:left;
     margin-top:2rem;

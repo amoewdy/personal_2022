@@ -11,7 +11,7 @@
                     </div>
                     <div class="right-about">
                     <!-- <h2>Hello! This is Sixuan. </h2> -->
-                    <h2 class='about-h2'>HELLO, </br>I'M SIXUAN. </h2>
+                    <h2 class='about-h2'>HELLO, </br>I'M <b>SIXUAN</b>.</h2>
                     <!-- <h2 class='about-h2'>WELCOME!</h2> -->
                     <p class='about-paragraph'>
                         I'm currently a master student studying Technology Innovation at Global Innovation Exchange, University of Washington. With a background in Industrial Design, I work on creating things that assist people in a delightful way and exploring scenarios for emerging technologies.
@@ -61,8 +61,8 @@ p.about-paragraph{
     font-family: 'Lora', serif;
     margin:1.2rem auto;
     line-height: 29px;
-    font-size: 14px;
-    letter-spacing: 0.04em;
+    font-size: 16px;
+    letter-spacing: 0.05em;
     font-weight: lighter;
     color: #000000;
     text-align:left;
@@ -78,6 +78,10 @@ h2.about-h2{
     margin:20px 0 0 0 ;
     letter-spacing:1rem;
     text-align:left;
+}
+h2 b{
+    background-image: linear-gradient(180deg,transparent 70%,#D14343 0);
+    transition: background-size .4s ease;
 }
 
 .content-container {

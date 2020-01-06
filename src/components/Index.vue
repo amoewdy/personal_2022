@@ -219,11 +219,11 @@
         <div v-show="showAll==true||projectType=='build'" >
         <div class="item triggerOnScroll" :key="componentKey"  >
             <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
-            <img class="itemImg"  src="/static/home/robot.png" alt="" width="100%"  onclick=""/>
+            <img class="itemImg"  src="/static/home/robot.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/pika-647b493fe208')"/>
             <div class="hint">
-                    <h3><b>Smart Home Robot</b></h3>
+                    <h3><b>Pika</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Full-stack Web Development</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Social Robot, Web Development</p>
             
             </div>
         </div>

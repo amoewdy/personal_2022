@@ -13,6 +13,7 @@ import camt from '@/components/camt'
 import spimo from '@/components/spimo'
 import porcelain from "@/components/porcelain"
 import about from "@/components/about"
+import pika from "@/components/pika"
 
 Vue.use(Router)
     // Vue.use(BootstrapVue);
@@ -77,6 +78,11 @@ export default new Router({
             path: '/porcelain',
             name: 'porcelain',
             component:  porcelain
+        },
+        {
+            path: '/pika',
+            name: 'pika',
+            component:  pika
         },
     ]
 })

@@ -112,8 +112,19 @@
      <a id="project-overview"></a>
     <div id="root">
 
-
         <div v-show="showAll==true||projectType=='design'" >
+        <div class="item triggerOnScroll">
+            <img class="itemImg" src="/static/home/shelfClock.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/shelfclock-2a03b332d821')"/>
+            <div class="hint">
+                <h3><b>ShelfClock</b></h3>
+                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Concept Design, Google Nest</p>
+           
+            </div>
+        </div>
+        </div>
+
+        <div v-show="showAll==true" >
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
@@ -136,32 +147,19 @@
             </div>
         </div>
         </div>
-        
-
-
-        <div v-show="showAll==true||projectType=='design'" >
-       <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img11.png" alt="" width="100%"  onclick="window.location.href='/#/icushion'"/>
-            <div class="hint">
-                <h3><b>iCushion</b></h3>
-                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> A smart cushion that helps children improve their sitting posture <br/>| Design Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Research ・ UX Design</p>
-            </div>
-        </div>
-        </div>
 
         <div v-show="showAll==false&&projectType=='design'" >
-        <div class="item-blank" >
-            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
-            <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
+        <div class="item triggerOnScroll">
+            <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
-                    <h3><b></b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '></p>
-            
+                <h3><b>clubHusky</b></h3>
+                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Exercise</p>
+           
             </div>
         </div>
         </div>
+        
 
 
         <div v-show="showAll==true||projectType=='build'">
@@ -177,7 +175,30 @@
         </div>
 
 
-        <div v-show="showAll==true||projectType=='design'">
+        <div v-show="showAll==true">
+        <div class="item triggerOnScroll">
+            <img class="itemImg" src="/static/home/img3.png" alt="" width="100%"  onclick="window.location.href='/#/wandpoint'"/>
+            <div class="hint">
+                    <h3><b>Wandpoint</b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Adding a new dimension to reality <br/>| Product Design | Augmented Reality |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Product Design ・ AR</p>
+            
+            </div>
+        </div>
+        </div>
+
+        <div v-show="showAll==true||projectType=='design'" >
+       <div class="item triggerOnScroll">
+            <img class="itemImg" src="/static/home/img11.png" alt="" width="100%"  onclick="window.location.href='/#/icushion'"/>
+            <div class="hint">
+                <h3><b>iCushion</b></h3>
+                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> A smart cushion that helps children improve their sitting posture <br/>| Design Research | UX Design |</p> -->
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Research ・ UX Design</p>
+            </div>
+        </div>
+        </div>
+
+        <div v-show="showAll==false&&projectType=='design'">
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/img3.png" alt="" width="100%"  onclick="window.location.href='/#/wandpoint'"/>
             <div class="hint">
@@ -202,18 +223,6 @@
         </div>
         </div>
 
-        <div v-show="showAll==true" >
-        <div class="item-blank" >
-            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
-            <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
-            <div class="hint">
-                    <h3><b></b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '></p>
-            
-            </div>
-        </div>
-        </div>
 
 
         <div v-show="showAll==true||projectType=='build'" >
@@ -237,6 +246,19 @@
                     <h3><b>SandWord</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>iOS ・ Interaction Design ・ Unity</p>   
+            </div>
+        </div>
+        </div>
+
+        <div v-show="showAll==false&&projectType=='design'" >
+        <div class="item-blank" >
+            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
+            <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
+            <div class="hint">
+                    <h3><b></b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '></p>
+            
             </div>
         </div>
         </div>

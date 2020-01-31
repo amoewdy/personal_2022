@@ -16,7 +16,8 @@
      <h1>
          I bring <b>warmth</b> to tech,
         </br><b>delight</b> to design.</h1>
-     <h2>Hello, I'm Sixuan. A Product Designer and UX Engineer.</h2><br>
+     <h2>Hello, I'm Sixuan. A Designer and Product Manager.</h2><br>
+     <!-- A product designer with background in Technology Innovation. -->
      <div class='icon-element'>
      <ul>
         <li><a class='icon' href="Mailto:sixuanli@outlook.com" target="blank"><i class="fa fa-envelope"></i></a></li>

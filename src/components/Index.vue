@@ -78,7 +78,7 @@
                 <img class="itemImg" src="/static/home/CAMT.png" alt="" width="100%" />
                 <div class="hint">
                         <h3 style="margin-top:16px"><b>A-Watch</b></h3>
-                        <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> UX ・ Front-End ・ Product Design ・ IoT ・ Asthma Care
+                        <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> Front-End ・ Product Design ・ IoT ・ Asthma Care
                         </p>
                         <p style='font-family:Lato, sans-serif;margin-top:0.1rem;margin-bottom:0.5rem;color:#828282; '> Sponsored by Department of Nursing, University of Washington
                         </p>
@@ -90,7 +90,8 @@
         <div class="right-large">
             <div class="triggerOnScroll">
                 <!-- <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick="location.href = 'https://medium.com/@sixuanli/harmonica-da2b61d5a44c'"/> -->
-                <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/harmonica-da2b61d5a44c')"/> 
+                <!-- <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/harmonica-da2b61d5a44c')"/>  -->
+                <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/harmonica-92a53d343515')"/> 
                 <div class="hint">
                         <h3 style="margin-top:16px"><b>Harmonica</b></h3>
                         <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> Audio Experience・Machine Learning

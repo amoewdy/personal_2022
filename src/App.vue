@@ -16,7 +16,7 @@
         <div class="image-middle-container">
             <img src="./assets/muben logo 2.png" width="24px" hight="24px" style="margin: 20px 0" >
         </div>
-        Design &  Handcoded with  ♫  by Sixuan Li &copy; 2018
+        Designed &  Coded with  ♫  by Sixuan Li &copy; 2020
     </div>
   </div>
 </template>
@@ -146,9 +146,10 @@ body{
     float:center;
     padding: 4rem 0;
     text-align: center;
-    font-size: 12px;
-    font-family: Myriadpro;
-    color: #9b9b9b; 
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    /* font-family: Myriadpro; */
+    color: #333333; 
     margin-top: 1rem;
 }
 .image-middle-container{

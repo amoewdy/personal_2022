@@ -65,44 +65,55 @@
     </div>
 
 
-
-
     <div class="imageContainer">
     <div class="project-menu" style="margin-top:-5rem">
         <label style="font-weight:600" @click="custormAnchor('#project-recent')"> RECENT WORK ↓ </label>
     </div>
+
     <a id="project-recent"></a>
-    <div class="recent-project">
+
+    <div class='recent-project'>
         <div class="left-large">
-            <div class="triggerOnScroll" onclick="window.location.href='/#/camt'">
-                <img class="itemImg" src="/static/home/CAMT.png" alt="" width="100%" />
-                <div class="hint">
-                        <h3 style="margin-top:16px"><b>A-Watch</b></h3>
-                        <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> Front-End ・ Product Design ・ IoT ・ Asthma Care
-                        </p>
-                        <p style='font-family:Lato, sans-serif;margin-top:0.1rem;margin-bottom:0.5rem;color:#828282; '> Sponsored by Department of Nursing, University of Washington
-                        </p>
-                        <!-- <p style='font-family:Lato, sans-serif;margin-top:0.1rem;margin-bottom:0.5rem;color:#828282; '> Research Project with Department of Child Nursing @UW
-                        </p> -->
-                </div>
+            <div class="triggerOnScroll">
+                <img class="itemImg" src="/static/home/harmonica.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/harmonica-92a53d343515')"/> 
             </div>
         </div>
-        <div class="right-large">
+        <div class='right-large' id='recent-border' style='position: relative;'>
+                <!-- <div class="hint"> -->
+                        <h1>HARMONICA</h1>
+                        <h2 style='font-family: Lora;color:#BDBDBD' >Enhanced audio experience with ambient awareness</h2>
+                        <!-- <h2 style='font-family: Lora;font-weight: normal;' >Enhanced audio experience with ambient awareness</h2> -->
+                        <div class='recent-content'>
+                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> Feature Define・Audio Experience・Machine Learning・Co-Creation
+                        </p>
+                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:0.4rem;margin-bottom:0.5rem;color:#333333;'> <b>Partner with HARMAN International, JBL Lifestyle Division</b>
+                        </p>
+                        </div>
+                <!-- </div> -->
+        </div>
+    </div>
+
+    <div class='recent-project'>
+        <div class='right-large' style='position: relative;'>
+                <!-- <div class="hint"> -->
+                        <h1>A-WATCH</h1>
+                        <h2 style='font-family: Lora;color:#BDBDBD'>Child Asthma Management Toolkit</h2>
+                        <div class='recent-content'>
+                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> IoT・Product Design・Web Development
+                        </p>
+                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:0.4rem;margin-bottom:0.5rem;color:#333333;'> <b>Partner with School of Nursing, University of Washington</b>
+                        </p>
+                        </div>
+                <!-- </div> -->
+        </div>
+        <div class="left-large">
             <div class="triggerOnScroll">
-                <!-- <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick="location.href = 'https://medium.com/@sixuanli/harmonica-da2b61d5a44c'"/> -->
-                <!-- <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/harmonica-da2b61d5a44c')"/>  -->
-                <img class="itemImg" src="/static/home/Harman_simple.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/harmonica-92a53d343515')"/> 
-                <div class="hint">
-                        <h3 style="margin-top:16px"><b>Harmonica</b></h3>
-                        <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0rem; '> Audio Experience・Machine Learning
-                        </p>
-                        <p style='font-family:Lato, sans-serif;margin-top:0.1rem;margin-bottom:0.5rem;color:#828282; '> Launch Project at GIX sponsored by HARMAN
-                        </p>
-                </div>
+                <img class="itemImg" src="/static/home/a-watch.png" alt="" width="100%"  onclick="window.location.href='/#/camt'"/> 
             </div>
         </div>
     </div>
-    <div class="project-menu" style="margin-top:6rem">
+    
+    <div class="project-menu" style="margin-top:4rem">
         <label v-on:click="show('all')" v-bind:style="{ fontWeight: fontWeightAll}" >ALL</label>
         <label> ・ </label>
         <label v-on:click="show('design')" v-bind:style="{ fontWeight: fontWeightDesign}" >DESIGN</label>
@@ -116,7 +127,7 @@
 
         <div v-show="showAll==true||projectType=='design'" >
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/shelfClock.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/shelfclock-2a03b332d821')"/>
+            <img class="itemImg" src="/static/home/shelfClock_2.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/shelfclock-2a03b332d821')"/>
             <div class="hint">
                 <h3><b>ShelfClock</b></h3>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
@@ -650,13 +661,13 @@ a:hover i{
     transition: 0.3s ease;
 }
 .project-menu{
-    margin:auto;
+    // margin:auto;
     text-align: center;
     float:middle;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
-h1{
+.part2 h1{
     font-weight: 900;
     /* letter-spacing:2px; */
     font-family: 'Lato', sans-serif;
@@ -685,14 +696,16 @@ h1 b{
 //     text-transform:uppercase;
 // }
 h2{
-    font-weight: 600;
-    letter-spacing:1px;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+
+    // font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
     color: #333333; 
-    // color: rgb(0, 0, 0);
-    margin:20px 0 0 0 ;
-    letter-spacing:0.6px;
+    margin:20px 20px 0 0 ;
     text-align:left;
 }
 h3{
@@ -752,6 +765,10 @@ label:hover{
     font-weight: 300;
 
 }
+.right-large h1{
+    font-size: 26px;
+    letter-spacing: 0.4rem;
+}
 
 
 #canvas{
@@ -810,11 +827,11 @@ label:hover{
     margin:2rem auto;
     }
     .left-large{
-        flex:2.05;
+        flex:2.5;
         margin-right: 3%;
     }
     .right-large{
-        flex:1;
+        flex:0.4;
         // flex: 0 0 385px;
     }
     
@@ -907,7 +924,7 @@ label:hover{
     line-height: 22px;
     font-size: 13px;
     }
-    h1{
+    .part2 h1{
     font-weight: bold;
     letter-spacing:10px;
     font-family: 'Lato', sans-serif;
@@ -927,19 +944,22 @@ label:hover{
 }
 
 @media (min-width: 560px) { 
-    .recent-project{
-    display: flex;
-    width:100%;
-    margin:2rem auto;
-    }
-    .left-large{
-    cursor: pointer;
-        flex:2.05;
-        margin-right: 3%;
-    }
-    .right-large{
-        flex:1;
-        // flex: 0 0 385px;
+    // .recent-project{
+    // display: flex;
+    // width:100%;
+    // margin:2rem auto;
+    // }
+    // .left-large{
+    // cursor: pointer;
+    //     flex:2.05;
+    //     margin-right: 3%;
+    // }
+    // .right-large{
+    //     flex:1;
+    //     // flex: 0 0 385px;
+    // }
+    h1{
+        font-size: 20px;
     }
 
     #root { 
@@ -957,8 +977,48 @@ label:hover{
     opacity: 0.6;
     } 
 } 
+@media (max-width: 900px) {
+        //edit for Mar 2020 new layou
+    .recent-project{
+    display: block;
+    width:90%;
+    margin:2rem auto;
+    }
+    .left-large{
+    cursor: pointer;
+        display: block;
+    }
+    .right-large{
+        display: block;
+        margin-bottom: 2rem;
+        // flex: 0 0 385px;
+    }
 
+    .right-large h1{
+    font-size: 18px;
+    letter-spacing: 0.2rem;
+    display: block;   
+    }
+    .recent-project h2{
+    display: none; 
+    }
+    .recent-content{
+    margin:auto;
+    position:relative !important;  
+    position: relative;
+    display: block;
+    // bottom: 0;
+    // left: 0; 
+    }
+    #recent-border{
+    padding-bottom: 2rem; 
+    border-bottom: 1px solid #C4C4C4;
+    }
+
+
+} 
 @media (min-width: 900px) {
+    //edit for Mar 2020 new layou
     .recent-project{
     display: flex;
     width:90%;
@@ -1030,7 +1090,7 @@ label:hover{
     .recent-project{
     display: flex;
     width:1250px;
-    margin:2rem auto;
+    margin:10rem auto;
     }
     .left-large{
         flex:2.05;
@@ -1126,5 +1186,13 @@ label:hover{
     font-size: 23px;
     color: #000000;
 } */
+.recent-content{
+    // position:relative;
+    // margin-top:12rem;
+    // text-align: bottom;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
 </style>

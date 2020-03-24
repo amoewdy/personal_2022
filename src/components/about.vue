@@ -22,6 +22,10 @@
                     <p class='about-paragraph'>
                         Hope you enjoy my work : D
                     </p>
+                    <p class='about-paragraph'>
+                        Recent projects
+                        https://drive.google.com/file/d/1C1sXLLpew3hJcxQrAnHZCaYkXry3fxiF/view?usp=sharing
+                    </p>
                     <div class='icon-element-about'>
                         <ul>
                             <li><a class='icon' href="Mailto:sixuanli@outlook.com" target="blank"><i class="fa fa-envelope"></i></a></li>

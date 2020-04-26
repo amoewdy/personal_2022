@@ -11,7 +11,7 @@
 
   <div class = 'container'>
      <div class="content-container-large">
-            <img src="static/CAMT/1.png" width='100%' class='large-img'>
+            <img src="static/CAMT/a-watch.png" width='100%' class='large-img'>
     </div>
     <div class="first-page">
         <div class="content-container-title">
@@ -129,9 +129,15 @@
                 </p>
             </div>
             <div class="paragraph">
+                <h4>PROBLEM</h4>
+                <blockquote>
+                    More than 26 million Americans have asthma, including 7 million children, with minority and low-income children disproportionately affected.<br>Asthma is also the leading cause of school absences.
+                </blockquote>
+            </div> 
+            <div class="paragraph">
                 <h4>RESEARCH METHODS</h4>
-                <div class='image-middle-container'>
-                    <img src="/static/CAMT/5.png" width="100%">
+                <div class='image-middle-container text-image'>
+                    <img src="/static/CAMT/5-2.png" width="100%">
                 </div>
                 <div class='image-middle-container'>
                     <img src="/static/CAMT/6.png" width="100%">
@@ -140,19 +146,30 @@
             </div>
             <div class="paragraph">
                 <h4>KEY FINDINGS</h4>
-                <p>
+                <p class='findings'>
+                    1. <b>Asthma management</b> is critical for reducing asthma’s influence.
+                    <br>There can be <b>trends in the frequency and severity</b> of symptoms. In order to prevent the child’s asthma from influencing their daily life and activities, they need to do well in <b>taking daily medicine and recording the symptoms</b> in busy daily life.
+                </p>
+                <p class='findings'>
+                    2. <b>Children’s voice</b> is missing in the market.
+                    <br>Almost all current solutions take a top-down approach and expect the parents to monitor asthma for children.
+                </p>
+                <p class="findings">
+                    3. Children want to get involved and take <b>responsibility</b>.
+                    <br>They <b>tend to lie</b> to avoid parents’ overreaction and believe they can handle the consequences without being blamed.
+                </p>
+                <!-- <p>
                     1. Asthma is a serious problem for school-aged children. More than 26 million Americans have asthma, including 6 million children. It is the top reason for missed school days.
                     <br><br>2. Children’s voice is missing in the current market space. Most products on the market focus on the monitor of serious attack or automated detection of a certain symptom.
                     <br><br>3. A children-friendly product should be safe, robust, and emotionally appealing. Children are more likely to act irrationally than adults. Their cooperation is based on emotional connections.
                     <br><br>4. A shared asthma management solution would <b>rely on the children to report symptoms</b>. Parents can‘t track their child all day. School-aged children want to be the primary person responsible for their asthma care management.
                     <br><br>5. Children <b>tend to lie when they don’t want parents to make a fuss about something</b>. Children are more likely to lie when they know they didn’t do as expected, such as brushing their teeth every day, and believe they can handle the consequences without being blamed by parents.
                     <br><br>6. The uncontrollable attack of asthma on children is partly due to the lack of asthma management. There can be <b>trends in the frequency and severity of symptoms</b>. In order to prevent the child’s asthma from influencing their daily life and activities, they need to do well in <b>taking daily medicine and recording the symptoms</b> in busy daily life.
-                </p>
+                </p> -->
             </div>
             <div class="paragraph">
                 <h4>DESIGN PROBLEM</h4>
-                <blockquote>How might we design an IoT solution, including a wearable for the school-aged child (7–11 years old), to help children foster an asthma management habit, reporting asthma symptoms correctly, and reduce parents’ burden?
-                </blockquote>
+                <blockquote>How might we design a low-cost IoT solution for the school-aged child (7–11 years old) to help children foster an asthma management habit, self-report symptoms correctly and promptly, and reduce parents’ burden?</blockquote>
             </div>       
         </div>
     </div>
@@ -172,7 +189,7 @@
             </div>
             <div class="paragraph">
                 <h4>SYNTHESIS METHODS</h4>
-                <div class='image-middle-container'>
+                <div class='image-middle-container text-image'>
                     <img src="/static/CAMT/7.png" width="100%">
                 </div>
             </div>
@@ -213,14 +230,42 @@
             </div>
             <div class="paragraph">
                 <h4>Why there should be an upload device?</h4>
-                <p>
-                    The above concept is based on several assumptions which we will validate through further user research later. 
-                </p>
+                <div class="quote">
+                    <p>
+                        “Children are more likely to act irrationally than adults.”
+                    </p>
+                </div>
                 <p>
                     <b>Asynchronous data transfer might help avoid lying</b>
                 </p>
                 <p>
-                    While real-time data is nice for parents to view, it might cause privacy issues and children’s resistance. When the children are trusted to have full control of the wearable device, they would be more likely to wear it and use it properly since they know their symptom report would not make their parents worried instantly.
+                    While real-time data is nice for parents to view, it might cause privacy issues and children’s resistance. When the children are trusted to have full control of the wearable device, they would be more likely to wear it and use it properly since they know their symptom report would not make their parents worried instantly.</p>
+            </div>
+            <div class="paragraph">
+                <h4>
+                    CONCEPT VALIDATION
+                </h4>
+                <p>
+                    To confirm the previous assumptions under our concept design and collect additional information on wearable technologies usage, we conduct some quick user research (mostly online).
+                </p>
+                <div class='image-middle-container text-image'>
+                    <img src="/static/CAMT/14.png" width="100%">
+                </div>
+            </div>
+
+            <div class="paragraph">
+                <h4>
+                    Findings
+                </h4>
+                <p>
+                    ✓ User Dependence on Health Tracking Product 
+                    <br>Most users developed the habit of daily data checking (right after getting up or when they are free) after a few months.
+                    <br>
+                    <br>✓ Interaction Gesture
+                    <br>Single tap and long press are two commonly used gestures on the smart band.
+                    <br>
+                    <br>✓ Parents’ acceptance of wearable devices
+                    <br>Parents with children already using wearable device have a higher acceptance of the always-connected device. However, most parents are worried that a wearable device (especially a smartwatch) would be a great distraction at school.
                 </p>
             </div>
         </div>
@@ -251,7 +296,7 @@
                 <h4>
                     DESIGN APPROACH
                 </h4>
-                <div class='image-middle-container'>
+                <div class='image-middle-container text-image'>
                     <img src="/static/CAMT/13.png" width="100%">
                 </div>
                 <div class="quote">
@@ -262,32 +307,6 @@
             </div>
             <div class="paragraph">
                 <h4>
-                    FURTHER USER RESEARCH
-                </h4>
-                <p>
-                    To confirm the previous assumptions under our concept design and collect additional information on wearable technologies usage, we conduct some quick user research (mostly online).
-                </p>
-                <div class='image-middle-container'>
-                    <img src="/static/CAMT/14.png" width="100%">
-                </div>
-            </div>
-            <div class="paragraph">
-                <h4>
-                    Findings
-                </h4>
-                <p>
-                    ✓ User Dependence on Health Tracking Product 
-                    <br>Most users developed the habit of daily data checking (right after getting up or when they are free) after a few months.
-                    <br>
-                    <br>✓ Interaction Gesture
-                    <br>Single tap and long press are two commonly used gestures on the smart band.
-                    <br>
-                    <br>✓ Parents’ acceptance of wearable devices
-                    <br>Parents with children already using wearable device have a higher acceptance of the always-connected device. However, most parents are worried that a wearable device (especially a smartwatch) would be a great distraction at school.
-                </p>
-            </div>
-            <div class="paragraph">
-                <h4>
                     EARLY PROTOTYPES
                 </h4>
                 <div class='image-middle-container'>
@@ -295,7 +314,7 @@
                     <figcaption>Wearable, upload device and wireframe for the web app</figcaption>
                 </div>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/16.png" width="100%">
+                    <img src="/static/CAMT/15-2.png" width="100%">
                     <figcaption>Wireframe V2 using Figma</figcaption>
                 </div>
                 <p>See
@@ -308,7 +327,7 @@
                 <h4>
                     USER EVALUATION ROUND 1
                 </h4>
-                <div class='image-middle-container'>
+                <div class='image-middle-container text-image'>
                     <img src="/static/CAMT/17.png" width="100%">
                 </div>
                 <p>
@@ -319,7 +338,7 @@
                 <h4>
                     Findings / Insights
                 </h4>
-                <div class='image-middle-container'>
+                <div class='image-middle-container text-image'>
                     <img src="/static/CAMT/18.png" width="100%">
                 </div>
             </div>
@@ -331,8 +350,21 @@
                     As part of the ‘out-of-box’ experience, the manual will guide the user through wi-fi config, upload device/wearable binding, symptom report, data sync, as well as troubleshooting.
                 </p>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/19.png" width="100%">
+                    <img src="/static/CAMT/19-2.png" width="100%">
                     <figcaption>The workflow of wi-fi config, account register and device binding.</figcaption>
+                </div>
+            </div>
+            <div class="paragraph">
+                <h4>
+                    UI Refinement
+                </h4>
+                <div class='image-middle-container'>
+                    <img src="/static/CAMT/before.png" width="100%">
+                    <figcaption>Wireframe V2</figcaption>
+                </div>
+                <div class='image-middle-container'>
+                    <img src="/static/CAMT/after.png" width="100%">
+                    <figcaption>Wireframe V3</figcaption>
                 </div>
             </div>
             <div class="paragraph">
@@ -372,7 +404,7 @@
                 <h4>
                     USER EVALUATION ROUND 2 & 3
                 </h4>
-                <div class='image-middle-container'>
+                <div class='image-middle-container text-image'>
                             <img src="/static/CAMT/22.png" width="100%">
                 </div>
                 <p>
@@ -388,7 +420,7 @@
                 <p>
                     Below is a comparison of time & difficulty of the same set of tasks. Our updates for the web app have resulted in improved efficiency & smoothness.
                 </p>
-                 <div class='image-middle-container'>
+                 <div class='image-middle-container text-image'>
                             <img src="/static/CAMT/23.png" width="100%">
                             <figcaption>KPI Results of the 2 rounds of usability testing</figcaption>
                 </div>
@@ -413,7 +445,7 @@
                 <h4>
                     USER EVALUATION ROUND 4
                 </h4>
-                <div class='image-middle-container'>
+                <div class='image-middle-container text-image'>
                             <img src="/static/CAMT/25.png" width="100%">        
                 </div>
                 <p>
@@ -425,7 +457,7 @@
                     <br>
                     <br>Instead of the typical process which requires users to read aloud the task items, we have designed and printed <b>user manuals</b> and put them inside the product box. The users were supposed to follow the instructions on the user manual step by step.
                 </p>
-                <div class='image-middle-container'>
+                <div class='image-middle-container text-image'>
                             <img src="/static/CAMT/26.png" width="100%">        
                             <figcaption>User Evaluation Plan</figcaption>
                 </div>
@@ -627,7 +659,7 @@ img{
     /* margin: 0px 0 5px 0; */
 }
 .image-middle-container{
-    margin: 40px 0;
+    margin: 40px auto;
 }
 .large-img{
     margin:3rem 0 3rem 0;
@@ -703,5 +735,12 @@ td.light-td{
     position: relative;
     background-color: #E0E0E0;
     padding: 20px 20px 60px;
+}
+.text-image{
+    width:86%;
+    margin:40px auto;
+}
+.findings{
+    margin:20px auto;
 }
 </style>

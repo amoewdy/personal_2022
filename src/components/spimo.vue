@@ -368,7 +368,7 @@ img{
     /* margin: 0px 0 5px 0; */
 }
 .image-middle-container{
-    margin: 40px 0;
+    margin: 40px auto;
 }
 .large-img{
     margin:3rem 0 3rem 0;

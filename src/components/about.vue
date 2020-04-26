@@ -2,7 +2,7 @@
     <div class="animated fadeIn delay-0.5s">
         <div class="container">
             <!-- <div class="light-page"> -->
-                <div class="content-container">
+                <div class="content-container homepage">
                 <div class="parent-about">
                     <div class="title">
                     </div>
@@ -88,7 +88,7 @@ h2 b{
     transition: background-size .4s ease;
 }
 
-.content-container {
+.content-container .homepage{
     max-width: 1000px;
     margin: auto;
 }

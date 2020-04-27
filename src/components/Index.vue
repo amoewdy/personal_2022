@@ -84,7 +84,7 @@
                         <h2 style='font-family: Lora;color:#BDBDBD' >Enhanced audio experience with ambient awareness</h2>
                         <!-- <h2 style='font-family: Lora;font-weight: normal;' >Enhanced audio experience with ambient awareness</h2> -->
                         <div class='recent-content'>
-                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> Feature Define・Audio Experience・Machine Learning・Co-Creation
+                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> Feature Define・UX・Audio Experience・Machine Learning・User Research
                         </p>
                         <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:0.4rem;margin-bottom:0.5rem;color:#333333;'> <b>Partner with HARMAN International, JBL Lifestyle Division</b>
                         </p>
@@ -99,7 +99,7 @@
                         <h1>A-WATCH</h1>
                         <h2 style='font-family: Lora;color:#BDBDBD'>Child Asthma Management Toolkit</h2>
                         <div class='recent-content'>
-                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> IoT・Product Design・Web Development
+                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> IoT・Product Design・Front-end Development
                         </p>
                         <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:0.4rem;margin-bottom:0.5rem;color:#333333;'> <b>Partner with School of Nursing, University of Washington</b>
                         </p>
@@ -110,6 +110,27 @@
             <div class="triggerOnScroll">
                 <img class="itemImg" src="/static/home/a-watch.png" alt="" width="100%"  onclick="window.location.href='/#/camt'"/> 
             </div>
+        </div>
+    </div>
+
+    <div class='recent-project'>
+        <div class="left-large">
+            <div class="triggerOnScroll">
+                <img class="itemImg" src="/static/home/sketch slicer.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/sketch-slicer-1b6e855f46bf')"/> 
+            </div>
+        </div>
+        <div class='right-large' id='recent-border' style='position: relative;'>
+                <!-- <div class="hint"> -->
+                        <h1>SKETCH SLICER</h1> 
+                        <h2 style='font-family: Lora;color:#BDBDBD' >An image slicing tool that help get you design assets faster</h2>
+                        <!-- <h2 style='font-family: Lora;font-weight: normal;' >Enhanced audio experience with ambient awareness</h2> -->
+                        <div class='recent-content'>
+                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> Image Processing・Web Development・AWS
+                        </p>
+                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:0.4rem;margin-bottom:0.5rem;color:#333333;'> <b>Personal project at Punchcut</b>
+                        </p>
+                        </div>
+                <!-- </div> -->
         </div>
     </div>
     
@@ -131,23 +152,24 @@
             <div class="hint">
                 <h3><b>ShelfClock</b></h3>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Concept Design, Google Nest</p>
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Concept Design ・ Google Nest</p>
            
             </div>
         </div>
         </div>
 
-        <div v-show="showAll==true" >
+        <div v-show="showAll==true||projectType=='craft'">
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
+            <img class="itemImg" src="/static/home/img5.png" alt="" width="100%"  onclick="window.location.href='/#/daydreaming'"/>
             <div class="hint">
-                <h3><b>clubHusky</b></h3>
-                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Exercise</p>
-           
+                    <h3><b>Daydreaming</b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>The tension between dream and reality<br/>| Interactive Installation |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Interactive Installation</p>   
             </div>
         </div>
         </div>
+
+
 
 
         <div v-show="showAll==true||projectType=='design'">
@@ -174,18 +196,20 @@
         </div>
         
 
-
-        <div v-show="showAll==true||projectType=='build'">
+        <div v-show="showAll==true" >
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img9.png" alt="" width="100%"  onclick="window.location.href='/#/spimo'" />
-            <!-- <img class="itemImg" src="/static/home/img9.png" alt="" width="100%"  onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />  -->
+            <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
-                    <h3><b>Spimo</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping・ ML</p>
+                <h3><b>clubHusky</b></h3>
+                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Exercise</p>
+           
             </div>
         </div>
         </div>
+
+
+
 
 
         <div v-show="showAll==true">
@@ -290,13 +314,16 @@
         </div>
         </div>
 
-        <div v-show="showAll==true||projectType=='craft'">
+
+
+        <div v-show="showAll==true||projectType=='build'">
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img5.png" alt="" width="100%"  onclick="window.location.href='/#/daydreaming'"/>
+            <img class="itemImg" src="/static/home/img9-2.png" alt="" width="100%"  onclick="window.location.href='/#/spimo'" />
+            <!-- <img class="itemImg" src="/static/home/img9.png" alt="" width="100%"  onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />  -->
             <div class="hint">
-                    <h3><b>Daydreaming</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>The tension between dream and reality<br/>| Interactive Installation |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Interactive Installation</p>   
+                    <h3><b>Spimo</b></h3>
+                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping・ ML</p>
             </div>
         </div>
         </div>
@@ -306,7 +333,7 @@
         <div class="item triggerOnScroll">
             <img class="itemImg" src="/static/home/china.png" alt="" width="100%"  onclick="window.location.href='/#/Porcelain'" />
             <div class="hint">
-                    <h3><b>Miscellaneous</b></h3>
+                    <h3><b>Misc.</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
                     <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Craft, Porcelain, and Drawings</p>
             </div>

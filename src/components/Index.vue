@@ -122,7 +122,7 @@
         <div class='right-large' id='recent-border' style='position: relative;'>
                 <!-- <div class="hint"> -->
                         <h1>SKETCH SLICER</h1> 
-                        <h2 style='font-family: Lora;color:#BDBDBD' >An image slicing tool that help get you design assets faster</h2>
+                        <h2 style='font-family: Lora;color:#BDBDBD' >An image slicing tool that helps get your assets faster</h2>
                         <!-- <h2 style='font-family: Lora;font-weight: normal;' >Enhanced audio experience with ambient awareness</h2> -->
                         <div class='recent-content'>
                         <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> Image Processing・Web Development・AWS

@@ -16,7 +16,7 @@
      <h1>
          I bring <b>warmth</b> to tech,
         </br><b>delight</b> to design.</h1>
-     <h2>Hello, I'm Sixuan. A Product Designer.</h2><br>
+     <h2>Hello, I'm Sixuan. A Product Designer and UX Engineer.</h2><br>
      <!-- A product designer with background in Technology Innovation. -->
      <div class='icon-element'>
      <ul>
@@ -84,7 +84,7 @@
                         <h2 style='font-family: Lora;color:#BDBDBD' >Enhanced audio experience with ambient awareness</h2>
                         <!-- <h2 style='font-family: Lora;font-weight: normal;' >Enhanced audio experience with ambient awareness</h2> -->
                         <div class='recent-content'>
-                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> Feature Define・UX・Audio Experience・Machine Learning・User Research
+                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> Feature Define・Audio Experience・Machine Learning・User Research
                         </p>
                         <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:0.4rem;margin-bottom:0.5rem;color:#333333;'> <b>Partner with HARMAN International, JBL Lifestyle Division</b>
                         </p>
@@ -122,12 +122,12 @@
         <div class='right-large' id='recent-border' style='position: relative;'>
                 <!-- <div class="hint"> -->
                         <h1>SKETCH SLICER</h1> 
-                        <h2 style='font-family: Lora;color:#BDBDBD' >An image slicing tool that helps get your assets faster</h2>
+                        <h2 style='font-family: Lora;color:#BDBDBD' >A productivity tool that helps get your design assets faster</h2>
                         <!-- <h2 style='font-family: Lora;font-weight: normal;' >Enhanced audio experience with ambient awareness</h2> -->
                         <div class='recent-content'>
-                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> Image Processing・Web Development・AWS
+                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> React・OpenCV・AWS Lambda & API Gateway
                         </p>
-                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:0.4rem;margin-bottom:0.5rem;color:#333333;'> <b>Personal project at Punchcut</b>
+                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:0.4rem;margin-bottom:0.5rem;color:#333333;'> <b>Project at Punchcut</b>
                         </p>
                         </div>
                 <!-- </div> -->

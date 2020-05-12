@@ -116,7 +116,7 @@
     <div class='recent-project'>
         <div class="left-large">
             <div class="triggerOnScroll">
-                <img class="itemImg" src="/static/home/sketch slicer.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/sketch-slicer-1b6e855f46bf')"/> 
+                <img class="itemImg" src="/static/home/sketch slicer 2.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/sketch-slicer-1b6e855f46bf')"/> 
             </div>
         </div>
         <div class='right-large' id='recent-border' style='position: relative;'>
@@ -185,7 +185,7 @@
 
         <div v-show="showAll==false&&projectType=='design'" >
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
+            <img class="itemImg" src="/static/home/clubHusky 2.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
                 <h3><b>clubHusky</b></h3>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
@@ -198,7 +198,7 @@
 
         <div v-show="showAll==true" >
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/clubhusky.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
+            <img class="itemImg" src="/static/home/clubHusky 2.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
                 <h3><b>clubHusky</b></h3>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
@@ -226,7 +226,7 @@
 
         <div v-show="showAll==true||projectType=='design'" >
        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img11.png" alt="" width="100%"  onclick="window.location.href='/#/icushion'"/>
+            <img class="itemImg" src="/static/home/iCushion May12.png" alt="" width="100%"  onclick="window.location.href='/#/icushion'"/>
             <div class="hint">
                 <h3><b>iCushion</b></h3>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> A smart cushion that helps children improve their sitting posture <br/>| Design Research | UX Design |</p> -->
@@ -265,7 +265,7 @@
         <div v-show="showAll==true||projectType=='build'" >
         <div class="item triggerOnScroll" :key="componentKey"  >
             <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
-            <img class="itemImg"  src="/static/home/robot.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/pika-647b493fe208')"/>
+            <img class="itemImg"  src="/static/home/pika May12.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/pika-647b493fe208')"/>
             <div class="hint">
                     <h3><b>Pika</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
@@ -278,7 +278,7 @@
 
         <div v-show="showAll==true||projectType=='design'">
         <div class="item triggerOnScroll">
-            <img class="itemImg"  src="/static/home/sandword img.png" alt="" width="100%" onclick="window.location.href='/#/sandword'"/>
+            <img class="itemImg"  src="/static/home/sandword May12.png" alt="" width="100%" onclick="window.location.href='/#/sandword'"/>
             <div class="hint">
                     <h3><b>SandWord</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
@@ -604,7 +604,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 .triggerOnScroll{
   opacity: 0;
   will-change: transform, scale, opacity;
-  transform: translateY(6rem) scale(0.93);
+  transform: translateY(3rem) scale(0.93);
   transition:0.8s $zease;
 }
 .active{

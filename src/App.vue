@@ -47,6 +47,102 @@ export default {
 </script>
 
 <style>
+.recent-project .right-large h1{
+    font-size: 26px;
+    letter-spacing: 0.4rem;
+}
+.recent-project .right-large h2{
+    font-family: 'Lora';
+    color:#BDBDBD;
+    font-size:20px;
+    letter-spacing: 0.1em;
+    line-height: 32px;
+    margin-top:0px;
+}
+@media (max-width: 1100px) {
+.recent-project .right-large h1{
+    font-size: 24px;
+    letter-spacing: 0.4rem;
+}
+.recent-project .right-large h2{
+    font-size:18px;
+    letter-spacing: 0.1em;
+    line-height: 24px;
+}
+}
+
+.recent-project .right-large .tags{
+    margin-top:2px;
+}
+.recent-project .right-large .tags span{
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right:6px;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+.recent-project .right-large .tags .tag{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding:4px 10px;
+    color: #4F4F4F;
+}
+.company-logo-container{
+    display:block;
+}
+
+.recent-content .company-logo{
+    margin: 10px auto;
+    width:64px;
+    display: block;
+}
+@media (max-width: 1200px) {
+     .recent-content .company-logo{
+    display:none;
+}   
+}
+
+.recent-content .partner{
+    margin: auto;
+    padding:0 60px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 26px;
+    font-family:'Lato', sans-serif;
+    margin-top:1rem;
+    /* margin-bottom:0.5rem; */
+    letter-spacing: 0.04em;
+    color:#333333;
+}
+@media (max-width: 1200px) {
+.recent-content .partner{
+    padding:0;
+    font-size: 14px;
+}
+.recent-content .company-logo{
+    width:40px;
+}
+.recent-project .right-large .tags .tag{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding:2px 6px;
+    color: #4F4F4F;
+}
+.recent-project .right-large .tags span{
+    margin-bottom: 0px;
+    margin-right:4px;
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+}
+
+}
+
+
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

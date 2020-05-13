@@ -1,33 +1,33 @@
 <template>
-  <div class = 'container-snow-large' >
-      <div class ="animated fadeIn delay-0.5s">
-      <div class='intro'>
+    <div class = 'container-snow-large' >
+        <div class ="animated fadeIn delay-0.5s">
+            <div class='intro'>
         <!-- <div class='parent'> -->
-      <div class='part1'>
+            <div class='part1'>
         <!-- <div class='left'> -->
-            <img src="/static/snowWidth3.png" id="img-snow" style="display:none"></img>
-          <canvas id="canvas"  class="animated fadeIn delay-0.8s"></canvas>
+                <img src="/static/snowWidth3.png" id="img-snow" style="display:none"></img>
+                <canvas id="canvas"  class="animated fadeIn delay-0.8s"></canvas>
           <!-- <img v-bind:src=imgSrc width='450px'> -->
-      </div>
-      <div class='part2'>
+            </div>
+            <div class='part2'>
     <!-- <div class='right' style='background:none'> -->
      <!-- <h1>Hello, </h1>
      <h1>I'm Sixuan.</h1> -->
-     <h1>
-         I bring <b>warmth</b> to tech,
-        </br><b>delight</b> to design.</h1>
-     <h2>Hello, I'm Sixuan. A Product Designer and UX Engineer.</h2><br>
+                <h1>
+                I bring <b>warmth</b> to tech,
+                </br><b>delight</b> to design.</h1>
+                <h2>Hello, I'm Sixuan. A Product Designer and UX Engineer.</h2><br>
      <!-- A product designer with background in Technology Innovation. -->
-     <div class='icon-element'>
-     <ul>
-        <li><a class='icon' href="Mailto:sixuanli@outlook.com" target="blank"><i class="fa fa-envelope"></i></a></li>
-        <!-- <li><a class='icon' href="#"><i class="fa fa-dribbble"></i></a></li> -->
-        <li><a class='icon' href="https://github.com/amoewdy" target="blank"><i class="fa fa-github"></i></a></li>
-        <li><a class='icon' href="https://www.linkedin.com/in/sixuan-li-69a171155/" target="blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a class='icon' href="https://medium.com/@sixuanli" target="blank"><i class="fa fa-medium"></i></a></li>
-        <!-- <li><a class='icon' href="#"><i class="fa fa-facebook"></i></a></li> -->
-    </ul>
-     </div>
+                <div class='icon-element'>
+                <ul>
+                <li><a class='icon' href="Mailto:sixuanli@outlook.com" target="blank"><i class="fa fa-envelope"></i></a></li>
+                <!-- <li><a class='icon' href="#"><i class="fa fa-dribbble"></i></a></li> -->
+                <li><a class='icon' href="https://github.com/amoewdy" target="blank"><i class="fa fa-github"></i></a></li>
+                <li><a class='icon' href="https://www.linkedin.com/in/sixuan-li-69a171155/" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a class='icon' href="https://medium.com/@sixuanli" target="blank"><i class="fa fa-medium"></i></a></li>
+                <!-- <li><a class='icon' href="#"><i class="fa fa-facebook"></i></a></li> -->
+                </ul>
+                </div>
      <!-- <p>
         I'm currently a master student on<br>
         Technology Innovation @<br>
@@ -60,18 +60,29 @@
         </svg>
     </div> -->
 
+            </div>
+        </div>
     </div>
-    </div>
-    </div>
-
-
     <div class="imageContainer">
     <div class="project-menu" style="margin-top:-5rem">
         <label style="font-weight:600" @click="custormAnchor('#project-recent')"> RECENT WORK ↓ </label>
     </div>
 
     <a id="project-recent"></a>
-
+    <!-- it seems it's strange to give that much self-intro in homepage. -->
+    
+    <!-- <div class='recent-project' style='margin-top:2rem;margin-bottom:0rem'>
+    <div class='self-intro'>
+        <p style='line-height: 28px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'>
+            I design elegant solutions in the technical domains. 
+            <br>I enjoy engaging with users and advocating for users.
+            <br>I care about the tradeoff between desirability and feasibility. 
+            <br>
+            <br>I recently worked as a Design Technologist at Punchcut. 
+            <br>I will join UserTesting as a Product Design Intern this summer.
+        </p>
+    </div>
+    </div> -->
     <div class='recent-project'>
         <div class="left-large">
             <div class="triggerOnScroll">
@@ -79,32 +90,42 @@
             </div>
         </div>
         <div class='right-large' id='recent-border' style='position: relative;'>
-                <!-- <div class="hint"> -->
                         <h1>HARMONICA</h1>
-                        <h2 style='font-family: Lora;color:#BDBDBD' >Enhanced audio experience with ambient awareness</h2>
-                        <!-- <h2 style='font-family: Lora;font-weight: normal;' >Enhanced audio experience with ambient awareness</h2> -->
-                        <div class='recent-content'>
-                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> Feature Define・Audio Experience・Machine Learning・User Research
-                        </p>
-                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:0.4rem;margin-bottom:0.5rem;color:#333333;'> <b>Partner with HARMAN International, JBL Lifestyle Division</b>
-                        </p>
+                        <h2 >Enhanced audio experience with ambient awareness</h2>
+                        <div class='tags'>
+                            <span class="tag">Audio Experience</span>    
+                            <span class="tag">New Feature</span>
+                            <span class="tag">Machine Learning</span>  
+                            <span class="tag">Onboarding UX</span>   
                         </div>
-                <!-- </div> -->
+                         <div class='recent-content'>
+                            <div class="company-logo-container">
+                            <img class="company-logo" src="/static/home/JBL_Logo.png"/>
+                            </div>
+                            <p class="partner"> <b>Partner with HARMAN JBL Lifestyle Division</b>
+                            </p>
+                            
+                        </div>
         </div>
     </div>
 
     <div class='recent-project'>
         <div class='right-large' style='position: relative;'>
-                <!-- <div class="hint"> -->
-                        <h1>A-WATCH</h1>
-                        <h2 style='font-family: Lora;color:#BDBDBD'>Child Asthma Management Toolkit</h2>
-                        <div class='recent-content'>
-                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> IoT・Product Design・Front-end Development
-                        </p>
-                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:0.4rem;margin-bottom:0.5rem;color:#333333;'> <b>Partner with School of Nursing, University of Washington</b>
-                        </p>
-                        </div>
-                <!-- </div> -->
+            <h1>A-WATCH</h1>
+                <h2 >Child Asthma Management Toolkit</h2>
+                <div class='tags'>
+                    <span class="tag">IoT</span>    
+                    <span class="tag">Product Design</span>
+                    <span class="tag">Front-end</span>  
+                </div>
+                <div class='recent-content'>
+                    <div class="company-logo-container">
+                    </div>
+                    <!-- <p class="partner" style="padding:0 20px 0 0;text-align: left;"> <b>Partner with School of Nursing, University of Washington</b>
+                    </p>             -->
+                    <p class="partner" style="padding-left:0; text-align: left;" > <b>Partner with School of Nursing University of Washington</b>
+                    </p>              
+            </div>
         </div>
         <div class="left-large">
             <div class="triggerOnScroll">
@@ -120,17 +141,22 @@
             </div>
         </div>
         <div class='right-large' id='recent-border' style='position: relative;'>
-                <!-- <div class="hint"> -->
-                        <h1>SKETCH SLICER</h1> 
-                        <h2 style='font-family: Lora;color:#BDBDBD' >A productivity tool that helps get your design assets faster</h2>
-                        <!-- <h2 style='font-family: Lora;font-weight: normal;' >Enhanced audio experience with ambient awareness</h2> -->
-                        <div class='recent-content'>
-                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> React・OpenCV・AWS Lambda & API Gateway
-                        </p>
-                        <p style='line-height: 24px;font-family:Lato, sans-serif;margin-top:0.4rem;margin-bottom:0.5rem;color:#333333;'> <b>Project at Punchcut</b>
-                        </p>
+                        <h1>SKETCH SLICER</h1>
+                        <h2 >A productivity tool that helps get your design assets faster</h2>
+                        <div class='tags'>
+                            <span class="tag">React</span>    
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">AWS Lambda</span>  
+                            <span class="tag">API Gateway</span>   
                         </div>
-                <!-- </div> -->
+                         <div class='recent-content'>
+                            <div class="company-logo-container">
+                            <img class="company-logo" style="width:120px;margin:10px auto" src="/static/home/PCT_Logo.png"/>
+                            </div>
+                            <p class="partner"> <b>Internship at Punchcut</b>
+                            </p>    
+                        </div>
+
         </div>
     </div>
     
@@ -327,7 +353,6 @@
             </div>
         </div>
         </div>
-
 
         <div v-show="showAll==true||projectType=='craft'">
         <div class="item triggerOnScroll">
@@ -730,7 +755,7 @@ h2{
     font-weight: bold;
     font-size: 20px;
     line-height: 28px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.09em;
     color: #333333; 
     margin:20px 20px 0 0 ;
     text-align:left;
@@ -791,10 +816,6 @@ label:hover{
     color: #BDBDBD;
     font-weight: 300;
 
-}
-.right-large h1{
-    font-size: 26px;
-    letter-spacing: 0.4rem;
 }
 
 
@@ -1037,6 +1058,8 @@ label:hover{
     // bottom: 0;
     // left: 0; 
     }
+
+
     #recent-border{
     padding-bottom: 2rem; 
     border-bottom: 1px solid #C4C4C4;
@@ -1217,6 +1240,7 @@ label:hover{
     // position:relative;
     // margin-top:12rem;
     // text-align: bottom;
+    width:100%;
     position: absolute;
     bottom: 0;
     left: 0;

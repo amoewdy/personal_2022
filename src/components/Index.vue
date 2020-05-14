@@ -116,7 +116,8 @@
                 <div class='tags'>
                     <span class="tag">IoT</span>    
                     <span class="tag">Product Design</span>
-                    <span class="tag">Front-end</span>  
+                    <span class="tag">Front-end Development</span> 
+                    <span class="tag">Data Visualization</span> 
                 </div>
                 <div class='recent-content'>
                     <div class="company-logo-container">
@@ -178,7 +179,7 @@
             <div class="hint">
                 <h3><b>ShelfClock</b></h3>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Concept Design ・ Google Nest</p>
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Smart Home ・ Google Nest</p>
            
             </div>
         </div>
@@ -215,7 +216,7 @@
             <div class="hint">
                 <h3><b>clubHusky</b></h3>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Exercise</p>
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Challenge</p>
            
             </div>
         </div>
@@ -228,7 +229,7 @@
             <div class="hint">
                 <h3><b>clubHusky</b></h3>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Exercise</p>
+                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Challenge</p>
            
             </div>
         </div>
@@ -295,7 +296,7 @@
             <div class="hint">
                     <h3><b>Pika</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Social Robot, Web Development</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Social Robot ・ Web Development</p>
             
             </div>
         </div>
@@ -349,7 +350,7 @@
             <div class="hint">
                     <h3><b>Spimo</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>SW/HW Prototyping・ ML</p>
+                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>IoT・ Machine Learning</p>
             </div>
         </div>
         </div>

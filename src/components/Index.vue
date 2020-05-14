@@ -16,7 +16,7 @@
                 <h1>
                 I bring <b>warmth</b> to tech,
                 </br><b>delight</b> to design.</h1>
-                <h2>Hello, I'm Sixuan. A Product Designer and UX Engineer.</h2><br>
+                <h2>Hello, I'm Sixuan. A Product Designer who Codes.</h2><br>
      <!-- A product designer with background in Technology Innovation. -->
                 <div class='icon-element'>
                 <ul>

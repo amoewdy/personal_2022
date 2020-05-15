@@ -160,6 +160,35 @@
 
         </div>
     </div>
+
+
+    <div class='recent-project'>
+        <div class='right-large' style='position: relative;'>
+            <h1>PHONE BACKUP</h1>
+                <h2 >A holistic cloud backup solution for Andoird users</h2>
+                <div class='tags'>
+                    <span class="tag">Client Project</span>    
+                    <span class="tag">Mobile App</span>
+                    <span class="tag">Web Portal</span> 
+                    <span class="tag">Internship</span> 
+                </div>
+                <div class='recent-content'>
+                    <div class="company-logo-container">
+                         <img class="company-logo" style="width:50px;margin-left:10px;margin-bottom:6px" src="/static/home/Lock_Logo.png"/>
+                    </div>
+                    <p class="partner" style="padding-left:0; text-align: left;"> <b>Internship at Punchcut. Please contact me if you are interested in this story : )</b>
+                    </p>            
+            
+            </div>
+        </div>
+        <div class="left-large">
+            <div class="triggerOnScroll">
+                <img class="itemImg" style="cursor:default;" src="/static/home/phone backup.png" alt="" width="100%"/> 
+            </div>
+        </div>
+    </div>
+
+
     
     <div class="project-menu" style="margin-top:4rem">
         <label v-on:click="show('all')" v-bind:style="{ fontWeight: fontWeightAll}" >ALL</label>

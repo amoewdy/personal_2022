@@ -80,14 +80,15 @@ export default {
     margin-right:6px;
     font-family: Lato;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 0.02em;
 }
 .recent-project .right-large .tags .tag{
     background-color: #F2F2F2;
     border-radius: 20px;
     padding:4px 10px;
-    color: #4F4F4F;
+    /* color: #4F4F4F; */
+    color: #333333;
 }
 .company-logo-container{
     display:block;
@@ -385,8 +386,10 @@ blockquote{
     padding: 20px 20px 60px;
 }
 .paragraph{
-    margin: 0px 0;
+    margin: 0rem 0rem;
 }
+
+
 .bannner{
     width: 100%;
     /* margin-top: 60px; */

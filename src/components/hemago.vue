@@ -402,9 +402,9 @@
     <div class="light-page">
         <div class="content-container">
             <div class="ending-pointer">
-                <div onclick="window.location.href='/#/porcelain'">
+                <div onclick="window.location.href='/#/wandpoint'">
                     <span class="next">Next Project</span><br/>
-                    <span class="project">Porcelain</span>
+                    <span class="project">Wandpoint</span>
                 </div>
             </div>
         </div>
@@ -442,7 +442,7 @@ h1{
     font-weight: bold;
     letter-spacing:2px;
     font-family: 'Lato', sans-serif;
-    font-size: 28px;
+    font-size: 30px;
     color: #202020;
     margin: 10px 0 20px 0;
     text-align:left;

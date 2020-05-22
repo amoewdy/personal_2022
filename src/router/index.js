@@ -14,6 +14,8 @@ import spimo from '@/components/spimo'
 import porcelain from "@/components/porcelain"
 import about from "@/components/about"
 import pika from "@/components/pika"
+import sketchslicer from "@/components/sketchslicer"
+import shelfclock from "@/components/shelfclock"
 
 Vue.use(Router)
     // Vue.use(BootstrapVue);
@@ -83,6 +85,16 @@ export default new Router({
             path: '/pika',
             name: 'pika',
             component:  pika
+        },
+        {
+            path: '/sketchslicer',
+            name: 'sketchslicer',
+            component:  sketchslicer
+        },
+        {
+            path: '/shelfclock',
+            name: 'shelfclock',
+            component:  shelfclock
         },
     ]
 })

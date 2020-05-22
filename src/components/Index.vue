@@ -95,8 +95,8 @@
                         <div class='tags'>
                             <span class="tag">Audio Experience</span>    
                             <span class="tag">New Feature</span>
+                            <span class="tag">Onboarding UX</span> 
                             <span class="tag">Machine Learning</span>  
-                            <span class="tag">Onboarding UX</span>   
                         </div>
                          <div class='recent-content'>
                             <div class="company-logo-container">
@@ -138,7 +138,7 @@
     <div class='recent-project'>
         <div class="left-large">
             <div class="triggerOnScroll">
-                <img class="itemImg" src="/static/home/sketch slicer 2.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/sketch-slicer-1b6e855f46bf')"/> 
+                <img class="itemImg" src="/static/home/sketch slicer 2.png" alt="" width="100%"  onclick="window.location.href='/#/sketchslicer'"/> 
             </div>
         </div>
         <div class='right-large' id='recent-border' style='position: relative;'>
@@ -204,7 +204,7 @@
 
         <div v-show="showAll==true||projectType=='design'" >
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/shelfClock_2.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/shelfclock-2a03b332d821')"/>
+            <img class="itemImg" src="/static/home/shelfClock.png" alt="" width="100%"  onclick="window.location.href='/#/shelfclock'"/>
             <div class="hint">
                 <h3><b>ShelfClock</b></h3>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
@@ -321,7 +321,7 @@
         <div v-show="showAll==true||projectType=='build'" >
         <div class="item triggerOnScroll" :key="componentKey"  >
             <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
-            <img class="itemImg"  src="/static/home/pika May12.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/pika-647b493fe208')"/>
+            <img class="itemImg"  src="/static/home/pika May12.png" alt="" width="100%"  onclick="window.location.href='/#/pika'"/>
             <div class="hint">
                     <h3><b>Pika</b></h3>
                     <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->

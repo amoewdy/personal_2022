@@ -328,9 +328,9 @@
     <div class="light-page">
         <div class="content-container">
             <div class="ending-pointer">
-                <div onclick="window.location.href='/#/clubhusky'">
+                <div onclick="window.location.href='/#/hemago'">
                     <span class="next">Next Project</span><br/>
-                    <span class="project">clubhusky</span>
+                    <span class="project">HemaGo</span>
                 </div>
             </div>
         </div>
@@ -368,7 +368,7 @@ h1{
     font-weight: bold;
     letter-spacing:2px;
     font-family: 'Lato', sans-serif;
-    font-size: 28px;
+    font-size: 30px;
     color: #202020;
     margin: 10px 0 3px 0;
     text-align:left;
@@ -406,10 +406,11 @@ h4{
     font-weight:bolder;
     letter-spacing:0.2px;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color:#000000;
     text-align:left;
-    margin-top:2rem;
+    margin-top:1.8rem;
+    margin-bottom:0.8rem;
 
 }
 p.video{

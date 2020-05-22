@@ -235,9 +235,9 @@
     <div class="light-page">
         <div class="content-container">
             <div class="ending-pointer">
-                <div onclick="window.location.href='/#/icushion'">
+                <div onclick="window.location.href='/#/sandword'">
                     <span class="next">Next Project</span><br/>
-                    <span class="project">iCushion</span>
+                    <span class="project">SandWord</span>
                 </div>
             </div>
         </div>
@@ -276,7 +276,7 @@ h1{
     font-weight: bold;
     letter-spacing:2px;
     font-family: 'Lato', sans-serif;
-    font-size: 28px;
+    font-size: 30px;
     color: #202020;
     margin: 10px 0 3px 0;
     text-align:left;
@@ -304,11 +304,11 @@ h4{
     font-weight:bolder;
     letter-spacing:0.2px;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color:#000000;
     text-align:left;
-    margin-top:1.6rem;
-    margin-bottom:1.2rem;
+    margin-top:1.8rem;
+    margin-bottom:0.8rem;
     /* text-transform: uppercase; */
 
 }

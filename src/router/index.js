@@ -16,6 +16,7 @@ import about from "@/components/about"
 import pika from "@/components/pika"
 import sketchslicer from "@/components/sketchslicer"
 import shelfclock from "@/components/shelfclock"
+import backupUX from "@/components/backupUX"
 
 Vue.use(Router)
     // Vue.use(BootstrapVue);
@@ -90,6 +91,11 @@ export default new Router({
             path: '/sketchslicer',
             name: 'sketchslicer',
             component:  sketchslicer
+        },
+        {
+            path: '/backupUX',
+            name: 'backupUX',
+            component:  backupUX
         },
         {
             path: '/shelfclock',

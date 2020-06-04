@@ -94,9 +94,10 @@
                         <h2 >Enhanced audio experience with ambient awareness</h2>
                         <div class='tags'>
                             <span class="tag">Audio Experience</span>    
+                            <span class="tag">User Research</span>
                             <span class="tag">New Feature</span>
                             <span class="tag">Onboarding UX</span> 
-                            <span class="tag">Machine Learning</span>  
+                            <span class="tag">Machine Learning</span> 
                         </div>
                          <div class='recent-content'>
                             <div class="company-logo-container">
@@ -147,8 +148,10 @@
                         <div class='tags'>
                             <span class="tag">React</span>    
                             <span class="tag">OpenCV</span>
+                            <span class="tag">Python</span>
                             <span class="tag">AWS Lambda</span>  
                             <span class="tag">API Gateway</span>   
+                            <span class="tag">Web Design</span> 
                         </div>
                          <div class='recent-content'>
                             <div class="company-logo-container">
@@ -183,7 +186,7 @@
         </div>
         <div class="left-large">
             <div class="triggerOnScroll">
-                <img class="itemImg" style="cursor:default;" src="/static/home/phone backup.png" alt="" width="100%"/> 
+                <img class="itemImg" src="/static/home/phone backup.png" alt="" width="100%" onclick="window.location.href='/#/backupUX'"/> 
             </div>
         </div>
     </div>

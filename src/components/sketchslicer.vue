@@ -225,9 +225,9 @@
     <div class="light-page">
         <div class="content-container">
             <div class="ending-pointer">
-                <div onclick="window.location.href='/#/shelfclock'">
+                <div onclick="window.location.href='/#/backupUX'">
                     <span class="next">Next Project</span><br/>
-                    <span class="project">ShelfClock</span>
+                    <span class="project">Phone Backup</span>
                 </div>
             </div>
         </div>

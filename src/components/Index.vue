@@ -186,7 +186,7 @@
         </div>
         <div class="left-large">
             <div class="triggerOnScroll">
-                <img class="itemImg" src="/static/home/phone backup.png" alt="" width="100%" onclick="window.location.href='/#/backupUX'"/> 
+                <img class="itemImg" src="/static/home/gam_sol.png" alt="" width="100%" onclick="window.location.href='/#/backupUX'"/> 
             </div>
         </div>
     </div>

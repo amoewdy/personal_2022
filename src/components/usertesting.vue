@@ -128,8 +128,8 @@
                     <img src="/static/usertesting/Context Building.png" width="100%">
                 </div>
                 <p>
-                    Actions: stakeholder interviews, data analysis, usability testing & interview
-                    </br>Deliverable: requirement documents, project milestones
+                    Actions: Stakeholder interviews, data analysis, usability testing & interview
+                    </br>Deliverable: Requirements documents, project milestones
                 </p>
              </div>
             <div class="paragraph">
@@ -138,8 +138,8 @@
                     <img src="/static/usertesting/Problem Define.png" width="100%">
                 </div>
                 <p>
-                    Actions: flow analysis
-                    </br>Deliverable: pain points and opportunities, How Might We
+                    Actions: Flow analysis
+                    </br>Deliverable: Pain points and opportunities, How Might We
                 </p>
              </div>
             <div class="paragraph">
@@ -148,7 +148,7 @@
                     <img src="/static/usertesting/Ideation & Prototyping.png" width="100%">
                 </div>
                 <p>
-                    Actions: brainstorming, sketching and wireframing, concept voting, prioritization with PM
+                    Actions: Brainstorming, sketching and wireframing, concept voting, prioritization with PM
                     </br>Deliverable: User journey, workflow, design sprint plan, concept features and wireframes
                 </p>
              </div>
@@ -158,7 +158,7 @@
                     <img src="/static/usertesting/Iteration & Evaluation.png" width="100%">
                 </div>
                 <p>
-                    Actions: prototyping, concept testing and A/B testing, design phasing
+                    Actions: Prototyping, concept testing and A/B testing, design phasing
                     </br>Deliverable: Low-fi prototypes for desired workflow, user feedback
                 </p>
              </div>
@@ -168,7 +168,7 @@
                     <img src="/static/usertesting/Visual Design.png" width="100%">
                 </div>
                 <p>
-                    Actions: interaction and visual design, usability testing
+                    Actions: Interaction and visual design, usability testing
                     </br>Deliverable: High-Fi screens, reusable components
                 </p>
              </div>

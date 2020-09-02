@@ -26,7 +26,7 @@
                         </p>
                         <br>
                         <p>
-                            The process covers competitor research, usability testing, flow analysis, group brainstorming, wireframing, and deep collaboration with stakeholders.
+                            The process covers competitor research, usability testing, flow analysis, group brainstorming, wireframing, and a close collaboration with stakeholders.
                         </p>
                         
                     </div>
@@ -37,8 +37,8 @@
                         <h3> &nbsp</h3>
                         </div>
                         <div class= "left-right">
-                            <p>Jun 2020 - Aug 2020, 8 Weeks</p>
-                            <p>Product Designer(me), User Researcher, PM, Engineers, Data Scientists</p>  
+                            <p>Jun 2020 - Current, ongoing</p>
+                            <p>Product Designer(me), User Researchers, PM, Engineers, Data Scientists</p>  
                             </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                             </p>
                         <h2>Skills</h2>
                             <p>
-                                Interaction Design<br>
+                                UX Design<br>
                                 User Research<br>
                                 Project Management<br>
                             </p>
@@ -60,8 +60,9 @@
                                 Figma<br>
                                 Sketch<br>
                                 InVision<br>
-                                Trello<br>
-                                Mural
+                                Jira<br>
+                                Mural<br>
+                                UserTesting
                             </p>     
                     </div>
                 </div>
@@ -78,7 +79,7 @@
                 </div>
             </div>
              <div class="paragraph">
-                <h4>User testing videos can be very long</h4>
+                <h4>After a remote user testing ...</h4>
                 <p>
                 When you conduct a remote user testing, the video sessions you receive from participants can be very long (usually 30 min each). But time is a valuable resource and you certainly don't want to spend hours processing the videos. You want to get insights quickly.
                 </p>
@@ -95,12 +96,115 @@
                 <h4>Speed to Insights</h4>
                 <p>
                 How can we streamline the video analysis process, reduce the time user spend watching videos, and get insights more quickly with higher quality?</p>
-            <p>
-                <br>
-                Please <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="Mailto:sixuanli@outlook.com" target="blank"><b>contact me</b></a> if you are interested in this story : )
+                <p>
+                <h4>Impact</h4>
+                <p>Increase in use and customer satisfaction of the video player sidebar<br>
+                Decrease in time spent on processing each video<br>
+                </p>
 
+                <br>
+                <p>Please <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="Mailto:sixuanli@outlook.com" target="blank"><b>contact me</b></a> if you are interested in this story : )
             </p>
             </div>
+        </div>
+    </div>
+     <div class="light-page">
+        <div class="content-container">
+            <div class="title">
+                <div class = "title-color2"> </div>
+                <div class="title-text">
+                    <h4>Design Process</h4>
+                    <h5>&nbsp</h5>
+                </div>
+            </div>
+             <div class="paragraph">
+                <div class='image-middle-container'>
+                    <img src="/static/usertesting/process.png" width="100%">
+                </div>
+             </div>
+            <div class="paragraph">
+                <h4>Context Building</h4>
+                <div class='image-middle-container'>
+                    <img src="/static/usertesting/Context Building.png" width="100%">
+                </div>
+                <p>
+                    Actions: stakeholder interviews, data analysis, usability testing & interview
+                    </br>Deliverable: requirement documents, project milestones
+                </p>
+             </div>
+            <div class="paragraph">
+                <h4>Problem Define</h4>
+                <div class='image-middle-container'>
+                    <img src="/static/usertesting/Problem Define.png" width="100%">
+                </div>
+                <p>
+                    Actions: flow analysis
+                    </br>Deliverable: pain points and opportunities, How Might We
+                </p>
+             </div>
+            <div class="paragraph">
+                <h4>Ideation and Wireframing</h4>
+                <div class='image-middle-container'>
+                    <img src="/static/usertesting/Ideation & Prototyping.png" width="100%">
+                </div>
+                <p>
+                    Actions: brainstorming, sketching and wireframing, concept voting, prioritization with PM
+                    </br>Deliverable: User journey, workflow, design sprint plan, concept features and wireframes
+                </p>
+             </div>
+            <div class="paragraph">
+                <h4>Iteration and Evaluation</h4>
+                <div class='image-middle-container'>
+                    <img src="/static/usertesting/Iteration & Evaluation.png" width="100%">
+                </div>
+                <p>
+                    Actions: prototyping, concept testing and A/B testing, design phasing
+                    </br>Deliverable: Low-fi prototypes for desired workflow, user feedback
+                </p>
+             </div>
+            <div class="paragraph">
+                <h4>Prototyping and Visual Design</h4>
+                <div class='image-middle-container'>
+                    <img src="/static/usertesting/Visual Design.png" width="100%">
+                </div>
+                <p>
+                    Actions: interaction and visual design, usability testing
+                    </br>Deliverable: High-Fi screens, reusable components
+                </p>
+             </div>
+        </div>
+     </div>
+    <div class="light-page">
+        <div class="content-container">
+            <div class="title">
+                <div class = "title-color2"> </div>
+                <div class="title-text">
+                    <h4>Reflections</h4>
+                    <h5>&nbsp</h5>
+                </div>
+            </div>
+             <div class="paragraph">
+                <div class='image-middle-container'>
+                    <img src="/static/usertesting/internship overview.png" width="100%">
+                </div>
+                <p>
+                    This summer is unforgettable for me. In the next few months, I'll continue learning and growing at UserTesting, and work with engineers to bring the design to life.
+                </p>
+             </div>
+             <div class="paragraph">
+                <h4>Understand the Why</h4>
+                <p>
+                    Understanding the value of each step in the design process can help us be clear about when to go broad and to scope down.
+                <br>Also, as we cannot test every single detail, it's important to have clear rationales for each decision.
+                </p>
+             </div>
+            <div class="paragraph">
+                <h4>Ask Questions</h4>
+                <p>
+                When working with cross-functional teams, it's always better to ask more questions and remove blockers quickly.   
+                </p>
+             </div>
+
         </div>
     </div>
 

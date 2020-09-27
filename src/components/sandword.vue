@@ -11,7 +11,7 @@
             <div class = "left">
                 <div class="paragraph">
                     <h1>SandWord</h1>
-                        <p>In general, people whose symptoms are not severe enough to require medical treatment, such as those with mental disorders, are severely underestimated and unnoticed. 
+                        <p><br>In general, people whose symptoms are not severe enough to require medical treatment, such as those with mental disorders, are severely underestimated and unnoticed. 
                         </br>SandWord is a psychological self-help application targeted at this group of people. It helps users ease their emotions and encourages them to ask for help through interesting interactions.</br>
                         <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://drive.google.com/file/d/1GQaUD5udWg8zhvvls5p6o5yLi3nRlihI/view?usp=sharing" target="blank">
                         Download Demo
@@ -27,14 +27,14 @@
                       <h3>Team</h3>
                     </div>
                     <div class= "left-right">
-                        <p>Apr 2017 - Sept 2017</p>
-                        <p>Mental Health</p>
-                        <p><a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="http://bdc.saikr.com/bdc" target="blank">
-                                        China Collegiate Computing Contest</a></p>
-                        <p><a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="http://mypage.zju.edu.cn/en/zhangkejun" target="blank">
+                        <p>Apr 2017 - Sept 2017<br>
+                        Mental Health<br>
+                        <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="http://bdc.saikr.com/bdc" target="blank">
+                                        China Collegiate Computing Contest</a><br>
+                        <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="http://mypage.zju.edu.cn/en/zhangkejun" target="blank">
                                         Prof. Kejun Zhang @ZJU
-                        </a></p>
-                        <p>Sixuan Li, Zheren Fu (3D modeling, psychology)</p>
+                        </a><br>
+                        Sixuan Li, Zheren Fu (3D modeling, psychology)</p>
                     </div>
                 </div>
             </div>
@@ -471,10 +471,9 @@ export default {
 
 
 <style>
-
 p{
     font-family: 'Lora', serif;
-    margin:0;
+    margin:0 0 10px 0;
     line-height: 29px;
     font-size: 16px;
     letter-spacing: 0.05em;
@@ -488,39 +487,59 @@ h1{
     letter-spacing:2px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
+    line-height: 2.4rem;
     color: #202020;
-    margin: 10px 0 20px 0;
+    margin: 10px 0 0 0;
     text-align:left;
 }
 h2{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #202020;
     margin: 18px 0 11px 0;
     text-align:left;
 }
 h3{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #202020;
     line-height: 29px;
     text-align:left;
+    /* text-transform: uppercase; */
     margin:0;
 }
 h4{
-    font-weight: bold;
-    letter-spacing:1px;
+    font-weight:bolder;
+    /* font-weight:1000; */
+    letter-spacing:0.6px;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     color:#000000;
     text-align:left;
-    margin-top:2rem;
+    margin-top:0rem;
+    margin-bottom:1rem;
 
 }
+
+h6{
+    font-weight: bold;
+    letter-spacing:1px;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    color: #9d9d9d;
+    margin: 12px 0 20px 0;
+    text-align:left;
+
+}
+.paragraph{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
 p.video{
     margin: 30px 0 80px;
     text-align: center;
@@ -570,7 +589,7 @@ img{
 }
 .table-3>tbody>tr>td{
     padding: 20px 30px;
-    font-family: Microsoft YaHei UI;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 29px;
@@ -591,7 +610,7 @@ img{
     border: solid #ffffff 2px;
     padding: 10px;
     vertical-align: middle;
-    font-family: Microsoft YaHei UI;
+    font-family: 'Lato', sans-serif;
     line-height: 27px;
     font-size: 15px;
     letter-spacing: 0.04em;
@@ -606,7 +625,7 @@ img{
 }
 
 h3.black{
-    font-family: Microsoft YaHei UI;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 29px;
@@ -616,7 +635,7 @@ h3.black{
 }
 
 h3.gray{
-    font-family: Microsoft YaHei UI;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 29px;

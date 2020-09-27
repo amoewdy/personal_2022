@@ -34,9 +34,9 @@
                         <h3>CLIENT</h3>
                         </div>
                         <div class= "left-right">
-                            <p>Jan - Mar 2020, 8 Weeks</p>
-                            <p>Mobile App, Web Portal,<br> Internship Reflection</p>  
-                            <p>Under NDA</p>
+                            <p>Jan - Mar 2020, 8 Weeks<br>
+                            Mobile App, Web Portal,<br> Internship Reflection<br>  
+                            Under NDA</p>
                             </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                 <p>
                 As an iPhone user, I completely rely on iCloud. I use it to sync my photos, share files across devices, and store all my memories.
                 </p>
-                <p><br>
+                <p>
                 However, for Android users, things are not that easy. There is not a one-stop solution for Android platforms. They might need to use many separated products to handle file synchronization and back-ups, such as one drive for files or google photos for images. Some less obvious data (like settings, reminders, and wallpapers) is not backed up at all.
                 </p>
             </div>
@@ -126,7 +126,7 @@
                 <p>
                 The Android ecosystem is open and complex. This solution should apply to all elements here: OEMs, customized OS, 3rd party Apps, and different data types.
                 </p>
-                <p><br>
+                <p>
                 No matter what device or app they use, users should feel a constant peace of mind that all data is backed up, with the right mental model about what data is accessible or encrypted.
                 </p>
             </div>
@@ -164,7 +164,7 @@
                 Working with clients is like leading without authority. We can not make a decision for them, but we help them make the best decision through narrative.
                 </p>
                 <p>
-                <br>To get their input, the narrative is as important as the solution we suggest. Usually, there are multiple stakeholders, and they haven't talked with each other before they come to us. The narrative that we build provides them with the framework and language to get involved in the conversation and contribute insights.
+                To get their input, the narrative is as important as the solution we suggest. Usually, there are multiple stakeholders, and they haven't talked with each other before they come to us. The narrative that we build provides them with the framework and language to get involved in the conversation and contribute insights.
                 </p>
             </div>
             <div class="paragraph">
@@ -173,10 +173,10 @@
                 We switch between two mindsets at different design stages. It makes it easier for us to reach a solution without being overwhelmed by the complexity of the ecosystem.
                 </p>
                 <p>
-                <br>
+
                 At the early ideation stages, we're empathetic. We completely focus on the users, think from their perspective, and feel how they would feel under the scenarios. By doing so, we can have a clear design direction in mind.    
                 </p>
-                <p><br>
+                <p>
                 When designing the details of the product,  we're rational. We study the system and technical limits, prioritize features based on user demand and feasibility. In this way, we get a design for MVP.    
                 </p>
             </div>
@@ -223,7 +223,7 @@ export default {
 
 p{
     font-family: 'Lora', serif;
-    margin:0;
+    margin:0 0 16px 0;
     line-height: 29px;
     font-size: 16px;
     letter-spacing: 0.05em;
@@ -237,24 +237,25 @@ h1{
     letter-spacing:2px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
+    line-height: 2.4rem;
     color: #202020;
-    margin: 10px 0 3px 0;
+    margin: 10px 0 0 0;
     text-align:left;
 }
 h2{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #202020;
     margin: 18px 0 11px 0;
     text-align:left;
 }
 h3{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #202020;
     line-height: 29px;
     text-align:left;
@@ -264,25 +265,29 @@ h3{
 h4{
     font-weight:bolder;
     /* font-weight:1000; */
-    letter-spacing:0.1px;
+    letter-spacing:0.6px;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     color:#000000;
     text-align:left;
-    margin-top:1.8rem;
-    margin-bottom:0.8rem;
+    margin-top:0rem;
+    margin-bottom:1rem;
 
 }
 
 h6{
     font-weight: bold;
     letter-spacing:1px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 22px;
     color: #9d9d9d;
-    margin: 0 0 20px 0;
+    margin: 12px 0 20px 0;
     text-align:left;
 
+}
+.paragraph{
+    margin-top:2rem;
+    margin-bottom:2rem;
 }
 p.video{
     margin: 30px 0 80px;

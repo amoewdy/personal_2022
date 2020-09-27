@@ -24,7 +24,6 @@
                         <p>
                             This summer, I collaborated with a cross-functional team on the redesign of the video player sidebar to elevate the synthesis experience for researchers and business decision makers.
                         </p>
-                        <br>
                         <p>To comply with my NDA, I have omitted and obfuscated confidential information in this case study.</p> 
                        <p>Please <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="Mailto:sixuanli@outlook.com" target="blank">contact me</a> if you are interested in this story.
                         </p>
@@ -37,8 +36,8 @@
                         <h3> &nbsp</h3>
                         </div>
                         <div class= "left-right">
-                            <p>Jun 2020 - Current, ongoing</p>
-                            <p>User Researcher, Product Manager, Engineering Lead, Sr User Researcher, UX Writer, Developers</p>  
+                            <p>Jun 2020 - Current, ongoing<br>
+                            User Researcher, Product Manager, Engineering Lead, Sr User Researcher, UX Writer, Developers</p>  
                             </div>
                     </div>
                 </div>
@@ -82,7 +81,7 @@
                 <h4>Background</h4>
                 <p>
                 <b>UserTesting</b> is a customer insight platform that allows Researchers and Business Decision Makers to see, hear, and talk to their customers remotely, and get raw feedback in form of videos. </p>
-                <p><br>
+                <p>
                 <b>Video Player</b> is a major tool the UserTesting platform provides to customers to process the videos and analyze raw data. A lot of users request an updated synthesis experience from the video player.</p>
             </div>
             <div class="paragraph">
@@ -110,10 +109,12 @@
                     <h5>&nbsp</h5>
                 </div>
             </div>
+        </div>
+        <div class="content-container-large">
+            <img src="/static/usertesting/process.png" width='100%' class='large-img'>
+        </div>
+        <div class="content-container">
              <div class="paragraph">
-                <div class='image-middle-container'>
-                    <img src="/static/usertesting/process.png" width="100%">
-                </div>
                 <p>
                 The process covers competitor research, usability testing, group brainstorming, iterations, and deep collaboration with stakeholders.</p>
                 </p>
@@ -199,10 +200,12 @@
                     <h5>&nbsp</h5>
                 </div>
             </div>
+        </div>
+        <div class="content-container-large">
+            <img src="/static/usertesting/internship overview.png" width='100%' class='large-img'>
+        </div>
+        <div class="content-container">
              <div class="paragraph">
-                <div class='image-middle-container'>
-                    <img src="/static/usertesting/internship overview.png" width="100%">
-                </div>
                 <p>
                     This summer is unforgettable for me. In the next few months, I'll continue learning and growing at UserTesting, and work with engineers to bring the design to life.
                 </p>
@@ -264,7 +267,7 @@ export default {
 
 p{
     font-family: 'Lora', serif;
-    margin:0;
+    margin:0 0 10px 0;
     line-height: 29px;
     font-size: 16px;
     letter-spacing: 0.05em;
@@ -278,24 +281,25 @@ h1{
     letter-spacing:2px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
+    line-height: 2.4rem;
     color: #202020;
-    margin: 10px 0 3px 0;
+    margin: 10px 0 0 0;
     text-align:left;
 }
 h2{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #202020;
     margin: 18px 0 11px 0;
     text-align:left;
 }
 h3{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #202020;
     line-height: 29px;
     text-align:left;
@@ -305,33 +309,38 @@ h3{
 h4{
     font-weight:bolder;
     /* font-weight:1000; */
-    letter-spacing:0.1px;
+    letter-spacing:0.6px;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     color:#000000;
     text-align:left;
     margin-top:0rem;
-    margin-bottom:0.8rem;
+    margin-bottom:1rem;
 
 }
 
 h6{
     font-weight: bold;
     letter-spacing:1px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 22px;
     color: #9d9d9d;
-    margin: 0 0 20px 0;
+    margin: 12px 0 20px 0;
     text-align:left;
 
 }
+.paragraph{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
 p.video{
     margin: 30px 0 80px;
     text-align: center;
 }
 .quote{
     position: relative;
-    border-left: dashed #a4a4a4 1px;
+    border-left: dashed #9d9d9d 1px;
     margin: 20px;
     margin-right: 0;
     margin-left: 25px;
@@ -430,7 +439,7 @@ h3.gray{
     font-size: 15px;
     letter-spacing: 0.04em;
 
-    color: #828282;
+    color: #9d9d9d;
 }
 
 td.dark-td{
@@ -454,9 +463,7 @@ td.light-td{
 .findings{
     margin:20px auto;
 }
-.paragraph{
-    margin-top:2rem;
-}
+
 .interview{
     margin:0;
 }

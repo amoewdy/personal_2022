@@ -40,11 +40,11 @@
                         <h3>TECH</h3>
                         </div>
                         <div class= "left-right">
-                            <p>Feb - Mar 2020, 4 Weeks</p>
-                            <p>Design tool</p>  
-                            <p>
-                            <p>Sixuan Li</p>
-                            <p>
+                            <p>Feb - Mar 2020, 4 Weeks<br>
+                            Design tool<br>  
+                            
+                            Sixuan Li<br>
+                            
                                 ReactJS<br>
                                 Chalice, OpenCV<br> 
                                 AWS Lambda/API Gateway
@@ -258,10 +258,9 @@ export default {
 }
 
 
-
 p{
     font-family: 'Lora', serif;
-    margin:0;
+    margin:0 0 10px 0;
     line-height: 29px;
     font-size: 16px;
     letter-spacing: 0.05em;
@@ -275,24 +274,25 @@ h1{
     letter-spacing:2px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
+    line-height: 2.4rem;
     color: #202020;
-    margin: 10px 0 3px 0;
+    margin: 10px 0 0 0;
     text-align:left;
 }
 h2{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #202020;
     margin: 18px 0 11px 0;
     text-align:left;
 }
 h3{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #202020;
     line-height: 29px;
     text-align:left;
@@ -302,23 +302,23 @@ h3{
 h4{
     font-weight:bolder;
     /* font-weight:1000; */
-    letter-spacing:0.1px;
+    letter-spacing:0.6px;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     color:#000000;
     text-align:left;
-    margin-top:1.8rem;
-    margin-bottom:0.8rem;
+    margin-top:0rem;
+    margin-bottom:1rem;
 
 }
 
 h6{
     font-weight: bold;
     letter-spacing:1px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 22px;
     color: #9d9d9d;
-    margin: 0 0 20px 0;
+    margin: 12px 0 20px 0;
     text-align:left;
 
 }
@@ -343,6 +343,12 @@ p.video{
 .quote>p>b.orange{
     color: #F2994A;
 }
+
+.paragraph{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
 .interview{
     display: flex;
     margin-top:4rem;

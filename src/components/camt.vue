@@ -35,22 +35,20 @@
                         <h3>SPONSOR</h3>
                         </div>
                         <div class= "left-right">
-                            <p>Mar - May 2019, 10 Weeks</p>
-                            <p>IoT, Smartband, Medical Device</p>  
-                            <p>
+                            <p>Mar - May 2019, 10 Weeks<br>
+                            IoT, Smartband, Medical Device<br> 
                                 <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://github.com/chemwolf6922" target="blank">
                             Feng Wang
                             </a> 
                              /Hardware Engineer,   
-                            </p>    
-                            <p> 
+                            <br>    
                             <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://github.com/Cutuy" target="blank">
                             Jason Cui 
                             </a> 
                             /Software Engineer,   
-                            </p> 
-                            <p>Sixuan Li</p>
-                            <p>Jennifer Sonney, Ph.D., ARNP, PPCNP-BC, Assistant Professor, Department of Family and Child Nursing, University of Washington</p>
+                            <br> 
+                            Sixuan Li</br>
+                            Jennifer Sonney, Ph.D., ARNP, PPCNP-BC, Assistant Professor, Department of Family and Child Nursing, University of Washington</p>
                         </div>
                     </div>
                 </div>
@@ -229,15 +227,12 @@
                 </div>
             </div>
             <div class="paragraph">
-                <h4>Why there should be an upload device?</h4>
+                <h4>Asynchronous data transfer might help avoid lying</h4>
                 <div class="quote">
                     <p>
                         “Children are more likely to act irrationally than adults.”
                     </p>
                 </div>
-                <p>
-                    <b>Asynchronous data transfer might help avoid lying</b>
-                </p>
                 <p>
                     While real-time data is nice for parents to view, it might cause privacy issues and children’s resistance. When the children are trusted to have full control of the wearable device, they would be more likely to wear it and use it properly since they know their symptom report would not make their parents worried instantly.</p>
             </div>
@@ -553,7 +548,7 @@ export default {
 
 p{
     font-family: 'Lora', serif;
-    margin:0;
+    margin:0 0 10px 0;
     line-height: 29px;
     font-size: 16px;
     letter-spacing: 0.05em;
@@ -567,24 +562,25 @@ h1{
     letter-spacing:2px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
+    line-height: 2.4rem;
     color: #202020;
-    margin: 10px 0 3px 0;
+    margin: 10px 0 0 0;
     text-align:left;
 }
 h2{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #202020;
     margin: 18px 0 11px 0;
     text-align:left;
 }
 h3{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #202020;
     line-height: 29px;
     text-align:left;
@@ -594,23 +590,23 @@ h3{
 h4{
     font-weight:bolder;
     /* font-weight:1000; */
-    letter-spacing:0.2px;
+    letter-spacing:0.6px;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     color:#000000;
     text-align:left;
-    margin-top:1.8rem;
-    margin-bottom:0.8rem;
+    margin-top:0rem;
+    margin-bottom:1rem;
 
 }
 
 h6{
     font-weight: bold;
     letter-spacing:1px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 22px;
     color: #9d9d9d;
-    margin: 0 0 20px 0;
+    margin: 12px 0 20px 0;
     text-align:left;
 
 }
@@ -642,6 +638,11 @@ p.video{
 .interview2{
     display: flex;
 }
+.paragraph{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
 .right_p{
     flex:1;
     margin-left: 3rem;

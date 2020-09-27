@@ -81,16 +81,24 @@
                 A social robot can act as a social interface for users to program their smart homes through more <b>natural interactions</b>, especially for those with <b>lower technology literacy</b>, such as older adults.   
                 </p>
             </div>
-            <div class="paragraph">
+            <div class='paragraph'>
                 <h4>Input/Output Channel</h4>
+                <div class="interview">
+                <div class='left-p' style="width:50%">
                 <p>
                 <b>Input</b>
-                <br>Touch screen button
+                <br>Touch screen
                 <br>Camera
-                <br><b>Output</b>
+                </p>
+                </div>
+                <div class='right-p'>
+                <p>
+                <b>Output</b>
                 <br>Text on screen
                 <br>Gaze and facial expressions
                 </p>
+                </div>
+                </div>
             </div>
         </div>
     </div>
@@ -109,26 +117,28 @@
                 <div class='image-middle-container text-image' style='width:70%'>
                     <img src="/static/pika/greetings.gif" width="100%">
                 </div>
-                <p>
-                <b>Greet you with facial expressions</b>
-                <br>The facial expression of the robot is coded with HTML Canvas and JavaScript. When you come home, she will greet you with a big smile.
+                <h4>Greet you with facial expressions</h4>
+                <p>The facial expression of the robot is coded with HTML Canvas and JavaScript. When you come home, she will greet you with a big smile.
                 </p>
                 <div class='image-middle-container text-image' style='width:70%'>
                     <img src="/static/pika/browser.gif" width="100%">
                 </div>
+            </div>
+            <div class="paragraph">
+                <h4>Recognition you and your families</h4>
                 <p>
-                <b>Recognition you and your families</b>
-                <br>
                 After you ring the doorbell, Pika will start the camera and recognize people at the front door with face tracking and face recognition.
                 </p>
+            </div>
+            <div class="paragraph">
+                <h4>Unlock the door if you bring the key</h4>
                 <p>
-                <br><b>Unlock the door if you bring the key</b>
-                <br>
                 After the robot recognizes you, it will start the key(QR code) detector automatically and welcome you in.
                 </p>
+            </div>
+            <div class="paragraph">
+                <h4>Connection with other devices</h4>
                 <p>
-                <br><b>Connection with other devices</b>
-                <br>
                 Pika opens the door for you, at the same time will trigger the applets of IFTTT to help you turn on the light or call your families.
                 </p>
             </div>
@@ -201,24 +211,25 @@ h1{
     letter-spacing:2px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
+    line-height: 2.4rem;
     color: #202020;
-    margin: 10px 0 3px 0;
+    margin: 10px 0 0 0;
     text-align:left;
 }
 h2{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #202020;
     margin: 18px 0 11px 0;
     text-align:left;
 }
 h3{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #202020;
     line-height: 29px;
     text-align:left;
@@ -228,25 +239,30 @@ h3{
 h4{
     font-weight:bolder;
     /* font-weight:1000; */
-    letter-spacing:0.1px;
+    letter-spacing:0.6px;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     color:#000000;
     text-align:left;
-    margin-top:1.8rem;
-    margin-bottom:0.8rem;
+    margin-top:0rem;
+    margin-bottom:1rem;
 
 }
 
 h6{
     font-weight: bold;
     letter-spacing:1px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 22px;
     color: #9d9d9d;
-    margin: 0 0 20px 0;
+    margin: 12px 0 20px 0;
     text-align:left;
 
+}
+
+.paragraph{
+    margin-top:2rem;
+    margin-bottom:2rem;
 }
 p.video{
     margin: 30px 0 80px;

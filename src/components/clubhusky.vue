@@ -11,7 +11,7 @@
                 <div class = "left">
                     <div class="paragraph">
                         <h1>clubHusky</h1>
-                        <p>When new students ask seniors for advice, the most common answer they get would probably be "join a student organization first, and then decide whether you want to join more or quit". I believe this is a good entry point.
+                        <p><br>When new students ask seniors for advice, the most common answer they get would probably be "join a student organization first, and then decide whether you want to join more or quit". I believe this is a good entry point.
                         </p></br>
                             <p>
                             clubHusky is an experience for new students to <b>browse, search, and propose new student organizations</b> in University of Washington. </p>
@@ -26,9 +26,9 @@
                         <h3>Team</h3>
                         </div>
                         <div class= "left-right">
-                            <p>Jan 2019, one week</p>
-                            <p>Social Platform</p>      
-                            <p>Personal Project</p>
+                            <p>Jan 2019, one week<br>
+                            Social Platform<br>      
+                            Personal Project</p>
                         </div>
                     </div>
                 </div>
@@ -269,7 +269,7 @@ export default {
 
 p{
     font-family: 'Lora', serif;
-    margin:0;
+    margin:0 0 10px 0;
     line-height: 29px;
     font-size: 16px;
     letter-spacing: 0.05em;
@@ -283,24 +283,25 @@ h1{
     letter-spacing:2px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
+    line-height: 2.4rem;
     color: #202020;
-    margin: 10px 0 20px 0;
+    margin: 10px 0 0 0;
     text-align:left;
 }
 h2{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #202020;
     margin: 18px 0 11px 0;
     text-align:left;
 }
 h3{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #202020;
     line-height: 29px;
     text-align:left;
@@ -309,15 +310,32 @@ h3{
 }
 h4{
     font-weight:bolder;
-    letter-spacing:0.2px;
+    /* font-weight:1000; */
+    letter-spacing:0.6px;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     color:#000000;
     text-align:left;
-    margin-top:1.8rem;
-    margin-bottom:0.8rem;
+    margin-top:0rem;
+    margin-bottom:1rem;
 
 }
+
+h6{
+    font-weight: bold;
+    letter-spacing:1px;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    color: #9d9d9d;
+    margin: 12px 0 20px 0;
+    text-align:left;
+
+}
+.paragraph{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
 p.video{
     margin: 30px 0 80px;
     text-align: center;

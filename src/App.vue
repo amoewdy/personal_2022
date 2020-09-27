@@ -49,20 +49,21 @@ export default {
 <style>
 .recent-project .right-large h1{
     font-size: 26px;
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.2rem;
+    Font-weight:700;
 }
 .recent-project .right-large h2{
     font-family: 'Lora';
-    color:#BDBDBD;
+    color:#afafaf;
     font-size:20px;
     letter-spacing: 0.1em;
     line-height: 32px;
-    margin-top:0px;
+    margin-top:-10px;
 }
 @media (max-width: 1100px) {
 .recent-project .right-large h1{
     font-size: 24px;
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.2rem;
 }
 .recent-project .right-large h2{
     font-size:18px;
@@ -145,7 +146,7 @@ export default {
 
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
@@ -262,6 +263,8 @@ figcaption{
     font-family: 'Lato', sans-serif;
 }
 blockquote{
+    margin-top:30px;
+    margin-bottom:30px;
     font-size: 24px;
     line-height: 1.6;
     letter-spacing: 0.006em;
@@ -428,7 +431,7 @@ blockquote{
     font-weight: bold;
     font-family: 'Lora', serif;
     font-size: 29px;
-    color:#c9c9c9;
+    color:#9d9d9d;
     vertical-align: left;
 }
 .title .title-text>h5{
@@ -478,7 +481,7 @@ span{
 }
 .next{
     font-size: 18px;
-    color: #c9caca;
+    color: #9d9d9d;
 }
 
 .project{

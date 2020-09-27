@@ -22,9 +22,9 @@
                         <h3>Team</h3>
                         </div>
                         <div class= "left-right">
-                            <p>Nov 2018 - Dec 2018</p>
-                            <p>Interactive Installation</p>      
-                            <p>Sixuan Li, Evie Zhang</p>
+                            <p>Nov 2018 - Dec 2018<br>
+                            Interactive Installation<br>      
+                            Sixuan Li, Evie Zhang</p>
                         </div>
                     </div>
                 </div>
@@ -355,7 +355,7 @@ export default {
 
 p{
     font-family: 'Lora', serif;
-    margin:0;
+    margin:0 0 10px 0;
     line-height: 29px;
     font-size: 16px;
     letter-spacing: 0.05em;
@@ -369,50 +369,59 @@ h1{
     letter-spacing:2px;
     font-family: 'Lato', sans-serif;
     font-size: 30px;
+    line-height: 2.4rem;
     color: #202020;
-    margin: 10px 0 3px 0;
+    margin: 10px 0 0 0;
     text-align:left;
 }
 h2{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #202020;
     margin: 18px 0 11px 0;
     text-align:left;
 }
-h6{
-    font-weight: bold;
-    letter-spacing:1px;
-    font-family: 'Lato', sans-serif;
-    font-size: 22px;
-    color: #9d9d9d;
-    margin: 0 0 20px 0;
-    text-align:left;
-
-}
 h3{
     font-weight: bold;
-    letter-spacing:1px;
+    letter-spacing:0.8px;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #202020;
     line-height: 29px;
     text-align:left;
+    /* text-transform: uppercase; */
     margin:0;
 }
 h4{
     font-weight:bolder;
-    letter-spacing:0.2px;
+    /* font-weight:1000; */
+    letter-spacing:0.6px;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     color:#000000;
     text-align:left;
-    margin-top:1.8rem;
-    margin-bottom:0.8rem;
+    margin-top:0rem;
+    margin-bottom:1rem;
 
 }
+
+h6{
+    font-weight: bold;
+    letter-spacing:1px;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    color: #9d9d9d;
+    margin: 12px 0 20px 0;
+    text-align:left;
+
+}
+.paragraph{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
 p.video{
     margin: 30px 0 80px;
     text-align: center;

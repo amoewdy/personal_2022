@@ -11,7 +11,7 @@
                 <div class = "left">
                     <div class="paragraph">
                         <h1>HEMA-GO Fresh</h1>
-                        <p>HEMA Fresh is a pioneer of new retailing, based on a combination of online and offline experiences. 
+                        <p><br>HEMA Fresh is a pioneer of new retailing, based on a combination of online and offline experiences. 
                         The offline shops help to increase the customer’s frequency of ordering online as they can view the 
                         quality of products in store, and the online application helps as a platform to know about the news 
                         for the offline shops and to easily order food for home delivery. The shop focuses on fresh seafood 

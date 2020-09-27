@@ -11,7 +11,7 @@
                 <div class = "left">
                     <div class="paragraph">
                         <h1>iCushion</h1>
-                        <p>iCushion is a smart cushion that helps children improve their sitting posture. It can be viewed as an intelligent system that samples and analyses multi-channel data, provides health advice, and thereby helps children develop healthy sitting habits.
+                        <p><br>iCushion is a smart cushion that helps children improve their sitting posture. It can be viewed as an intelligent system that samples and analyses multi-channel data, provides health advice, and thereby helps children develop healthy sitting habits.
                         </p>
                     </div>
                     <div class="info">

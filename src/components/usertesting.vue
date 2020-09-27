@@ -231,9 +231,9 @@
     <div class="light-page">
         <div class="content-container">
             <div class="ending-pointer">
-                <div onclick="window.location.href='/#/camt'">
+                <div onclick="window.location.href='/#/harmonica'">
                     <span class="next">Next Project</span><br/>
-                    <span class="project">A-Watch</span>
+                    <span class="project">Harmonica</span>
                 </div>
             </div>
         </div>

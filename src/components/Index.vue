@@ -111,7 +111,7 @@
     <div class='recent-project'>
         <div class="left-large">
             <div class="triggerOnScroll">
-                <img class="itemImg" src="/static/home/harmonica.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/harmonica-92a53d343515')"/> 
+                <img class="itemImg" src="/static/home/harmonica.png" alt="" width="100%"  onclick="window.location.href='/#/harmonica'"/> 
             </div>
         </div>
         <div class='right-large' id='recent-border' style='position: relative;'>

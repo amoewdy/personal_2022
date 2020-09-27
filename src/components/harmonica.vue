@@ -1,0 +1,434 @@
+<template>
+    <div class="animated fadeIn delay-0.5s">
+
+    <!-- <div id="Loading">
+        <div class="loader-inner ball-beat">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div> -->
+
+  <div class = 'container'>
+     <div class="content-container-large">
+            <img src="static/harmonica/title.png" width='100%' class='large-img'>
+    </div>
+    <div class="first-page">
+        <div class="content-container-title">
+            <div class="parent">
+                <div class = "left">
+                    <div class="paragraph">
+                        <!-- <h1>A-Watch</br>Child Asthma Management Toolkit</h1> -->
+                        <h1>Harmonica</h1>
+                        <h6>Enhanced audio experience with ambient awareness</h6>
+                        <p>
+                            Harmonica is our Launch Project at Global Innovation Exchange(GIX), University of Washington. 
+                        </p>    
+                        <p>
+                            During the past 6 months, my teammates and I partnered with Harman JBL, worked on the next-gen active noise-canceling(ANC) headsets to achieve a comprehensive audio experience. 
+                        </p>
+                        <p>
+                            <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://medium.com/@sixuanli/harmonica-92a53d343515" target="blank">
+                            Read Full Case Study
+                            </a>
+                        </p>
+                        </div>
+                    <div class="info">
+                        <div class = "left-left">
+                        <h3>TIMELINE</h3>
+                        <h3>TEAM</h3>
+                        <h3> &nbsp</h3>
+                        <h3> &nbsp</h3>
+                        <h3> SPONSOR</h3>
+                        </div>
+                        <div class= "left-right">
+                            <p>Jul - Dec 2019, 6 Months<br>
+                            <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://github.com/Cutuy" target="blank">
+                            Chenyu Cui</a> | Software Engineer,<br>
+                            <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://github.com/chemwolf6922" target="blank">
+                            Feng Wang</a> | Software Engineer,<br>
+                            Mike Pan | Machine Learning Engineer,<br>
+                            Principal Audio System Architect, HARMAN International<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "right">
+                    <div class="paragraph">
+                        <h2>My role</h2>
+                            <p>
+                                Product Manager<br>
+                                UX Designer<br>
+                            </p>
+                        <h2>Skills</h2>
+                            <p>
+                                Feature Define<br>
+                                User Research<br>
+                                GTM Strategy
+                            </p>
+                        <h2>Deliverables</h2>
+                            <p> 
+                                Functional Demo<br>
+                                Onboarding UX<br>
+                                Feature Specs<br>
+                                6-Month Launch Plan<br>
+                            </p> 
+                        <h2>Methods</h2>
+                        <p>
+                        Diary Study<br>
+                        Behavior Prototyping<br>
+                        Survey, Interview<br>
+                        Affinity Diagram<br>
+                        Storyboard
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p class="video">
+            <iframe width="100%" height="480" src="https://www.youtube.com/embed/6ToJ2ZyJbrQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </p>
+        </div>
+    </div>
+    <div class="light-page">
+        <div class="content-container">
+            <div class="title">
+                <div class = "title-color2"> </div>
+                <div class="title-text">
+                    <h4>OVERVIEW</h4>
+                    <h5>&nbsp</h5>
+                </div>
+            </div>
+            <div class="paragraph">
+                <h4>PROBLEM</h4>
+                <blockquote>
+                    Block all sounds including what we care about, or take off headphones and face the noisy outsides?
+                </blockquote>
+            </div>
+            <div class="paragraph">
+                <h4>Headphones bring temporary hearing disability</h4>
+                <p>
+                    When we enjoy music with headphones to relax or focus, we block all sounds including what we care about, which causes safety & social issues.
+                </p>
+                <p>
+                    Or we’ll need to take off headphones and face noisy outsides frequently when we do need to interact with surroundings.
+                </p>
+            </div>
+            <div class="paragraph">
+                <div class='image-middle-container'>
+                    <img src="/static/harmonica/Problem.png" width="70%">
+                </div>
+            </div>
+            <div class="paragraph">
+                <h4>PROPOSAL</h4>
+                <blockquote>
+                    Headphones that you never need to take off
+                </blockquote>
+                <h4>Ideal headphones would be Always-on, Instant-away</h4>
+                <p>
+                    <b>Always-on</b> People can wear headphones in any situation, all day long, at conversations, outdoor walks, noisy office, or waiting at terminals.
+                </p>
+                <p>
+                    <b>Instant-away</b> Headphones can help people’s timely reactions to emergency, broadcasts, and greetings from others as if they disappear instantly
+                </p>
+                <div class='image-middle-container'>
+                    <img src="/static/harmonica/problem.gif" width="100%">
+                </div>
+            </div>
+            <div class="paragraph">
+                <h4>SOLUTION</h4>
+                <blockquote>
+                    Empowering headphones with ambient awareness
+                </blockquote>
+                <p>
+                    An ML-powered real-time software solution which monitors, predicts, and reacts to surroundings, featuring:
+                </p>
+            </div>
+            <div class="paragraph">
+                <div class='interview' >
+                    <div class='left_p'>
+                        <img src="/static/harmonica/feature1.png" width="90%">
+                    </div>
+                    <div class="right_p">
+                        <h4>Seamless Conversation</h4>
+                        <p>
+                            Talk without taking off your headphones, and resume music with a single tap
+                        </p>
+                    </div>
+                </div> 
+            </div>
+            <div class="paragraph">
+                <div class='interview' >
+                    <div class='left_p'>
+                        <img src="/static/harmonica/feature2.png" width="90%">
+                    </div>
+                    <div class="right_p">
+                        <h4>Just-enough Outside Sound</h4>
+                        <p>
+                            Talk without taking off your headphones, and resume music with a single tap
+                        </p>
+                    </div>
+                </div> 
+            </div>
+            <div class="paragraph">
+                <div class='interview' >
+                    <div class='left_p'>
+                        <img src="/static/harmonica/feature3.png" width="90%">
+                    </div>
+                    <div class="right_p">
+                        <h4>Event Monitoring</h4>
+                        <p>
+                            Notify you when key sounds are detected so you will not miss important information
+                        </p>
+                    </div>
+                </div> 
+            </div>
+            <div class="paragraph">
+                <h4>Onboarding Experience</h4>
+                <div class='image-middle-container'>
+                    <img src="/static/harmonica/screen_recording_medium.gif" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="light-page">
+        <div class="content-container">
+            <div class="ending-pointer">
+                <div onclick="window.location.href='/#/camt'">
+                    <span class="next">Next Project</span><br/>
+                    <span class="project">A-Watch</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</template>
+
+
+<script>
+export default {
+        created() {  
+        var delayInMilliseconds = 800;
+        setTimeout(function() {
+            document.body.removeChild(document.getElementById('Loading'))   
+        }, delayInMilliseconds); 
+    },
+}
+</script>
+
+<style>
+.title{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    vertical-align: left;
+    display:flex;
+}
+
+
+
+p{
+    font-family: 'Lora', serif;
+    margin:0 0 10px 0;
+    line-height: 29px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    color: #000000;
+    text-align:left;
+    /* margin-bottom:5rem; */
+}
+h1{
+    font-weight: bold;
+    letter-spacing:2px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    line-height: 2.4rem;
+    color: #202020;
+    margin: 10px 0 0 0;
+    text-align:left;
+}
+h2{
+    font-weight: bold;
+    letter-spacing:0.8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #202020;
+    margin: 18px 0 11px 0;
+    text-align:left;
+}
+h3{
+    font-weight: bold;
+    letter-spacing:0.8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #202020;
+    line-height: 29px;
+    text-align:left;
+    /* text-transform: uppercase; */
+    margin:0;
+}
+h4{
+    font-weight:bolder;
+    /* font-weight:1000; */
+    letter-spacing:0.6px;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color:#000000;
+    text-align:left;
+    margin-top:0rem;
+    margin-bottom:1rem;
+
+}
+
+h6{
+    font-weight: bold;
+    letter-spacing:1px;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    color: #9d9d9d;
+    margin: 12px 0 20px 0;
+    text-align:left;
+
+}
+.paragraph{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+p.video{
+    margin: 30px 0 80px;
+    text-align: center;
+}
+.quote{
+    position: relative;
+    border-left: dashed #9d9d9d 1px;
+    margin: 20px;
+    margin-right: 0;
+    margin-left: 25px;
+    padding-left: 8px;
+    /* margin-bottom:20px; */
+    /* font-style: italic; */
+}
+
+.quote>p>b.yellow{
+    color: #F3D884;
+}
+.quote>p>b.orange{
+    color: #F2994A;
+}
+.interview{
+    display: flex;
+    margin-top:4rem;
+}
+.interview2{
+    display: flex;
+}
+.right_p{
+    flex:1;
+    margin-left: 3rem;
+    }
+.right_p2{
+    flex:1;
+    }
+.left_p2{
+    flex: 0 0 7rem;
+}
+.left_p{
+    flex: 0 0 300px;
+}
+img{
+    /* margin: 0px 0 5px 0; */
+}
+.image-middle-container{
+    margin: 40px auto;
+}
+.large-img{
+    margin:3rem 0 3rem 0;
+}
+.table-3>tbody>tr>td{
+    padding: 20px 30px;
+    font-family: Microsoft YaHei UI;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 29px;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    border: 0;
+    vertical-align: top;
+}
+
+.table-3>tbody>tr>td>h3{
+    margin: 0;
+}
+
+.table-3-left{
+    width: 35%;
+}
+.table>tbody>tr>td, .table>tbody>tr>th{
+    border: solid #ffffff 2px;
+    padding: 10px;
+    vertical-align: middle;
+    font-family: Microsoft YaHei UI;
+    line-height: 27px;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+}
+
+.table>tbody>tr>td{
+    text-align: left;
+}
+
+.table>tbody>tr>th{
+    text-align: center;
+}
+
+h3.black{
+    font-family: Microsoft YaHei UI;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 29px;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+h3.gray{
+    font-family: Microsoft YaHei UI;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 29px;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+
+    color: #9d9d9d;
+}
+
+td.dark-td{
+    background-color: #f2f2f2; ;
+    padding:15px 20px;
+}
+
+td.light-td{
+    background-color: #ffffff; ;
+    padding:15px 20px;
+}
+.dark-dark-page{
+    position: relative;
+    background-color: #E0E0E0;
+    padding: 20px 20px 60px;
+}
+.text-image{
+    width:86%;
+    margin:40px auto;
+}
+.findings{
+    margin:20px auto;
+}
+
+.interview{
+    margin:0;
+}
+</style>

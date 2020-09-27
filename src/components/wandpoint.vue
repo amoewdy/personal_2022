@@ -12,7 +12,7 @@
                 <div class="paragraph">
                     <h1>Wandpoint</h1>
                         <p>
-                                Wandpoint is a handheld AR projection device used in old streets that releases and interprets architectural memories that have disappeared over time. During the day, the old block continues to exist as a commercial and cultural area; at night, wandpoint brings people back in time to enjoy scenes of past life by creating a nostalgic atmosphere.
+                                <br>Wandpoint is a handheld AR projection device used in old streets that releases and interprets architectural memories that have disappeared over time. During the day, the old block continues to exist as a commercial and cultural area; at night, wandpoint brings people back in time to enjoy scenes of past life by creating a nostalgic atmosphere.
                             </p>
                             <p>
                                 Wandpoint, as a storytelling tool, introduces users to an interesting narrative space. Users need to take the initiative to explore, and the illuminated houses, vegetation, and interior furnishings will appear as they did years ago.

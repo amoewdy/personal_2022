@@ -18,6 +18,7 @@ import sketchslicer from "@/components/sketchslicer"
 import shelfclock from "@/components/shelfclock"
 import backupUX from "@/components/backupUX"
 import usertesting from "@/components/usertesting"
+import harmonica from "@/components/harmonica"
 
 Vue.use(Router)
     // Vue.use(BootstrapVue);
@@ -107,6 +108,11 @@ export default new Router({
             path: '/usertesting',
             name: 'usertesting',
             component:  usertesting
+        },
+        {
+            path: '/harmonica',
+            name: 'harmonica',
+            component:  harmonica
         },
     ]
 })

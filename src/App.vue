@@ -58,7 +58,7 @@ export default {
     font-size:20px;
     letter-spacing: 0.1em;
     line-height: 32px;
-    margin-top:-10px;
+    /* margin-top:-10px; */
 }
 @media (max-width: 1100px) {
 .recent-project .right-large h1{
@@ -480,8 +480,11 @@ span{
     text-align:left;
 }
 .next{
-    font-size: 18px;
-    color: #9d9d9d;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #9d9d9d; */
+    color:#afafaf;
 }
 
 .project{

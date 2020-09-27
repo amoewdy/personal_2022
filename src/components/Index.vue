@@ -84,6 +84,31 @@
     </div>
     </div> -->
     <div class='recent-project'>
+        <div class='right-large' style='position: relative;'>
+            <h1>USERTESTING</h1>
+                <h2 >Get insights from raw feedback efficiently</h2>
+                <div class='tags'>
+                    <span class="tag">Product Design</span>    
+                    <span class="tag">Productivity Tool</span>
+                    <span class="tag">Web</span> 
+                    <span class="tag">Cross-Functional Team</span> 
+                </div>
+                <div class='recent-content'>
+                    <div class="company-logo-container">
+                         <img class="company-logo" style="width:180px;margin-left:0px;margin-bottom:6px" src="/static/home/UT_logo.png"/>
+                    </div>
+                    <p class="partner" style="padding-left:0; text-align: left;"> <b>Product Design Internship</b>
+                    </p>            
+                </div>
+        </div>
+        <div class="left-large">
+            <div class="triggerOnScroll">
+                <img class="itemImg" src="/static/home/UserTesting.png" alt="" width="100%"  onclick="window.location.href='/#/usertesting'"/> 
+            </div>
+        </div>
+    </div>
+
+    <div class='recent-project'>
         <div class="left-large">
             <div class="triggerOnScroll">
                 <img class="itemImg" src="/static/home/harmonica.png" alt="" width="100%"  onclick="window.open('https://medium.com/@sixuanli/harmonica-92a53d343515')"/> 
@@ -93,11 +118,11 @@
                         <h1>HARMONICA</h1>
                         <h2 >Enhanced audio experience with ambient awareness</h2>
                         <div class='tags'>
-                            <span class="tag">Audio Experience</span>    
+                            <span class="tag">Audio UX</span>    
                             <span class="tag">User Research</span>
-                            <span class="tag">New Feature</span>
-                            <span class="tag">Onboarding UX</span> 
+                            <span class="tag">Feature Define</span>
                             <span class="tag">Machine Learning</span> 
+                            <span class="tag">Product Management</span> 
                         </div>
                          <div class='recent-content'>
                             <div class="company-logo-container">
@@ -119,6 +144,7 @@
                     <span class="tag">Product Design</span>
                     <span class="tag">Front-end Development</span> 
                     <span class="tag">Data Visualization</span> 
+                    <span class="tag">Cross-Functional Team</span>
                 </div>
                 <div class='recent-content'>
                     <div class="company-logo-container">
@@ -127,7 +153,7 @@
                     </p>             -->
                     <p class="partner" style="padding-left:0; text-align: left;" > <b>Partner with School of Nursing University of Washington</b>
                     </p>              
-            </div>
+                </div>
         </div>
         <div class="left-large">
             <div class="triggerOnScroll">
@@ -157,7 +183,7 @@
                             <div class="company-logo-container">
                             <img class="company-logo" style="width:120px;margin:10px auto" src="/static/home/PCT_Logo.png"/>
                             </div>
-                            <p class="partner"> <b>Internship at Punchcut</b>
+                            <p class="partner"> <b>Design Technologist Internship</b>
                             </p>    
                         </div>
 
@@ -182,7 +208,7 @@
                     <p class="partner" style="padding-left:0; text-align: left;"> <b>Internship at Punchcut. Please contact me if you are interested in this story : )</b>
                     </p>            
             
-            </div>
+                </div>
         </div>
         <div class="left-large">
             <div class="triggerOnScroll">

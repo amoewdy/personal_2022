@@ -22,11 +22,12 @@
                         <h1>UserTesting <br>Product Design internship</h1>
                         <h6>Get insights from raw feedback efficiently</h6>
                         <p>
-                            This summer, I collaborated with a cross-functional team on the redesign of the video player sidebar to elevate the synthesis experience for researchers on our remote user testing platform.
+                            This summer, I collaborated with a cross-functional team on the redesign of the video player sidebar to elevate the synthesis experience for researchers and business decision makers.
                         </p>
                         <br>
-                        <p>
-                            The process covers competitor research, usability testing, flow analysis, group brainstorming, wireframing, lots of iterations, and deep collaboration with stakeholders.</p>
+                        <p>To comply with my NDA, I have omitted and obfuscated confidential information in this case study.</p> 
+                       <p>Please <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="Mailto:sixuanli@outlook.com" target="blank">contact me</a> if you are interested in this story.
+                        </p>
                         
                     </div>
                     <div class="info">
@@ -49,7 +50,7 @@
                             </p>
                         <h2>Skills</h2>
                             <p>
-                                UX Design<br>
+                                Product Design<br>
                                 User Research<br>
                                 Project Management<br>
                             </p>
@@ -80,9 +81,9 @@
              <div class="paragraph">
                 <h4>Background</h4>
                 <p>
-                UserTesting is a customer insight platform that allows Researchers and Business Decision Makers to see, hear, and talk to their customers remotely, and get raw feedback in form of videos. </p>
+                <b>UserTesting</b> is a customer insight platform that allows Researchers and Business Decision Makers to see, hear, and talk to their customers remotely, and get raw feedback in form of videos. </p>
                 <p><br>
-                Video Player is a major tool the UserTesting platform provides to customers to process the videos and analyze raw data. A lot of users request an updated synthesis experience from the video player.</p>
+                <b>Video Player</b> is a major tool the UserTesting platform provides to customers to process the videos and analyze raw data. A lot of users request an updated synthesis experience from the video player.</p>
             </div>
             <div class="paragraph">
                 <h4>Speed to Insights</h4>
@@ -97,8 +98,6 @@
                 </p>
 
                 <br>
-                <p>Please <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="Mailto:sixuanli@outlook.com" target="blank"><b>contact me</b></a> if you are interested in this story : )
-            </p>
             </div>
         </div>
     </div>
@@ -115,6 +114,9 @@
                 <div class='image-middle-container'>
                     <img src="/static/usertesting/process.png" width="100%">
                 </div>
+                <p>
+                The process covers competitor research, usability testing, group brainstorming, iterations, and deep collaboration with stakeholders.</p>
+                </p>
              </div>
             <div class="paragraph">
                 <div class='interview' >
@@ -125,7 +127,7 @@
                         <h4>Context Building</h4>
                         <p>
                             <b>Actions</b> Stakeholder interviews, data analysis, usability testing
-                            </br><b>Deliverable</b> Requirements documents, project milestones
+                            </br><b>Deliverables</b> Requirements documents, project milestones
                         </p>
                     </div>
                 </div> 
@@ -139,7 +141,7 @@
                         <h4>Problem Define</h4>
                         <p>
                             <b>Actions</b> Flow analysis
-                            </br><b>Deliverable</b> Pain points and opportunities, How Might We
+                            </br><b>Deliverables</b> Pain points and opportunities, How Might We
                         </p>
                     </div>
                 </div> 
@@ -152,8 +154,8 @@
                     <div class="right_p">
                         <h4>Ideation</h4>
                         <p>
-                            <b>Actions</b> Brainstorming, sketching and wireframing, concept voting, prioritization with PM
-                            </br><b>Deliverable</b> User journey, workflow, design sprint plan, concept features and wireframes
+                            <b>Actions</b> Brainstorming, sketching and wireframing, concept voting and prioritization with stakeholders
+                            </br><b>Deliverables</b> User journey, workflow, design sprint plan, concept features and wireframes
                         </p>
                     </div>
                 </div> 
@@ -166,8 +168,8 @@
                     <div class="right_p">
                         <h4>Iteration and Evaluation</h4>
                         <p>
-                            <b>Actions</b> Prototyping, concept testing and A/B testing, design phasing
-                            </br><b>Deliverable</b>Low-fi prototypes for desired workflow, user feedback
+                            <b>Actions</b> Prototyping, concept testing, design phasing
+                            </br><b>Deliverables</b> Low-fi prototypes for desired workflow, user feedback
                         </p>
                     </div>
                 </div> 
@@ -180,8 +182,8 @@
                     <div class="right_p">
                         <h4>Design for Production</h4>
                         <p>
-                            <b>Actions</b> Interaction and visual design, usability testing
-                            </br><b>Deliverable</b> High-Fi screens, reusable components
+                            <b>Actions</b> Interaction and visual design, usability testing, A/B testing
+                            </br><b>Deliverables</b> Optimized Hi-Fi Prototypes, reusable components
                         </p>
                     </div>
                 </div> 
@@ -453,6 +455,9 @@ td.light-td{
     margin:20px auto;
 }
 .paragraph{
-    margin-top:1.8rem;
+    margin-top:2rem;
+}
+.interview{
+    margin:0;
 }
 </style>

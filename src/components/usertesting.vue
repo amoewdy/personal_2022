@@ -11,7 +11,7 @@
 
   <div class = 'container'>
      <div class="content-container-large">
-            <img src="static/usertesting/title image.png" width='100%' class='large-img'>
+            <img src="static/usertesting/UserTesting blue.png" width='100%' class='large-img'>
     </div>
     <div class="first-page">
         <div class="content-container-title">
@@ -19,15 +19,14 @@
                 <div class = "left">
                     <div class="paragraph">
                         <!-- <h1>A-Watch</br>Child Asthma Management Toolkit</h1> -->
-                        <h1>Product Design Internship at UserTesting</h1>
-                        <h6>Building a video analysis tool for 260k users</h6>
+                        <h1>UserTesting <br>Product Design internship</h1>
+                        <h6>Get insights from raw feedback efficiently</h6>
                         <p>
-                            This summer, I collaborated with a cross-functional team on the redesign of the video player sidebar to elevate the synthesis experience for 260k users on our remote user testing platform.
+                            This summer, I collaborated with a cross-functional team on the redesign of the video player sidebar to elevate the synthesis experience for researchers on our remote user testing platform.
                         </p>
                         <br>
                         <p>
-                            The process covers competitor research, usability testing, flow analysis, group brainstorming, wireframing, and a close collaboration with stakeholders.
-                        </p>
+                            The process covers competitor research, usability testing, flow analysis, group brainstorming, wireframing, lots of iterations, and deep collaboration with stakeholders.</p>
                         
                     </div>
                     <div class="info">
@@ -38,7 +37,7 @@
                         </div>
                         <div class= "left-right">
                             <p>Jun 2020 - Current, ongoing</p>
-                            <p>Product Designer(me), User Researchers, PM, Engineers, Data Scientists</p>  
+                            <p>User Researcher, Product Manager, Engineering Lead, Sr User Researcher, UX Writer, Developers</p>  
                             </div>
                     </div>
                 </div>
@@ -46,7 +45,7 @@
                     <div class="paragraph">
                         <h2>My role</h2>
                             <p>
-                                Product Designer<br>
+                                End to End <br>Product Designer<br>
                             </p>
                         <h2>Skills</h2>
                             <p>
@@ -79,27 +78,22 @@
                 </div>
             </div>
              <div class="paragraph">
-                <h4>After a remote user testing ...</h4>
+                <h4>Background</h4>
                 <p>
-                When you conduct a remote user testing, the video sessions you receive from participants can be very long (usually 30 min each). But time is a valuable resource and you certainly don't want to spend hours processing the videos. You want to get insights quickly.
-                </p>
+                UserTesting is a customer insight platform that allows Researchers and Business Decision Makers to see, hear, and talk to their customers remotely, and get raw feedback in form of videos. </p>
                 <p><br>
-                The Current Video Player Sidebar is not satisfactory in doing this job. The workflow is pretty confusing, tools are hidden by complex interactions. This synthesis experience needs to be improved.
-                </p>
-            </div>
-            <div class="paragraph">
-                <div class='image-middle-container'>
-                    <img src="/static/usertesting/current video player.png" width="100%">
-                </div>
+                Video Player is a major tool the UserTesting platform provides to customers to process the videos and analyze raw data. A lot of users request an updated synthesis experience from the video player.</p>
             </div>
             <div class="paragraph">
                 <h4>Speed to Insights</h4>
-                <p>
-                How can we streamline the video analysis process, reduce the time user spend watching videos, and get insights more quickly with higher quality?</p>
-                <p>
+                <blockquote>
+                    HMW redesign the Video Player Sierbar to help researchers and BDMs process raw feedback and get actionable insights more efficiently, to increase user engagement and satisfaction with UserTesting platform?
+                </blockquote>
                 <h4>Impact</h4>
-                <p>Increase in use and customer satisfaction of the video player sidebar<br>
-                Decrease in time spent on processing each video<br>
+                <p>MVP release in Q4 2020;
+                <br>Increase in customer engagement (amount of insights created from the video player);
+                <br>Increase in customer satisfaction;
+                <br>Decrease in time spent on processing each video session.
                 </p>
 
                 <br>
@@ -113,7 +107,7 @@
             <div class="title">
                 <div class = "title-color2"> </div>
                 <div class="title-text">
-                    <h4>Design Process</h4>
+                    <h4>PROCESS</h4>
                     <h5>&nbsp</h5>
                 </div>
             </div>
@@ -123,55 +117,75 @@
                 </div>
              </div>
             <div class="paragraph">
-                <h4>Context Building</h4>
-                <div class='image-middle-container'>
-                    <img src="/static/usertesting/Context Building.png" width="100%">
-                </div>
-                <p>
-                    Actions: Stakeholder interviews, data analysis, usability testing & interview
-                    </br>Deliverable: Requirements documents, project milestones
-                </p>
+                <div class='interview' >
+                    <div class='left_p'>
+                        <img src="/static/usertesting/1.png" width="100%">
+                    </div>
+                    <div class="right_p">
+                        <h4>Context Building</h4>
+                        <p>
+                            <b>Actions</b> Stakeholder interviews, data analysis, usability testing
+                            </br><b>Deliverable</b> Requirements documents, project milestones
+                        </p>
+                    </div>
+                </div> 
              </div>
             <div class="paragraph">
-                <h4>Problem Define</h4>
-                <div class='image-middle-container'>
-                    <img src="/static/usertesting/Problem Define.png" width="100%">
-                </div>
-                <p>
-                    Actions: Flow analysis
-                    </br>Deliverable: Pain points and opportunities, How Might We
-                </p>
-             </div>
+                <div class='interview' >
+                    <div class='left_p'>
+                        <img src="/static/usertesting/2.png" width="100%">
+                    </div>
+                    <div class="right_p">
+                        <h4>Problem Define</h4>
+                        <p>
+                            <b>Actions</b> Flow analysis
+                            </br><b>Deliverable</b> Pain points and opportunities, How Might We
+                        </p>
+                    </div>
+                </div> 
+            </div>
             <div class="paragraph">
-                <h4>Ideation and Wireframing</h4>
-                <div class='image-middle-container'>
-                    <img src="/static/usertesting/Ideation & Prototyping.png" width="100%">
-                </div>
-                <p>
-                    Actions: Brainstorming, sketching and wireframing, concept voting, prioritization with PM
-                    </br>Deliverable: User journey, workflow, design sprint plan, concept features and wireframes
-                </p>
-             </div>
+                <div class='interview' >
+                    <div class='left_p'>
+                        <img src="/static/usertesting/3.png" width="100%">
+                    </div>
+                    <div class="right_p">
+                        <h4>Ideation</h4>
+                        <p>
+                            <b>Actions</b> Brainstorming, sketching and wireframing, concept voting, prioritization with PM
+                            </br><b>Deliverable</b> User journey, workflow, design sprint plan, concept features and wireframes
+                        </p>
+                    </div>
+                </div> 
+            </div>
             <div class="paragraph">
-                <h4>Iteration and Evaluation</h4>
-                <div class='image-middle-container'>
-                    <img src="/static/usertesting/Iteration & Evaluation.png" width="100%">
-                </div>
-                <p>
-                    Actions: Prototyping, concept testing and A/B testing, design phasing
-                    </br>Deliverable: Low-fi prototypes for desired workflow, user feedback
-                </p>
-             </div>
+                <div class='interview' >
+                    <div class='left_p'>
+                        <img src="/static/usertesting/4.png" width="100%">
+                    </div>
+                    <div class="right_p">
+                        <h4>Iteration and Evaluation</h4>
+                        <p>
+                            <b>Actions</b> Prototyping, concept testing and A/B testing, design phasing
+                            </br><b>Deliverable</b>Low-fi prototypes for desired workflow, user feedback
+                        </p>
+                    </div>
+                </div> 
+            </div>
             <div class="paragraph">
-                <h4>Prototyping and Visual Design</h4>
-                <div class='image-middle-container'>
-                    <img src="/static/usertesting/Visual Design.png" width="100%">
-                </div>
-                <p>
-                    Actions: Interaction and visual design, usability testing
-                    </br>Deliverable: High-Fi screens, reusable components
-                </p>
-             </div>
+                <div class='interview' >
+                    <div class='left_p'>
+                        <img src="/static/usertesting/5.png" width="100%">
+                    </div>
+                    <div class="right_p">
+                        <h4>Design for Production</h4>
+                        <p>
+                            <b>Actions</b> Interaction and visual design, usability testing
+                            </br><b>Deliverable</b> High-Fi screens, reusable components
+                        </p>
+                    </div>
+                </div> 
+            </div>
         </div>
      </div>
     <div class="light-page">
@@ -179,7 +193,7 @@
             <div class="title">
                 <div class = "title-color2"> </div>
                 <div class="title-text">
-                    <h4>Reflections</h4>
+                    <h4>REFLECTIONS</h4>
                     <h5>&nbsp</h5>
                 </div>
             </div>
@@ -294,7 +308,7 @@ h4{
     font-size: 24px;
     color:#000000;
     text-align:left;
-    margin-top:1.8rem;
+    margin-top:0rem;
     margin-bottom:0.8rem;
 
 }
@@ -437,5 +451,8 @@ td.light-td{
 }
 .findings{
     margin:20px auto;
+}
+.paragraph{
+    margin-top:1.8rem;
 }
 </style>

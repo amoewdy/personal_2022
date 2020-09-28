@@ -53,7 +53,7 @@
                                 User Research<br>
                                 Project Management<br>
                             </p>
-                        <h2>Toos</h2>
+                        <h2>Tools</h2>
                             <p> 
                                 Paper & Pen<br>
                                 Figma<br>

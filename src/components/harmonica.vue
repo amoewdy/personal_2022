@@ -25,14 +25,12 @@
                             Harmonica is our Launch Project at Global Innovation Exchange(GIX), University of Washington. 
                         </p>    
                         <p>
-                            During the past 6 months, my teammates and I partnered with Harman JBL, worked on the next-gen active noise-canceling(ANC) headsets to achieve a comprehensive audio experience. 
+                            During the past 6 months, my teammates and I partnered with Harman, worked on the next-gen active noise-canceling(ANC) headsets. 
                         </p>
                         <p>
-                            <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://medium.com/@sixuanli/harmonica-92a53d343515" target="blank">
-                            Read Full Case Study
-                            </a>
+                            We design and built 3 machine learning-powered features for JBL headsets to achieve a seamless audio experience. 
                         </p>
-                        </div>
+                    </div>
                     <div class="info">
                         <div class = "left-left">
                         <h3>TIMELINE</h3>
@@ -40,6 +38,8 @@
                         <h3> &nbsp</h3>
                         <h3> &nbsp</h3>
                         <h3> SPONSOR</h3>
+                        <h3> &nbsp</h3>
+                        <h3>IMPACT</h3>
                         </div>
                         <div class= "left-right">
                             <p>Jul - Dec 2019, 6 Months<br>
@@ -49,8 +49,17 @@
                             Feng Wang</a> | Software Engineer,<br>
                             Mike Pan | Machine Learning Engineer,<br>
                             Principal Audio System Architect, HARMAN International<br>
+                            Software handed over to Harman, under implementation
                             </p>
                         </div>
+                    </div>
+                    <div class=paragraph>
+                            <!-- <p>
+                            <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://medium.com/@sixuanli/harmonica-92a53d343515" target="blank">
+                            Read Full Case Study
+                            </a>
+                            </p> -->
+                            <div class='button' onclick="window.open('https://medium.com/@sixuanli/harmonica-92a53d343515','_blank')" target="blank">Read Full Case Study</div>
                     </div>
                 </div>
                 <div class = "right">
@@ -75,11 +84,13 @@
                             </p> 
                         <h2>Methods</h2>
                         <p>
-                        Diary Study<br>
-                        Behavior Prototyping<br>
-                        Survey, Interview<br>
+                        Survey<br>
+                        Interview<br>
                         Affinity Diagram<br>
-                        Storyboard
+                        Storyboard<br>
+                        Diary Study<br>
+                        Behavioral Prototype<br>
+                        Wizard of Oz
                         </p>
                     </div>
                 </div>
@@ -188,6 +199,12 @@
                     <img src="/static/harmonica/screen_recording_medium.gif" width="100%">
                 </div>
             </div>
+             <div class="paragraph">
+                <h4>PROJECT TIMELINE</h4>
+             </div>
+        </div>
+        <div class="content-container-large">
+            <img src="/static/harmonica/timeline.png" width='100%' class='large-img'>
         </div>
     </div>
 
@@ -227,6 +244,26 @@ export default {
     display:flex;
 }
 
+.button{
+    border:0;
+    outline:none;
+    border-radius:0;
+    padding:15px 0;
+    font-size: 18px;
+    font-family:'Lato', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    /* text-transform:uppercase; */
+    letter-spacing:.1em;
+    background:#000000;
+    color:#ffffff;
+    transition:all.1s ease;
+    -webkit-appearance: none;
+    cursor:pointer;
+}
+.button:hover{
+    background:#3c3c3c;
+}
 
 
 p{

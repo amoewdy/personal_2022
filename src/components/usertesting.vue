@@ -22,11 +22,11 @@
                         <h1>UserTesting <br>Product Design internship</h1>
                         <h6>Get insights from raw feedback efficiently</h6>
                         <p>
-                            This summer, I collaborated with a cross-functional team on the redesign of the video player sidebar to elevate the synthesis experience for researchers and business decision makers.
+                            This summer, I collaborated with a cross-functional team to redesign the video player of a SaaS platform,  in order to elevate the synthesis experience for researchers and business decision-makers. The project mainly focused on workflow design and information design.
                         </p>
                         <p>To comply with my NDA, I have omitted and obfuscated confidential information in this case study.</p> 
-                       <p>Please <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="Mailto:sixuanli@outlook.com" target="blank">contact me</a> if you are interested in this story.
-                        </p>
+                        <h3>Please <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="Mailto:sixuanli@outlook.com" target="blank">contact me</a> if you are interested in this story.
+                        </h3>
                         
                     </div>
                     <div class="info">
@@ -34,11 +34,16 @@
                         <h3>TIMELINE</h3>
                         <h3>TEAM</h3>
                         <h3> &nbsp</h3>
+                        <h3> &nbsp</h3>
+                        <h3>IMPACT</h3>
                         </div>
                         <div class= "left-right">
                             <p>Jun 2020 - Current, ongoing<br>
-                            User Researcher, Product Manager, Engineering Lead, Sr User Researcher, UX Writer, Developers</p>  
-                            </div>
+                            User Researcher, Product Manager, Engineering Lead, Sr User Researcher, UX Writer, Developers<br>
+                            MVP release in Q4 2020;<br>
+                            Incrase in Customer Satisfaction & Engagement
+                            </p>  
+                        </div>
                     </div>
                 </div>
                 <div class = "right">
@@ -50,19 +55,25 @@
                         <h2>Skills</h2>
                             <p>
                                 Product Design<br>
-                                User Research<br>
+                                User Testing<br>
                                 Project Management<br>
+                                <!-- Rapid Prototyping -->
                             </p>
                         <h2>Tools</h2>
                             <p> 
                                 Paper & Pen<br>
                                 Figma<br>
-                                Sketch<br>
-                                InVision<br>
                                 Jira<br>
                                 Mural<br>
-                                UserTesting
-                            </p>     
+                                UserTesting.com
+                            </p>  
+                        <h2> Highlights</h2>
+                        <p>
+                            Cross-functional collaboration<br>
+                            Design for Scalability<br>
+
+                            
+                        </p> 
                     </div>
                 </div>
             </div>
@@ -128,7 +139,7 @@
                         <h4>Context Building</h4>
                         <p>
                             <b>Actions</b> Stakeholder interviews, data analysis, usability testing
-                            </br><b>Deliverables</b> Requirements documents, project milestones
+                            </br><b>Deliverables</b> Customer requirements, project milestones
                         </p>
                     </div>
                 </div> 
@@ -141,8 +152,8 @@
                     <div class="right_p">
                         <h4>Problem Define</h4>
                         <p>
-                            <b>Actions</b> Flow analysis
-                            </br><b>Deliverables</b> Pain points and opportunities, How Might We
+                            <b>Actions</b> Flow analysis, requirement prioritization
+                            </br><b>Deliverables</b> Pain points, How Might We opportunities
                         </p>
                     </div>
                 </div> 
@@ -153,7 +164,7 @@
                         <img src="/static/usertesting/3.png" width="100%">
                     </div>
                     <div class="right_p">
-                        <h4>Ideation</h4>
+                        <h4>Ideation and Prioritization</h4>
                         <p>
                             <b>Actions</b> Brainstorming, sketching and wireframing, concept voting and prioritization with stakeholders
                             </br><b>Deliverables</b> User journey, workflow, design sprint plan, concept features and wireframes
@@ -170,7 +181,7 @@
                         <h4>Iteration and Evaluation</h4>
                         <p>
                             <b>Actions</b> Prototyping, concept testing, design phasing
-                            </br><b>Deliverables</b> Low-fi prototypes for desired workflow, user feedback
+                            </br><b>Deliverables</b> Prototypes from Low-Fi to Hi-Fi, user story maps
                         </p>
                     </div>
                 </div> 
@@ -184,7 +195,7 @@
                         <h4>Design for Production</h4>
                         <p>
                             <b>Actions</b> Interaction and visual design, usability testing, A/B testing
-                            </br><b>Deliverables</b> Optimized Hi-Fi Prototypes, reusable components
+                            </br><b>Deliverables</b> Optimized Hi-Fi prototypes, reusable components, icon library, data viz color palette, feature specs 
                         </p>
                     </div>
                 </div> 

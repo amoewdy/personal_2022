@@ -33,6 +33,10 @@
                         <h3>&nbsp</h3>
                         <h3>&nbsp</h3>
                         <h3>SPONSOR</h3>
+                        <h3>&nbsp</h3>
+                        <h3>&nbsp</h3>
+                        <h3>&nbsp</h3>
+                        <h3>IMPACT</h3>
                         </div>
                         <div class= "left-right">
                             <p>Mar - May 2019, 10 Weeks<br>
@@ -48,7 +52,9 @@
                             /Software Engineer,   
                             <br> 
                             Sixuan Li</br>
-                            Jennifer Sonney, Ph.D., ARNP, PPCNP-BC, Assistant Professor, Department of Family and Child Nursing, University of Washington</p>
+                            Jennifer Sonney, Ph.D., ARNP, PPCNP-BC, Assistant Professor, Department of Family and Child Nursing, University of Washington<br>
+                            To be deployed to 2o families for pioneer study 
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@
         <!-- <div class='parent'> -->
             <div class='part1'>
         <!-- <div class='left'> -->
-                <img src="/static/snowWidth3.png" id="img-snow" style="display:none"></img>
+                <img src="/static/snowWidth4.png" id="img-snow" style="display:none"></img>
                 <canvas id="canvas"  class="animated fadeIn delay-0.8s"></canvas>
           <!-- <img v-bind:src=imgSrc width='450px'> -->
             </div>
@@ -16,7 +16,10 @@
                 <h1>
                 I bring <b>warmth</b> to tech,
                 </br><b>delight</b> to design.</h1>
-                <h2>Hello, I'm Sixuan. <br>A Product Designer who Codes and Innovates.</h2><br>
+                <!-- <h2>Hello, I'm Sixuan. <br>A Product Designer who Codes and Innovates.</h2><br> -->
+                <h2>
+                Hello, I'm Sixuan. <br>I strive to deliver solutions that are elegant, viable, and inspiring.
+                <br></h2>
      <!-- A product designer with background in Technology Innovation. -->
                 <div class='icon-element'>
                 <ul>
@@ -85,10 +88,11 @@
     </div> -->
     <div class='recent-project'>
         <div class='right-large' style='position: relative;'>
-            <h1>USERTESTING</h1>
+            <h1>VIDEO PLAYER
+            </h1>
                 <h2 >Get insights from raw feedback efficiently</h2>
                 <div class='tags'>
-                    <span class="tag">Product Design</span>    
+                    <span class="tag">Machine Learning</span>    
                     <span class="tag">Productivity Tool</span>
                     <span class="tag">Web</span> 
                     <span class="tag">Cross-Functional Team</span> 
@@ -111,18 +115,18 @@
     <div class='recent-project'>
         <div class="left-large">
             <div class="triggerOnScroll">
-                <img class="itemImg" src="/static/home/harmonica.png" alt="" width="100%"  onclick="window.location.href='/#/harmonica'"/> 
+                <img class="itemImg" src="/static/home/harmonica2.png" alt="" width="100%"  onclick="window.location.href='/#/harmonica'"/> 
             </div>
         </div>
         <div class='right-large' id='recent-border' style='position: relative;'>
                         <h1>HARMONICA</h1>
                         <h2 >Enhanced audio experience with ambient awareness</h2>
                         <div class='tags'>
-                            <span class="tag">Audio UX</span>    
-                            <span class="tag">User Research</span>
-                            <span class="tag">Feature Define</span>
-                            <span class="tag">Machine Learning</span> 
                             <span class="tag">Product Management</span> 
+                            <span class="tag">Machine Learning</span> 
+                            <span class="tag">User Research</span>
+                            <span class="tag">Audio UX</span>    
+                            <span class="tag">Feature Define</span>
                         </div>
                          <div class='recent-content'>
                             <div class="company-logo-container">
@@ -552,7 +556,7 @@ export default {
             var flakes = [],
             canvas = document.getElementById("canvas"),
             ctx = canvas.getContext("2d"),
-            flakeCount = 800,
+            flakeCount = 500,
             mX = -100,
             mY = -100
             // canvas.width = 0.806* window.innerWidth;
@@ -711,7 +715,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 ul{
 //   width:400px;
 //   margin:0 auto;
-    margin-top:-0.6rem;
+    margin-top:0rem;
   vertical-align:left;
   padding:0px;
     content: "";
@@ -806,6 +810,18 @@ h1 b{
 //     letter-spacing:16px;
 //     text-transform:uppercase;
 // }
+
+p{
+    font-family: 'Lora', serif;
+    margin:20px 20px 20px 0px;
+    line-height: 29px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    color: #000000;
+    text-align:left;
+    /* margin-bottom:5rem; */
+}
 h2{
     font-family: 'Lato', sans-serif;
 
@@ -816,7 +832,7 @@ h2{
     line-height: 28px;
     letter-spacing: 0.09em;
     color: #333333; 
-    margin:20px 20px 0 0 ;
+    margin:20px 30px 0 0 ;
     text-align:left;
 }
 h3{
@@ -880,7 +896,7 @@ label:hover{
 
 #canvas{
     /* background-image: url('/static/snowBackgroundFigma.png');    */
-    background-image: url('/static/snowWidth2.png');   
+    background-image: url('/static/snowWidth4.png');   
     background-size:     cover;                      
     background-repeat:   no-repeat;
     background-position: center center;

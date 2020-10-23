@@ -153,6 +153,29 @@
                 <p>
                     An ML-powered real-time software solution which monitors, predicts, and reacts to surroundings, featuring:
                 </p>
+                <div class="paragraph">
+                <h4>Acoustic Ambiance</h4>
+                <p>Audio scenes — engine noise, babble noise<br>
+                Audio events — keywords, sirens
+                </p>
+                </div>
+                <div class="paragraph">
+                <h4>Edge Computing</h4>
+                <p>Real-time inference for CNN models with on-the-fly quantization on current hardware
+                </p>
+                </div>
+                <div class="paragraph">
+                <h4>Deep Integration</h4>
+                <p>Music volume adjustment, voice pass-through, audio prompts on the headsets
+                </p>
+                </div>
+                <div class='image-middle-container'>
+                    <img src="/static/harmonica/dataflow.png" width="100%">
+                    <figcaption>Solution Logic & Data Flow</figcaption>
+                </div>
+            </div>
+            <div class="paragraph">
+                <h4>EXPERIENCE</h4>
             </div>
             <div class="paragraph">
                 <div class='interview' >
@@ -194,7 +217,7 @@
                 </div> 
             </div>
             <div class="paragraph">
-                <h4>Onboarding Experience</h4>
+                <h4>Onboarding UX</h4>
                 <div class='image-middle-container'>
                     <img src="/static/harmonica/screen_recording_medium.gif" width="100%">
                 </div>
@@ -206,6 +229,17 @@
         <div class="content-container-large">
             <img src="/static/harmonica/timeline.png" width='100%' class='large-img'>
         </div>
+        <div class='content-container'>
+            <div class=paragraph>
+                <!-- <p>
+                <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://medium.com/@sixuanli/harmonica-92a53d343515" target="blank">
+                Read Full Case Study
+                </a>
+                </p> -->
+                <div class='button' onclick="window.open('https://medium.com/@sixuanli/harmonica-92a53d343515','_blank')" target="blank">Read Full Case Study</div>
+            </div>
+        </div>
+
     </div>
 
 

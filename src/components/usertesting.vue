@@ -19,14 +19,14 @@
                 <div class = "left">
                     <div class="paragraph">
                         <!-- <h1>A-Watch</br>Child Asthma Management Toolkit</h1> -->
-                        <h1>UserTesting <br>Product Design internship</h1>
+                        <h1>Video Player Redesign</h1>
                         <h6>Get insights from raw feedback efficiently</h6>
                         <p>
-                            This summer, I collaborated with a cross-functional team to redesign the video player of a SaaS platform,  in order to elevate the synthesis experience for researchers and business decision-makers. The project mainly focused on workflow design and information design.
+                            This summer, I collaborated with a cross-functional team to redesign the video player of UserTesting.com, a customer insights platform, to elevate the synthesis experience for researchers and business decision-makers. The project mainly focused on workflow design and information design.
                         </p>
-                        <p>To comply with my NDA, I have omitted and obfuscated confidential information in this case study.</p> 
-                        <h3>Please <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="Mailto:sixuanli@outlook.com" target="blank">contact me</a> if you are interested in this story.
-                        </h3>
+                        <h3>To comply with my NDA, I have omitted and obfuscated confidential information in this case study.</h3> 
+                        <p>Please <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="Mailto:sixuanli@outlook.com" target="blank">contact me</a> if you are interested in this story.
+                        </p>
                         
                     </div>
                     <div class="info">
@@ -40,7 +40,7 @@
                         <div class= "left-right">
                             <p>Jun 2020 - Current, ongoing<br>
                             User Researcher, Product Manager, Engineering Lead, Sr User Researcher, UX Writer, Developers<br>
-                            MVP release in Q4 2020;<br>
+                            MVP Release in Q1 2021;<br>
                             Incrase in Customer Satisfaction & Engagement
                             </p>  
                         </div>
@@ -89,14 +89,22 @@
                 </div>
             </div>
              <div class="paragraph">
-                <h4>Background</h4>
+                <h4>What's UserTesting</h4>
                 <p>
-                <b>UserTesting</b> is a customer insight platform that allows Researchers and Business Decision Makers to see, hear, and talk to their customers remotely, and get raw feedback in form of videos. </p>
+                UserTesting is a customer insight platform that allows Researchers and Business Decision Makers to see, hear, and talk to their customers remotely, and get raw feedback in form of videos. </p>
                 <p>
-                <b>Video Player</b> is a major tool the UserTesting platform provides to customers to process the videos and analyze raw data. A lot of users request an updated synthesis experience from the video player.</p>
+                <div class='image-middle-container'>
+                    <img src="/static/usertesting/what's UT.png" width="100%">
+                </div>
+                <h4>What's the Video Player?</h4>
+                <p>Video Player is a major tool the UserTesting platform provides to customers to process the videos and analyze raw data. A lot of users request an updated synthesis experience from the video player.
+                </p>
+                <div class='image-middle-container'>
+                    <img src="/static/usertesting/what's video player.png" width="100%">
+                </div>
             </div>
             <div class="paragraph">
-                <h4>Speed to Insights</h4>
+                <h4>Project Goal: Speed to insights</h4>
                 <blockquote>
                     HMW redesign the Video Player Sierbar to help researchers and BDMs process raw feedback and get actionable insights more efficiently, to increase user engagement and satisfaction with UserTesting platform?
                 </blockquote>

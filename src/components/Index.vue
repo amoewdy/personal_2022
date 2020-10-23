@@ -287,7 +287,7 @@
 
         <div v-show="showAll==true" >
         <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/clubHusky 2.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
+            <img class="itemImg" src="/static/home/clubhusky2.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
             <div class="hint">
                 <h3><b>clubHusky</b></h3>
                 <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->

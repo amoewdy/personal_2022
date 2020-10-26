@@ -172,7 +172,7 @@
                 </p> -->
             </div>
             <div class="paragraph">
-                <h4>DESIGN PROBLEM</h4>
+                <h4>DESIGN REQUIREMENT</h4>
                 <blockquote>How might we design a low-cost IoT solution for the school-aged child (7–11 years old) to help children foster an asthma management habit, self-report symptoms correctly and promptly, and reduce parents’ burden?</blockquote>
             </div>       
         </div>

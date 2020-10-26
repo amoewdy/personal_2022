@@ -88,8 +88,7 @@
     </div> -->
     <div class='recent-project'>
         <div class='right-large' style='position: relative;'>
-            <h1>VIDEO PLAYER
-            </h1>
+            <h1>VIDEO PLAYER REDESIGN</h1>
                 <h2 >Get insights from raw feedback efficiently</h2>
                 <div class='tags'>
                     <span class="tag">Machine Learning</span>    
@@ -556,7 +555,7 @@ export default {
             var flakes = [],
             canvas = document.getElementById("canvas"),
             ctx = canvas.getContext("2d"),
-            flakeCount = 500,
+            flakeCount = 700,
             mX = -100,
             mY = -100
             // canvas.width = 0.806* window.innerWidth;

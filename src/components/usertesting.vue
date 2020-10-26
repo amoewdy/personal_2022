@@ -40,8 +40,8 @@
                         <div class= "left-right">
                             <p>Jun 2020 - Current, ongoing<br>
                             User Researcher, Product Manager, Engineering Lead, Sr User Researcher, UX Writer, Developers<br>
-                            MVP Release in Q1 2021;<br>
-                            Incrase in Customer Satisfaction & Engagement
+                            MVP Release in Q1 2021 &#127775;;<br>
+                            Incrase in Customer Satisfaction & Engagement &#127856;
                             </p>  
                         </div>
                     </div>
@@ -96,26 +96,54 @@
                 <div class='image-middle-container'>
                     <img src="/static/usertesting/what's UT.png" width="100%">
                 </div>
-                <h4>What's the Video Player?</h4>
+                <h4>What's the Video Player</h4>
                 <p>Video Player is a major tool the UserTesting platform provides to customers to process the videos and analyze raw data. A lot of users request an updated synthesis experience from the video player.
                 </p>
                 <div class='image-middle-container'>
+                    <img src="/static/usertesting/Context.png" width="100%">
+                </div>  
+                <div class='image-middle-container'>
                     <img src="/static/usertesting/what's video player.png" width="100%">
                 </div>
+           
             </div>
             <div class="paragraph">
-                <h4>Project Goal: Speed to insights</h4>
+                <h4>PROBLEM</h4>
+            </div>
+            <div class="paragraph">
+                <h4>Users' needs</h4>
+                <p>Users complain about the outdated design. They want an efficient workflow that allows them to see videos, transcript, and do analysis at the same time.
+                </p>
+            </div>
+            <div class="paragraph">
+                <h4>UI Scalability</h4>
+                <p>We will add more features and information to the video player sidebar in the next few months, which is already a crowded space.      
+                </p>
+            </div>
+            <div class="paragraph">
+                <h4>Project Goal</h4>
                 <blockquote>
                     HMW redesign the Video Player Sierbar to help researchers and BDMs process raw feedback and get actionable insights more efficiently, to increase user engagement and satisfaction with UserTesting platform?
                 </blockquote>
-                <h4>Impact</h4>
-                <p>MVP release in Q4 2020;
-                <br>Increase in customer engagement (amount of insights created from the video player);
-                <br>Increase in customer satisfaction;
-                <br>Decrease in time spent on processing each video session.
+            </div>
+            <div class="paragraph">
+                <h4>SOLUTION</h4>
+                <p>
+                    *This is the NDA version*
                 </p>
-
-                <br>
+            </div>
+        </div>
+         <div class="content-container-large">
+            <img src="/static/usertesting/Solution.png" width='100%' class='large-img'>
+        </div>       
+        <div class="content-container">
+            <div class="paragraph">
+                <h4>IMPACT</h4>
+                <p>MVP release in Q1 2021 &#127775;
+                <br>Increase in customer engagement (amount of insights created from the video player) &#x1F4D4;
+                <br>Increase in customer satisfaction &#127856;
+                <br>Decrease in time spent on processing each video session &#9889;
+                </p>
             </div>
         </div>
     </div>
@@ -144,21 +172,22 @@
                         <img src="/static/usertesting/1.png" width="100%">
                     </div>
                     <div class="right_p">
-                        <h4>Context Building</h4>
+                        <h4>Understand the Context</h4>
                         <p>
-                            <b>Actions</b> Stakeholder interviews, data analysis, usability testing
+                            <b>Actions</b> Stakeholder interviews, data analysis
                             </br><b>Deliverables</b> Customer requirements, project milestones
                         </p>
                     </div>
                 </div> 
              </div>
+
             <div class="paragraph">
                 <div class='interview' >
                     <div class='left_p'>
                         <img src="/static/usertesting/2.png" width="100%">
                     </div>
                     <div class="right_p">
-                        <h4>Problem Define</h4>
+                        <h4>Define the Problem</h4>
                         <p>
                             <b>Actions</b> Flow analysis, requirement prioritization
                             </br><b>Deliverables</b> Pain points, How Might We opportunities
@@ -166,6 +195,15 @@
                     </div>
                 </div> 
             </div>
+        </div>
+        <!-- <div class="content-container-large">
+            <br>
+                <div class='image-middle-container'>
+                    <img src="/static/usertesting/Problem Define.png" width="100%">
+                </div>
+            <br>
+        </div> -->
+        <div class="content-container">
             <div class="paragraph">
                 <div class='interview' >
                     <div class='left_p'>
@@ -180,10 +218,23 @@
                     </div>
                 </div> 
             </div>
+        </div>
+        <div class="content-container-large">
+            <br>
+                <div class='image-middle-container'>
+                    <img src="/static/usertesting/Workflow Ideation.png" width="100%">
+                </div>
+                <div class='image-middle-container'>
+                    <img src="/static/usertesting/Information Ideation.png" width="100%">
+                    <figcaption>*This is NDA version of wireframes*</figcaption>
+                </div>
+            <br>
+        </div>
+        <div class='content-container'>
             <div class="paragraph">
                 <div class='interview' >
                     <div class='left_p'>
-                        <img src="/static/usertesting/4.png" width="100%">
+                        <img src="/static/usertesting/usability testing2.png" width="100%">
                     </div>
                     <div class="right_p">
                         <h4>Iteration and Evaluation</h4>
@@ -191,6 +242,10 @@
                             <b>Actions</b> Prototyping, concept testing, design phasing
                             </br><b>Deliverables</b> Prototypes from Low-Fi to Hi-Fi, user story maps
                         </p>
+                        <!-- <div class='image-middle-container'>
+                            <img src="/static/usertesting/usability testing.png" width="100%">
+                        </div> -->
+
                     </div>
                 </div> 
             </div>
@@ -230,16 +285,24 @@
                 </p>
              </div>
              <div class="paragraph">
-                <h4>Understand the Why</h4>
+                <h4>A user testing-driven design process</h4>
                 <p>
-                    Understanding the value of each step in the design process can help us be clear about when to go broad and to scope down.
-                <br>Also, as we cannot test every single detail, it's important to have clear rationales for each decision.
+                    "Every week the design is better than the previous week." Designing for a user research platform, we naturally take the advantage of our own product.
+                </p>
+                <p>
+                    "Have you tested it?" We use UserTesting.com extensively, almost every week, to validate key assumptions until we have removed all uncertainty after 10+ iterations.
+                </p>
+                <p>
+                Collecting user feedback constantly not only helped me removed any blocker on the spot, but also deepen my understanding of customer behaviors. The context I built during this project greatly helped me with my next project at UserTesting.
                 </p>
              </div>
             <div class="paragraph">
-                <h4>Ask Questions</h4>
+                <h4>The last 10% takes 90% of the time</h4>
                 <p>
-                When working with cross-functional teams, it's always better to ask more questions and remove blockers quickly.   
+                That's the difference between prototype and production. It takes time to deal with visual details and edge cases, and sometimes it's easy to get into the rabbit hole.
+                </p>
+                <p>
+                What we can do is to always be aware of the goal we're trying to achieve. If we aim to encourage certain behaviors through this design, it's important. If it doesn't really matter for the users, it's a lower priority.
                 </p>
              </div>
 

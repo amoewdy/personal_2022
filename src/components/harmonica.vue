@@ -28,7 +28,7 @@
                             During the past 6 months, my teammates and I partnered with Harman, worked on the next-gen active noise-canceling(ANC) headsets. 
                         </p>
                         <p>
-                            We design and built 3 machine learning-powered features for JBL headsets to achieve a seamless audio experience. 
+                            We designed and built 3 machine learning-powered features for JBL headsets to achieve a seamless audio experience. 
                         </p>
                     </div>
                     <div class="info">
@@ -48,8 +48,8 @@
                             <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://github.com/chemwolf6922" target="blank">
                             Feng Wang</a> | Software Engineer,<br>
                             Mike Pan | Machine Learning Engineer,<br>
-                            Principal Audio System Architect, HARMAN International<br>
-                            Software handed over to Harman, under implementation
+                            JBL Lifestyle Division, HARMAN International<br>
+                            Prototypes and software handed over to Harman, under implementation
                             </p>
                         </div>
                     </div>
@@ -120,9 +120,9 @@
                 <p>
                     When we enjoy music with headphones to relax or focus, we block all sounds including what we care about, which causes safety & social issues.
                 </p>
-                <p>
+                <!-- <p>
                     Or we’ll need to take off headphones and face noisy outsides frequently when we do need to interact with surroundings.
-                </p>
+                </p> -->
             </div>
             <div class="paragraph">
                 <div class='image-middle-container'>
@@ -222,14 +222,192 @@
                     <img src="/static/harmonica/screen_recording_medium.gif" width="100%">
                 </div>
             </div>
-             <div class="paragraph">
-                <h4>PROJECT TIMELINE</h4>
-             </div>
+
+        </div>
+
+    </div>
+
+    <div class="light-page">
+        <div class="content-container">
+            <div class="title">
+                <div class = "title-color2"> </div>
+                <div class="title-text">
+                    <h4>PROCESS</h4>
+                    <h5>&nbsp</h5>
+                </div>
+            </div>
         </div>
         <div class="content-container-large">
             <img src="/static/harmonica/timeline.png" width='100%' class='large-img'>
         </div>
-        <div class='content-container'>
+        <div class="content-container">
+            <div class="paragraph">
+                <h4>1 - USER RESEARCH</h4>
+                <blockquote>
+                    When & How are people using noise-canceling headphones?
+                </blockquote>
+                <br>
+                <div class='image-middle-container'>
+                    <img src="/static/harmonica/user research.png" width="100%">
+                </div>
+            <div class="paragraph">
+                <h4>Persona</h4>
+            </div>
+            </div>
+        </div>
+        <div class="content-container-large">
+            <img src="/static/harmonica/persona.png" width='100%' class='large-img'>
+        </div>   
+        <div class="content-container">
+            <div class="paragraph">
+                <h4>Insights</h4>
+                <div class='image-middle-container'>
+                    <img src="/static/harmonica/insights.png" width="100%">
+                </div>
+                <blockquote>
+                    People use ANC headphons to better achieve their primary tasks, with a compromise on their responsiveness
+                </blockquote>
+                <h4>Scenario & Event-Based Hearing Augmentation</h4>
+                <p>
+                    We can help users stay responsive while enjoying immersive music through headphones.
+                </p>
+                <div class='image-middle-container'>
+                    <img src="/static/harmonica/insights2.png" width="100%">
+                </div>
+            </div>
+            <br>
+            <div class="paragraph">
+                <br>
+                <h4>2 - IDEATION</h4>
+                <blockquote>
+                   How can we design for an everyday product?
+                <br>- Dive into everyday lives.
+                </blockquote>  
+                <br>
+                <h4>Co-Design With User</h4>  
+                <div class='image-middle-container'>
+                    <img src="/static/harmonica/diary study.png" width="100%">
+                </div>
+                <p>
+                    We co-created with ANC headset users to explore the just-right features for headphones and collected 80+ ideas.
+                </p>
+            </div>
+        </div> 
+        <br>  
+        <div class='content-container-large'>
+            <img src="/static/harmonica/co-design.png" width="100%">
+        </div>       
+        <br>
+        <div class="content-container">
+            <div class="paragraph">
+                <h4>Prioritize into MVP</h4>
+                <p>The most compelling directions and value we can bring to the users:</p>
+            </div>
+        </div>
+        <div class='content-container-large'>
+            <img src="/static/harmonica/MVP.png" width="100%">
+        </div> 
+        <br>
+        <br>
+        <br>
+        <div class="content-container">
+            <div class="paragraph">
+                <h4>3 - EVALUATE & BUILD</h4> 
+                 <blockquote>
+                    Transform concept into functions through user evaluation
+                </blockquote>
+            </div>
+            <div class="paragraph">
+                <h4>Validate user needs through behavioral prototyping</h4> 
+            </div>           
+        </div>  
+        <div class='content-container-large'>
+            <img src="/static/harmonica/evaluation1.png" width="100%">
+            <figcaption>*Please read full case study for more details.*</figcaption>
+        </div> 
+        <div class="content-container">
+            <div class="paragraph">
+                <h4>Find the right default settings through user experiments</h4> 
+                <div class='image-middle-container'>
+                    <img src="/static/harmonica/evaluation2.png" width="100%">
+                    <figcaption>*Please read full case study for more details.*</figcaption>
+                </div>
+            </div>
+        </div>  
+        <br>
+        <br>
+        <div class="content-container">
+            <div class="paragraph">
+                <h4>4 - DELIVER & ONBOARD</h4> 
+                 <blockquote>
+                    How might we communicate the features to users, and allow users to customize default settings during out-of-box setup?
+                </blockquote>
+            </div>
+            <div class="paragraph">
+                <h4>UI Iterations</h4>
+                <p>
+                    Due to technical limits, users would need to manually collect samples for customized key sounds.
+                </p>
+            </div> 
+        </div>
+        <!-- <div class='content-container-large'> -->
+            <img src="/static/harmonica/Onboarding UX.png" width="100%">
+        <!-- </div>          -->
+        <div class="content-container">
+                    <br><br>
+            <div class="paragraph">
+                <h4>5-SUMMARY</h4> 
+            </div>
+            <div class="paragraph">
+                <h4>System Design</h4>
+            </div>
+        </div>
+        <div class='content-container-large'>
+            <img src="/static/harmonica/system.png" width="100%">
+        </div>
+        <!-- <div class="content-container">
+            <div class="paragraph">
+                <h4>Trilogy of Launches</h4>                
+            </div>
+        </div>
+        <div class='content-container-large'>
+            <img src="/static/harmonica/GTM.png" width="100%">
+        </div> -->
+    </div>
+    <br><br>
+     <div class="light-page">
+        <div class="content-container">
+            <div class="title">
+                <div class = "title-color2"> </div>
+                <div class="title-text">
+                    <h4>REFLECTIONS</h4>
+                    <h5>&nbsp</h5>
+                </div>
+            </div>
+        </div>
+        <div class='content-container-large'>
+            <img src="/static/harmonica/final presentation.png" width="100%">
+            <figcaption> the working demo to Harman & GIX Leadership Team </figcaption> 
+        </div>
+        <div class="content-container">
+            <div class="paragraph">
+                <h4>Trust your users.</h4>
+                <p>
+                    They have so many inspiring ideas. Whenever you feel at a loss, talk to a user.
+                </p>
+            </div>
+            <div class="paragraph">
+                <h4>Trust your teammates.</h4>
+                <p>
+                    Engineering and design mindset are both important when shaping a product .
+                </p>
+            </div>
+            <div class="paragraph">
+                <h4>Trust your process.</h4>
+                <p>
+                    Human-centered design methods can guide you to learn in a new field quickly.
+                </p>
+            </div>
             <div class=paragraph>
                 <!-- <p>
                 <a style="text-decoration: none;color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://medium.com/@sixuanli/harmonica-92a53d343515" target="blank">
@@ -239,7 +417,6 @@
                 <div class='button' onclick="window.open('https://medium.com/@sixuanli/harmonica-92a53d343515','_blank')" target="blank">Read Full Case Study</div>
             </div>
         </div>
-
     </div>
 
 

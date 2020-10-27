@@ -150,32 +150,6 @@
                 <blockquote>
                     Empowering headphones with ambient awareness
                 </blockquote>
-                <p>
-                    An ML-powered real-time software solution which monitors, predicts, and reacts to surroundings, featuring:
-                </p>
-                <div class="paragraph">
-                <h4>Acoustic Ambiance</h4>
-                <p>Audio scenes — engine noise, babble noise<br>
-                Audio events — keywords, sirens
-                </p>
-                </div>
-                <div class="paragraph">
-                <h4>Edge Computing</h4>
-                <p>Real-time inference for CNN models with on-the-fly quantization on current hardware
-                </p>
-                </div>
-                <div class="paragraph">
-                <h4>Deep Integration</h4>
-                <p>Music volume adjustment, voice pass-through, audio prompts on the headsets
-                </p>
-                </div>
-                <div class='image-middle-container'>
-                    <img src="/static/harmonica/dataflow.png" width="100%">
-                    <figcaption>Solution Logic & Data Flow</figcaption>
-                </div>
-            </div>
-            <div class="paragraph">
-                <h4>EXPERIENCE</h4>
             </div>
             <div class="paragraph">
                 <div class='interview' >
@@ -222,7 +196,42 @@
                     <img src="/static/harmonica/screen_recording_medium.gif" width="100%">
                 </div>
             </div>
+            <div class="paragraph">
+                <h4>IMPLEMENTATION</h4>
+                            <p>
+                    An ML-powered real-time software solution which monitors, predicts, and reacts to surroundings, featuring:
+                </p>
+                <div class="paragraph">
+                <h4>Acoustic Ambiance</h4>
+                <p>Audio scenes — engine noise, babble noise<br>
+                Audio events — keywords, sirens
+                </p>
+                </div>
+                <div class="paragraph">
+                <h4>Edge Computing</h4>
+                <p>Real-time inference for CNN models with on-the-fly quantization on current hardware
+                </p>
+                </div>
+                <div class="paragraph">
+                <h4>Deep Integration</h4>
+                <p>Music volume adjustment, voice pass-through, audio prompts on the headsets
+                </p>
+                </div>
+                <div class='image-middle-container'>
+                    <img src="/static/harmonica/dataflow.png" width="100%">
+                    <figcaption>Solution Logic & Data Flow</figcaption>
+                </div>
+            </div>
+            <div class="paragraph">
+                <h4>IMPACT</h4>
+                <p>100% of participants found the new feature useful. &#127775;<br>
+                85% of participants would turn on the new feature; &#127765; <br>
+                30% of participants would purchase JBL headset for the new feature. &#10024;
+                </p>
+                <p>Functional prototypes and toolchain were handed over to Harman to continue software implementation and integration.</p>
+            </div>
 
+            
         </div>
 
     </div>

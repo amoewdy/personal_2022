@@ -1,13 +1,14 @@
 <template>
   <div id="app">
     <div class="nav">
-        <div class="nav-title" onclick="window.location.href='/'" style="cursor: pointer;"><img src="./assets/muben logo 2.png" width="20rem">  Sixuan Li</div>
+        <div class="nav-title" onclick="window.location.href='/'" style="cursor: pointer;"><img src="./assets/muben logo 2.png" width="20rem">  SIXUAN LI</div>
         <ul>
             <li onclick="window.location.href='/'">WORK</li>
+            <li onclick="window.location.href='/#/playground'">PLAYGROUND</li>
             <!-- <li ><a href="" @click="custormAnchor('project-overview')">WORK</a></li> -->
 
              <!-- <li onclick="https://drive.google.com/file/d/1PDsDDt2Ex-EwX7r8kiax3OM7ld3jfxjm/view?usp=sharing'">Resume</li> -->
-            <li><a target="blank" style="text-decoration: none;" href="https://drive.google.com/file/d/1bODZzJw4iro1DvaifTJIBmCNg3S7XKlX/view?usp=sharing">RESUME</a></li>
+            <!-- <li><a target="blank" style="text-decoration: none;" href="https://drive.google.com/file/d/1bODZzJw4iro1DvaifTJIBmCNg3S7XKlX/view?usp=sharing">RESUME</a></li> -->
             <li onclick="window.location.href='/#/about'">ABOUT</li> 
         </ul>
     </div>
@@ -16,7 +17,7 @@
         <div class="image-middle-container">
             <img src="./assets/muben logo 2.png" width="24px" hight="24px" style="margin: 20px 0" >
         </div>
-        Designed &  Coded with  ♫  by Sixuan Li &copy; 2020
+        Designed &  Coded with  ♫  by Sixuan Li &copy; 2022
     </div>
   </div>
 </template>
@@ -48,26 +49,32 @@ export default {
 
 <style>
 .recent-project .right-large h1{
-    font-size: 26px;
-    letter-spacing: 0.2rem;
-    Font-weight:700;
+    Font-weight:900;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+    margin-bottom: 0;
+
 }
 .recent-project .right-large h2{
-    font-family: 'Lora';
-    color:#afafaf;
-    font-size:20px;
-    letter-spacing: 0.1em;
-    line-height: 32px;
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 32px;
+/* or 133% */
+
+letter-spacing: 0.1em;
     /* margin-top:-10px; */
 }
 @media (max-width: 1100px) {
 .recent-project .right-large h1{
     font-size: 24px;
-    letter-spacing: 0.2rem;
 }
 .recent-project .right-large h2{
     font-size:18px;
-    letter-spacing: 0.1em;
     line-height: 24px;
 }
 }
@@ -79,17 +86,17 @@ export default {
     display: inline-block;
     margin-bottom: 2px;
     margin-right:6px;
-    font-family: Lato;
-    font-weight: 500;
-    font-size: 15px;
-    letter-spacing: 0.02em;
+    font-family: Source Sans Pro;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    font-size: 16px;
 }
 .recent-project .right-large .tags .tag{
     background-color: #F2F2F2;
-    border-radius: 20px;
+    border-radius: 2px;
     padding:4px 10px;
     /* color: #4F4F4F; */
-    color: #333333;
+    color: #000000;
 }
 .company-logo-container{
     display:block;
@@ -112,10 +119,10 @@ export default {
     font-size: 17px;
     text-align: center;
     line-height: 26px;
-    font-family:'Lato', sans-serif;
+    font-family: Source Sans Pro;
+    letter-spacing: 0.1em;
     margin-top:1rem;
     /* margin-bottom:0.5rem; */
-    letter-spacing: 0.04em;
     color:#333333;
 }
 @media (max-width: 1200px) {
@@ -128,17 +135,17 @@ export default {
 }
 .recent-project .right-large .tags .tag{
     background-color: #F2F2F2;
-    border-radius: 20px;
+    border-radius: 2px;
     padding:2px 6px;
-    color: #4F4F4F;
+    color: #000000;
 }
 .recent-project .right-large .tags span{
     margin-bottom: 0px;
     margin-right:4px;
-    font-family: "Lato";
-    font-weight: 500;
+    font-family: Source Sans Pro;
+    letter-spacing: 0.1em;
+    font-weight: normal;
     font-size: 12px;
-    letter-spacing: 0.02em;
 }
 
 }
@@ -146,12 +153,13 @@ export default {
 
 
 #app {
-    font-family: 'Lato', sans-serif;
+  font-family: Source Sans Pro;
+letter-spacing: 0.1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
-  color: #2c3e50;
-  margin: 6rem 0rem 0rem 0rem;
+  color: #000000;
+  margin: 3rem 0rem 0rem 0rem;
 }
 .container{
     margin: 10rem 0rem 5rem 0rem;
@@ -200,14 +208,17 @@ body{
     left: 18rem;
     /* float: left; */
     height: 3rem;
-    font-family: optima;
+    font-family: Source Sans Pro;
+    letter-spacing: 0.3em;
     vertical-align: middle;
     /* font-family: 'Open Sans', sans-serif; */
     /* font-family: 'Rosario', sans-serif; */
     /* font-family: 'Arsenal', sans-serif;  */
     line-height: normal;
-    font-size: 32px;
+    font-size: 24px;
     color: #202020;
+    font-style: normal;
+    font-weight: 900;
     
 
 }
@@ -217,20 +228,23 @@ body{
     right: 0;
     margin-right: 18rem;
     font-weight: normal;
-    font-family: 'Lato', sans-serif;
+    font-family: Source Sans Pro;
+    letter-spacing: 0.1em;
     font-size: 14px;
     color: #000000;
 }
 .nav >ul >li {
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.1em;
     margin: 0 2rem;
     text-decoration: none;
     list-style: none;
     display: inline;
     transition: 0.2s;
-    font-size: 13px;
+    font-size: 14px;
     color:#202020;
-    font-family: 'Lato', sans-serif;
-    letter-spacing:1.6px;
+    font-family: 'Source Sans Pro', sans-serif;
 
 }
 .nav >ul >li:hover {
@@ -245,7 +259,8 @@ body{
     padding: 4rem 0;
     text-align: center;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: Source Sans Pro;
+    letter-spacing: 0.1em;
     /* font-family: Myriadpro; */
     color: #333333; 
     margin-top: 1rem;
@@ -258,19 +273,20 @@ figcaption{
     font-size: 14px;
     line-height: 1.4;
     color: rgba(0,0,0,.68);
-    letter-spacing: 0;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: Source Sans Pro;
+    letter-spacing: 0.1em;
 }
 blockquote{
     margin-top:30px;
     margin-bottom:30px;
     font-size: 24px;
     line-height: 1.6;
-    letter-spacing: 0.006em;
+    /* letter-spacing: 0.006em; */
     font-weight: 400;
     font-style: italic;
-    font-family: 'Lato', sans-serif;
+    font-family: Source Sans Pro;
+    letter-spacing: 0.1em;
     color: rgba(0,0,0,.68);
 }
 @media (max-width: 40em)  {
@@ -297,6 +313,10 @@ blockquote{
     margin-right: 0rem;
 }
 .nav >ul >li {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.1em;
     margin: 0 0.5rem;
 }
   .copyright {
@@ -429,7 +449,7 @@ blockquote{
 .title .title-text>h4{
     margin: 0;
     font-weight: bold;
-    font-family: 'Lora', serif;
+    font-family: Source Sans Pro;
     font-size: 29px;
     color:#9d9d9d;
     vertical-align: left;
@@ -437,7 +457,8 @@ blockquote{
 .title .title-text>h5{
     margin-top: 0.1rem;
     font-weight: bold;
-    font-family: 'Lato', sans-serif;
+    font-family: Source Sans Pro;
+    letter-spacing: 0.1em;
     font-size: 20px;
     color:#000000;
     vertical-align: left;
@@ -471,16 +492,16 @@ blockquote{
     cursor: pointer;
 }
 span{
-    font-weight: bold;
-    letter-spacing:2px;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    color: #202020;
+    font-weight: normal;
+    font-family: Source Sans Pro;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    color: #000000;
     margin: 10px 0 20px 0;
     text-align:left;
 }
 .next{
-    font-family: 'Lora', serif;
+    font-family: Source Sans Pro;
     font-size: 20px;
     font-weight: bold;
     /* color: #9d9d9d; */

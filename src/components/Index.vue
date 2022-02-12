@@ -2,73 +2,47 @@
     <div class = 'container-snow-large' >
         <div class ="animated fadeIn delay-0.5s">
             <div class='intro'>
-        <!-- <div class='parent'> -->
-            <div class='part1'>
-        <!-- <div class='left'> -->
-                <img src="/static/snowWidth4.png" id="img-snow" style="display:none"></img>
-                <canvas id="canvas"  class="animated fadeIn delay-0.8s"></canvas>
-          <!-- <img v-bind:src=imgSrc width='450px'> -->
-            </div>
+                <div class='part1'>
+                    <img src="/static/Title image.png" id="img-snow" style="display:none"></img>
+                    <canvas id="canvas"  class="animated fadeIn delay-0.8s"></canvas>
+                </div>
             <div class='part2'>
-    <!-- <div class='right' style='background:none'> -->
-     <!-- <h1>Hello, </h1>
-     <h1>I'm Sixuan.</h1> -->
                 <h1>
-                I bring <b>warmth</b> to tech,
-                </br><b>delight</b> to design.</h1>
-                <!-- <h2>Hello, I'm Sixuan. <br>A Product Designer who Codes and Innovates.</h2><br> -->
-                <h2>
-                Hello, I'm Sixuan. <br>I strive to deliver solutions that are elegant, viable, and inspiring.
-                <br></h2>
-     <!-- A product designer with background in Technology Innovation. -->
+                I solve complex puzzles.</h1>
+                <div class='content'>
+                    <h2 class="longtext">
+                 Hi, I’m Sixuan, a product designer with 2 years of experience in designing and launching SaaS products.
+                    </h2>
+                    <h2 class="longtext">
+                        With strong technical skills and product thinking, I strive to create innovative, elegant, and delightful solutions in the tech domain.
+                    </h2>
+                    <h2 class="longtext">
+                        Currently, I work at 
+                    <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px solid rgb(160, 160, 160);" href="https://github.com/chemwolf6922" target="blank">
+                    UserTesting</a>, bringing customer empathy to more organizations.
+                    </h2>
+                </div>
                 <div class='icon-element'>
                 <ul>
                 <li><a class='icon' href="Mailto:sixuanli@outlook.com" target="blank"><i class="fa fa-envelope"></i></a></li>
-                <!-- <li><a class='icon' href="#"><i class="fa fa-dribbble"></i></a></li> -->
                 <li><a class='icon' href="https://github.com/amoewdy" target="blank"><i class="fa fa-github"></i></a></li>
                 <li><a class='icon' href="https://www.linkedin.com/in/sixuan-li-69a171155/" target="blank"><i class="fa fa-linkedin"></i></a></li>
                 <li><a class='icon' href="https://medium.com/@sixuanli" target="blank"><i class="fa fa-medium"></i></a></li>
-                <!-- <li><a class='icon' href="#"><i class="fa fa-facebook"></i></a></li> -->
                 </ul>
                 </div>
-     <!-- <p>
-        I'm currently a master student on<br>
-        Technology Innovation @<br>
-        Global Innovation Exchange,<br>
-        University of Washington<br>
-        <br>
-        I work on creating things that<br> assist people in an intuitive,<br> inspiring and un-intrusive way :-)
-     </p> -->
-    <!-- <div class="icon-container">
-        <svg class="icon" aria-hidden="true">
-            <a xlink:href="Mailto:sixuanli@outlook.com" target="blank">
-            <rect x="0" y="0" width="300" height="30" rx="10" ry="10"
-              style="fill:white"/>
-        <use xlink:href="#icon-mail" fill="lightgray"></use>
-            </a>
-        </svg>
-        <svg class="icon" aria-hidden="true">
-            <a xlink:href="https://www.linkedin.com/in/sixuan-li-69a171155/" target="blank">
-            <rect x="0" y="0" width="300" height="30" rx="10" ry="10"
-              style="fill:white"/>
-        <use xlink:href="#icon-linkedin" fill="lightgray"></use>
-            </a>
-        </svg>
-        <svg class="icon" aria-hidden="true">
-            <a xlink:href="https://github.com/amoewdy" target="blank" >
-            <rect x="0" y="0" width="300" height="30" rx="10" ry="10"
-              style="fill:white"/>
-        <use xlink:href="#icon-github" fill="lightgray"></use>
-            </a>
-        </svg>
-    </div> -->
 
             </div>
         </div>
+        <!-- <div class='content-left'>
+            <h2 class="longtext">
+                 “The worthwhile problems are the ones you can really solve or help solve, the ones you can really contribute something to…” 
+                <br/>—Richard Feynman
+            </h2>
+        </div> -->
     </div>
     <div class="imageContainer">
     <div class="project-menu" style="margin-top:-5rem">
-        <label style="font-weight:600" @click="custormAnchor('#project-recent')"> RECENT WORK ↓ </label>
+        <label @click="custormAnchor('#project-recent')"> RECENT WORK ↓ </label>
     </div>
 
     <a id="project-recent"></a>
@@ -86,27 +60,75 @@
         </p>
     </div>
     </div> -->
+
+    <div class='recent-project'>
+        <div class="left-large">
+            <div class="triggerOnScroll">
+                <img class="itemImg" style="cursor:default" src="/static/home/Interactive Path Flow.png" alt="" width="100%" /> 
+            </div>
+        </div>
+        <div class='right-large' id='recent-border' style='position: relative;'>
+                        <h1>Interactive Path Flow <img src="/static/home/icons/lock.png" width="32rem"></h1>
+                        <h2 class="subtitle">
+                        Vision development
+                        </h2>
+                        <h2 >Revealing insights from test videos automatically</h2>
+                        <div class='tags'>
+                            <span class="tag">Data-driven design</span> 
+                            <span class="tag">Machine intelligence</span> 
+                            <span class="tag">HCI research</span>
+                        </div>
+                         <div class='recent-content'>
+                            <!-- <div class="company-logo-container">
+                            <img class="company-logo" src="/static/home/JBL_Logo.png"/>
+                            </div>
+                            <p class="partner"> <b>Partner with HARMAN JBL Lifestyle Division</b>
+                            </p> -->
+                            <h2 style="color:#9d9d9d" >Read more</h2>
+                            <h2 class="subtitle">
+                            <a style="text-decoration:none;border-bottom:1px solid rgb(160, 160, 160); cursor: pointer;" href="https://www.usertesting.com/blog/instant-insight" target="blank" >
+                            Identify takeaways faster with instant insight
+                            </a><br>
+                            <a style="text-decoration:none;border-bottom:1px solid rgb(160, 160, 160); cursor: pointer;" href="https://www.usertesting.com/blog/machine-learning-visualizations-sentiment-path-intent-path" target="blank" >
+                            Save time with ML-powered data visualizations
+                            </a>
+                            </h2>
+
+                        </div>
+        </div>
+    </div>
+
+
+
     <div class='recent-project'>
         <div class='right-large' style='position: relative;'>
-            <h1>VIDEO PLAYER REDESIGN</h1>
-                <h2 >Get insights from raw feedback efficiently</h2>
+            <h1>Video Player <img src="/static/home/icons/lock.png" width="32rem"></h1>
+                <h2 class="subtitle">
+                Redesign
+                </h2>
+                <h2 >Helping users analyze test videos more efficiently</h2>
                 <div class='tags'>
-                    <span class="tag">Machine Learning</span>    
-                    <span class="tag">Productivity Tool</span>
-                    <span class="tag">Web</span> 
-                    <span class="tag">Cross-Functional Team</span> 
+                    <span class="tag">Web</span>    
+                    <span class="tag">User research</span>
+                    <span class="tag">End-to-end</span> 
+                    <span class="tag">Design iteration</span> 
                 </div>
                 <div class='recent-content'>
-                    <div class="company-logo-container">
+                    <!-- <div class="company-logo-container">
                          <img class="company-logo" style="width:180px;margin-left:0px;margin-bottom:6px" src="/static/home/UT_logo.png"/>
-                    </div>
-                    <p class="partner" style="padding-left:0; text-align: left;"> <b>Product Design Internship</b>
+                    </div> -->
+                    <p class="partner" style="padding-left:0; text-align: left;"> 
+                        <h2 class="subtitle" onclick="window.location.href='/#/usertesting'">
+                        <a style="border-bottom:1px solid rgb(160, 160, 160); cursor: pointer;">
+                        Case Study Preview
+                        </a>
+                        </h2>
                     </p>            
                 </div>
         </div>
         <div class="left-large">
             <div class="triggerOnScroll">
-                <img class="itemImg" src="/static/home/UserTesting.png" alt="" width="100%"  onclick="window.location.href='/#/usertesting'"/> 
+                <img class="itemImg" style="cursor:default" src="/static/home/Video Player.png" alt="" width="100%"/> 
             </div>
         </div>
     </div>
@@ -118,21 +140,24 @@
             </div>
         </div>
         <div class='right-large' id='recent-border' style='position: relative;'>
-                        <h1>HARMONICA</h1>
+                        <h1>Harmonica</h1>
+                        <h2 class="subtitle">
+                        Partner with HARMAN, JBL Lifestyle Division
+                        </h2>
                         <h2 >Enhanced audio experience with ambient awareness</h2>
                         <div class='tags'>
-                            <span class="tag">Product Management</span> 
-                            <span class="tag">Machine Learning</span> 
-                            <span class="tag">User Research</span>
-                            <span class="tag">Audio UX</span>    
-                            <span class="tag">Feature Define</span>
+                            <span class="tag">Audio experience</span> 
+                            <span class="tag">User research</span> 
+                            <span class="tag">Co-creation</span>
+                            <span class="tag">Machine learning</span>    
+                            <span class="tag">Product management</span>
                         </div>
                          <div class='recent-content'>
-                            <div class="company-logo-container">
+                            <!-- <div class="company-logo-container">
                             <img class="company-logo" src="/static/home/JBL_Logo.png"/>
                             </div>
                             <p class="partner"> <b>Partner with HARMAN JBL Lifestyle Division</b>
-                            </p>
+                            </p> -->
                             
                         </div>
         </div>
@@ -140,22 +165,24 @@
 
     <div class='recent-project'>
         <div class='right-large' style='position: relative;'>
-            <h1>A-WATCH</h1>
+            <h1>A-watch</h1>
+                <h2 class="subtitle">
+                    Partner with School of Nursing, University of Washington
+                </h2>
                 <h2 >Child Asthma Management Toolkit</h2>
                 <div class='tags'>
                     <span class="tag">IoT</span>    
-                    <span class="tag">Product Design</span>
-                    <span class="tag">Front-end Development</span> 
-                    <span class="tag">Data Visualization</span> 
-                    <span class="tag">Cross-Functional Team</span>
+                    <span class="tag">Product design</span>
+                    <span class="tag">Front-end</span> 
+                    <span class="tag">Data visualization</span> 
                 </div>
                 <div class='recent-content'>
-                    <div class="company-logo-container">
-                    </div>
+                    <!-- <div class="company-logo-container">
+                    </div> -->
                     <!-- <p class="partner" style="padding:0 20px 0 0;text-align: left;"> <b>Partner with School of Nursing, University of Washington</b>
                     </p>             -->
-                    <p class="partner" style="padding-left:0; text-align: left;" > <b>Partner with School of Nursing University of Washington</b>
-                    </p>              
+                    <!-- <p class="partner" style="padding-left:0; text-align: left;" > <b>Partner with School of Nursing University of Washington</b>
+                    </p>               -->
                 </div>
         </div>
         <div class="left-large">
@@ -172,22 +199,25 @@
             </div>
         </div>
         <div class='right-large' id='recent-border' style='position: relative;'>
-                        <h1>SKETCH SLICER</h1>
+                        <h1>Sketch slicer</h1>
+                        <h2 class="subtitle">
+                        Internal tool
+                        </h2>
                         <h2 >A productivity tool that helps get your design assets faster</h2>
                         <div class='tags'>
+                            <span class="tag">Web development</span> 
                             <span class="tag">React</span>    
                             <span class="tag">OpenCV</span>
                             <span class="tag">Python</span>
                             <span class="tag">AWS Lambda</span>  
                             <span class="tag">API Gateway</span>   
-                            <span class="tag">Web Design</span> 
                         </div>
                          <div class='recent-content'>
-                            <div class="company-logo-container">
+                            <!-- <div class="company-logo-container">
                             <img class="company-logo" style="width:120px;margin:10px auto" src="/static/home/PCT_Logo.png"/>
                             </div>
                             <p class="partner"> <b>Design Technologist Internship</b>
-                            </p>    
+                            </p>     -->
                         </div>
 
         </div>
@@ -196,245 +226,42 @@
 
     <div class='recent-project'>
         <div class='right-large' style='position: relative;'>
-            <h1>PHONE BACKUP</h1>
+            <h1>Phone backup <img src="/static/home/icons/lock.png" width="32rem"> </h1>
+                <h2 class="subtitle">
+                    Client project
+                </h2>
                 <h2 >A holistic cloud backup solution for Andoird users</h2>
                 <div class='tags'>
-                    <span class="tag">Client Project</span>    
                     <span class="tag">Mobile App</span>
                     <span class="tag">Web Portal</span> 
-                    <span class="tag">Internship</span> 
+                    <span class="tag">Interaction Design</span> 
                 </div>
                 <div class='recent-content'>
-                    <div class="company-logo-container">
+                    <!-- <div class="company-logo-container">
                          <img class="company-logo" style="width:50px;margin-left:10px;margin-bottom:6px" src="/static/home/Lock_Logo.png"/>
                     </div>
                     <p class="partner" style="padding-left:0; text-align: left;"> <b>Internship at Punchcut. Please contact me if you are interested in this story : )</b>
                     </p>            
-            
+             -->
+                    <h2 class="subtitle" onclick="window.location.href='/#/backupUX'">
+                        <a style="border-bottom:1px solid rgb(160, 160, 160); cursor: pointer;">
+                        Case Study Preview
+                        </a>
+                    </h2>
                 </div>
         </div>
         <div class="left-large">
             <div class="triggerOnScroll">
-                <img class="itemImg" src="/static/home/gam_sol.png" alt="" width="100%" onclick="window.location.href='/#/backupUX'"/> 
+                <img class="itemImg" style="cursor:default" src="/static/home/gam_sol.png" alt="" width="100%"/> 
             </div>
         </div>
     </div>
 
 
     
-    <div class="project-menu" style="margin-top:4rem">
-        <label v-on:click="show('all')" v-bind:style="{ fontWeight: fontWeightAll}" >ALL</label>
-        <label> ・ </label>
-        <label v-on:click="show('design')" v-bind:style="{ fontWeight: fontWeightDesign}" >DESIGN</label>
-        <label> ・ </label>
-        <label v-on:click="show('build')" v-bind:style="{ fontWeight: fontWeightBuild}" >BUILD</label>
-        <label> ・ </label>
-        <label v-on:click="show('craft')"v-bind:style="{ fontWeight: fontWeightCraft}" >CRAFT</label>
-    </div>
-     <a id="project-overview"></a>
-    <div id="root">
 
-        <div v-show="showAll==true||projectType=='design'" >
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/shelfClock.png" alt="" width="100%"  onclick="window.location.href='/#/shelfclock'"/>
-            <div class="hint">
-                <h3><b>ShelfClock</b></h3>
-                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Smart Home ・ Google Nest</p>
-           
-            </div>
-        </div>
-        </div>
-
-        <div v-show="showAll==true||projectType=='craft'">
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img5.png" alt="" width="100%"  onclick="window.location.href='/#/daydreaming'"/>
-            <div class="hint">
-                    <h3><b>Daydreaming</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>The tension between dream and reality<br/>| Interactive Installation |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Interactive Installation</p>   
-            </div>
-        </div>
-        </div>
-
-
-
-
-        <div v-show="showAll==true||projectType=='design'">
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img7.png" alt="" width="100%"  onclick="window.location.href='/#/hemago'" />
-            <div class="hint">
-                    <h3><b>HEMA-GO Fresh</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Business Design ・ Service Design</p>
-            </div>
-        </div>
-        </div>
-
-        <div v-show="showAll==false&&projectType=='design'" >
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/clubHusky 2.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
-            <div class="hint">
-                <h3><b>clubHusky</b></h3>
-                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Challenge</p>
-           
-            </div>
-        </div>
-        </div>
-        
-
-        <div v-show="showAll==true" >
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/clubhusky2.png" alt="" width="100%"  onclick="window.location.href='/#/clubhusky'"/>
-            <div class="hint">
-                <h3><b>clubHusky</b></h3>
-                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> Explore student organizations <br/>| User Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Challenge</p>
-           
-            </div>
-        </div>
-        </div>
-
-
-
-
-
-        <div v-show="showAll==true">
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img3.png" alt="" width="100%"  onclick="window.location.href='/#/wandpoint'"/>
-            <div class="hint">
-                    <h3><b>Wandpoint</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Adding a new dimension to reality <br/>| Product Design | Augmented Reality |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Product Design ・ AR</p>
-            
-            </div>
-        </div>
-        </div>
-
-        <div v-show="showAll==true||projectType=='design'" >
-       <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/iCushion May12.png" alt="" width="100%"  onclick="window.location.href='/#/icushion'"/>
-            <div class="hint">
-                <h3><b>iCushion</b></h3>
-                <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> A smart cushion that helps children improve their sitting posture <br/>| Design Research | UX Design |</p> -->
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Design Research ・ UX Design</p>
-            </div>
-        </div>
-        </div>
-
-        <div v-show="showAll==false&&projectType=='design'">
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img3.png" alt="" width="100%"  onclick="window.location.href='/#/wandpoint'"/>
-            <div class="hint">
-                    <h3><b>Wandpoint</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Adding a new dimension to reality <br/>| Product Design | Augmented Reality |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Product Design ・ AR</p>
-            
-            </div>
-        </div>
-        </div>
-
-        <div v-show="showAll==false&&projectType=='design'" >
-        <div class="item-blank" >
-            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
-            <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
-            <div class="hint">
-                    <h3><b></b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '></p>
-            
-            </div>
-        </div>
-        </div>
-
-
-
-        <div v-show="showAll==true||projectType=='build'" >
-        <div class="item triggerOnScroll" :key="componentKey"  >
-            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
-            <img class="itemImg"  src="/static/home/pika May12.png" alt="" width="100%"  onclick="window.location.href='/#/pika'"/>
-            <div class="hint">
-                    <h3><b>Pika</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '> Social Robot ・ Web Development</p>
-            
-            </div>
-        </div>
-        </div>
-
-
-        <div v-show="showAll==true||projectType=='design'">
-        <div class="item triggerOnScroll">
-            <img class="itemImg"  src="/static/home/sandword May12.png" alt="" width="100%" onclick="window.location.href='/#/sandword'"/>
-            <div class="hint">
-                    <h3><b>SandWord</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>A self-help APP that alleviates emotional problems <br/>| App Development | UX Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>iOS ・ Interaction Design ・ Unity</p>   
-            </div>
-        </div>
-        </div>
-
-        <div v-show="showAll==false&&projectType=='design'" >
-        <div class="item-blank" >
-            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
-            <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
-            <div class="hint">
-                    <h3><b></b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '></p>
-            
-            </div>
-        </div>
-        </div>
-
-
-        <div v-show="showAll==true" >
-        <div class="item-blank" >
-            <!-- <img class="itemImg"  src="/static/home/img10.png" alt="" width="100%" onmousemove="IndexImageMoveIn(this)" onmouseout="IndexImageMoveOut(this)" onclick="window.location.href='/#/camt'"/> -->
-            <img class="itemImg"  src="/static/home/blank.png" alt="" width="100%" />
-            <div class="hint">
-                    <h3><b></b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>61 Days from Concept to Delivery <br/>| IoT | Web App |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem; '></p>
-            
-            </div>
-        </div>
-        </div>
-
-
-
-        <div v-show="showAll==true||projectType=='build'">
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/img9-2.png" alt="" width="100%"  onclick="window.location.href='/#/spimo'" />
-            <!-- <img class="itemImg" src="/static/home/img9.png" alt="" width="100%"  onclick="window.location.href='https://medium.com/@sixuanli/spimo-3afbf13eda85'" />  -->
-            <div class="hint">
-                    <h3><b>Spimo</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>IoT・ Machine Learning</p>
-            </div>
-        </div>
-        </div>
-
-        <div v-show="showAll==true||projectType=='craft'">
-        <div class="item triggerOnScroll">
-            <img class="itemImg" src="/static/home/china.png" alt="" width="100%"  onclick="window.location.href='/#/Porcelain'" />
-            <div class="hint">
-                    <h3><b>Misc.</b></h3>
-                    <!-- <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '>Your connected shopping experience <br/>| Business Design |</p> -->
-                    <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem;margin-bottom:0.5rem '>Craft, Porcelain, and Drawings</p>
-            </div>
-        </div>
-        </div>
-
-        <!-- <div class="item">
-            <img class="itemImg" src="/static/home/img6.png" alt="" width="100%"/>
-            <div class="hint">
-                <h2>Lumii</h2>
-                <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:0.3rem '> A Cozy Spiritual Home <br/>| Smart Home | Product Design |</p>
-            </div>
-        </div> -->
-    </div>
+    <!-- <a id="project-overview"></a> -->
+    
     </div>
   </div>
 </template>
@@ -445,7 +272,7 @@ export default {
     data () {
         return {
         seen:false,  
-        imgSrc: '../static/home/snowBackgroundFigma.png',
+        imgSrc: '../static/home/Title image.png',
         showAll:true,
         projectType:'',
         fontWeightAll:700,
@@ -505,44 +332,6 @@ export default {
             observer.observe(section);
             });
         },
-        show:function(type){
-        if(type=='design'){
-            this.projectType='design';
-            this.showAll=false;
-            this.fontWeightDesign=700;
-            this.fontWeightAll=300;
-            this.fontWeightBuild=300;
-            this.fontWeightCraft=300;
-            console.log('click desig',this.projectType,this.showAll);
-        }
-        else if(type=='build'){
-            this.projectType='build';
-            this.showAll=false;
-            this.fontWeightDesign=300;
-            this.fontWeightAll=300;
-            this.fontWeightBuild=700;
-            this.fontWeightCraft=300;
-            console.log('click build',this.projectType,this.showAll);
-        }
-        else if(type=='craft'){
-            this.projectType='craft';
-            this.showAll=false;
-            this.fontWeightDesign=300;
-            this.fontWeightAll=300;
-            this.fontWeightBuild=300;
-            this.fontWeightCraft=700;
-            console.log('click craft',this.projectType,this.showAll);
-        }
-        else if(type=='all'){
-            this.showAll=true; 
-            this.fontWeightDesign=300;
-            this.fontWeightAll=700;
-            this.fontWeightBuild=300;
-            this.fontWeightCraft=300;  
-            console.log('click all',this.projectType,this.showAll);  
-       
-        }
-        },
         snow:function(){
             // (function() {
             //     var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame ||
@@ -555,7 +344,7 @@ export default {
             var flakes = [],
             canvas = document.getElementById("canvas"),
             ctx = canvas.getContext("2d"),
-            flakeCount = 700,
+            flakeCount = 120,
             mX = -100,
             mY = -100
             // canvas.width = 0.806* window.innerWidth;
@@ -633,7 +422,8 @@ export default {
                 flake.speed = (Math.random() * 1) + 1.1
                 flake.velY = flake.speed;
                 flake.velX = 0;
-                flake.opacity = (Math.random() * 0.5) + 0.6;
+                // flake.opacity = (Math.random() * 0.5) + 0.6;
+                flake.opacity = 1;
             }
 
             function init() {
@@ -642,7 +432,8 @@ export default {
                         y = Math.floor(Math.random() * canvas.height),
                         size = (Math.random() * 3) + 2.3,
                         speed = (Math.random() * 1) + 1.1,
-                        opacity = (Math.random() * 0.5) + 0.5;
+                        // opacity = (Math.random() * 0.5) + 0.5;
+                        opacity = 1;
 
                     flakes.push({
                         speed: speed,
@@ -760,8 +551,8 @@ ul:after {
   }
 
 a:hover{
-    color:#C70C00 !important;
-    border-color:#C70C00 !important;
+    color:#000000 !important;
+    border-color:#000000 !important;
     transition: 0.8s ease;
 }
 
@@ -771,7 +562,7 @@ a:hover i{
     -o-transform:scale(1.4);
     -ms-transform:scale(1.4);
     transform:scale(1.4);
-    color:#C70C00;
+    color:#000000;
     transition: 0.3s ease;
 }
 .project-menu{
@@ -783,17 +574,18 @@ a:hover i{
 
 .part2 h1{
     font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.1em;
     /* letter-spacing:2px; */
-    font-family: 'Lato', sans-serif;
-    font-size: 38px;
-    color: #202020;
-    margin: 10px 0 12px 0px;
+    font-family: Source Sans Pro;
+    font-size: 56px;
+    color: #000000;
+    margin: 0px 0 0px 0px;
     text-align:left;
-    letter-spacing:9px;
     // text-transform:uppercase;
 }
 h1 b{
-    background-image: linear-gradient(180deg,transparent 70%,#D14343 0);
+    background-image: linear-gradient(180deg,transparent 70%,#3F67FF 0);
     transition: background-size .4s ease;
 }
 
@@ -811,35 +603,57 @@ h1 b{
 // }
 
 p{
-    font-family: 'Lora', serif;
+    font-family: Source Sans Pro;
     margin:20px 20px 20px 0px;
     line-height: 29px;
     font-size: 16px;
     letter-spacing: 0.05em;
-    font-weight: lighter;
+    font-weight: 500;
     color: #000000;
     text-align:left;
     /* margin-bottom:5rem; */
 }
 h2{
-    font-family: 'Lato', sans-serif;
-
+    font-family: Source Sans Pro;
     // font-family: Lora;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 28px;
-    letter-spacing: 0.09em;
-    color: #333333; 
+    letter-spacing: 0.1em;
+    color: #000000; 
     margin:20px 30px 0 0 ;
     text-align:left;
 }
+h2.longtext{
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+/* or 156% */
+letter-spacing: 0.1em;
+color: #000000;
+margin:10px 80px 10px 0;
+}
+h2.subtitle{
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+/* or 156% */
+letter-spacing: 0.1em;
+color: #000000;
+margin:0;
+}
+
 h3{
     font-weight: 600;
-    letter-spacing:1px;
-    font-family: 'Lato', sans-serif;
+    letter-spacing:0.1em;
+    font-family: Source Sans Pro;
     font-size: 20px;
-    color: #333333; 
+    color: #000000; 
     // color: rgb(0, 0, 0);
     margin:12px 0 2px 0 ;
     letter-spacing:1.2px;
@@ -856,8 +670,17 @@ h3{
     float:right;
     position:absolute;
     margin:auto;
-    margin-top:-30rem;
+    margin-top:-38rem;
     margin-left:56%;
+    margin-right:6%;
+}
+.part2 .content{
+    margin:20px 0 20px 0;
+}
+.content-left{
+    float:left;
+   margin:-180px 0 20px 12%; 
+   width:44%;
 }
 .intro{
     position:relative;
@@ -879,23 +702,22 @@ p{
     text-align:left;
 }
 label{
-    font-family:'Lato', sans-serif;
+    font-family:Source Sans Pro;
     font-size: 18px;
-    color: #333333;
+    color: #000000;
     letter-spacing: 0.1em;
-    font-weight: 300;
+    font-weight: 800;
     margin-bottom: 5rem;
 }
 label:hover{
     color: #BDBDBD;
-    font-weight: 300;
 
 }
 
 
 #canvas{
     /* background-image: url('/static/snowBackgroundFigma.png');    */
-    background-image: url('/static/snowWidth4.png');   
+    background-image: url('/static/Title image.png');   
     background-size:     cover;                      
     background-repeat:   no-repeat;
     background-position: center center;
@@ -1041,16 +863,17 @@ label:hover{
 //     height:350px;
 // }   
     p{
-    font-family: 'Lora', serif;
+    font-family: Source Sans Pro;
     margin:0;
     line-height: 22px;
     font-size: 13px;
     }
     .part2 h1{
     font-weight: bold;
-    letter-spacing:10px;
-    font-family: 'Lato', sans-serif;
-    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    font-size: 38px;
+    line-height: 40px;
 }  
     // .item .hint {
     // display:none;
@@ -1119,7 +942,7 @@ label:hover{
     .right-large h1{
     font-size: 18px;
     letter-spacing: 0.2rem;
-    display: block;   
+    display: block; 
     }
     .recent-project h2{
     display: none; 
@@ -1255,8 +1078,8 @@ label:hover{
 
 .itemImg:hover{
     transition: 0.2s ease-in-out;
-    box-shadow: 0px 10px 0px #D14343;  
-    // box-shadow: 0px 10px 0px #333333;
+    // box-shadow: 0px 10px 0px #315CFD;  
+    box-shadow: 0px 10px 0px #000000;
     cursor: pointer;
 }
 
@@ -1281,10 +1104,10 @@ label:hover{
     height:80%;
     transition: 0.5s;
     cursor: pointer;
-    font-family: 'Lato', sans-serif;
+    font-family: Source Sans Pro;
     font-size: 17px;
     text-align: center;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
     color: #a2a2a2;
     font-weight: bolder;
     line-height: 1.3rem;

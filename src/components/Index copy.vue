@@ -456,18 +456,18 @@ a:hover i{
 h1{
     font-weight: 900;
     /* letter-spacing:2px; */
-    font-family: 'Lato', sans-serif;
+    font-family: Source Sans Pro;
     font-size: 38px;
-    color: #202020;
+    color: #000000;
     margin: 10px 0 12px 0px;
     text-align:left;
-    letter-spacing:16px;
+    letter-spacing:0.1em;
     text-transform:uppercase;
 }
 h2{
     font-weight: 500;
-    letter-spacing:1px;
-    font-family: 'Lato', sans-serif;
+    letter-spacing:0.1em;
+    font-family: Source Sans Pro;
     font-size: 16px;
     /* color: #C9C9C9; */
     color: rgb(0, 0, 0);
@@ -505,12 +505,12 @@ i{
     margin: 0.8rem 0.5rem 0 0;
 }
 p{
-    font-family: 'Lora', serif;
+    font-family: Source Sans Pro;
     margin:0;
     line-height: 29px;
     font-size: 14px;
     letter-spacing: 0.04em;
-    font-weight: lighter;
+    font-weight: 500;
     color: #000000;
     text-align:left;
 }
@@ -599,15 +599,15 @@ p{
     height:350px;
 }   
     p{
-    font-family: 'Lora', serif;
+    font-family: Source Sans Pro;
     margin:0;
     line-height: 22px;
     font-size: 13px;
     }
     h1{
     font-weight: bold;
-    letter-spacing:2px;
-    font-family: 'Lato', sans-serif;
+    letter-spacing:0.1em;
+    font-family: Source Sans Pro;
     font-size: 24px;
 }  
     // .item .hint {
@@ -663,10 +663,10 @@ p{
     height:80%;
     transition: 0.5s;
     cursor: pointer;
-    font-family: 'Lato', sans-serif;
+    font-family: Source Sans Pro;
     font-size: 17px;
     text-align: center;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
     color: #a2a2a2;
     font-weight: bolder;
     line-height: 1.3rem;

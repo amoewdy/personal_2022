@@ -19,6 +19,7 @@ import shelfclock from "@/components/shelfclock"
 import backupUX from "@/components/backupUX"
 import usertesting from "@/components/usertesting"
 import harmonica from "@/components/harmonica"
+import playground from "@/components/playground"
 
 Vue.use(Router)
     // Vue.use(BootstrapVue);
@@ -113,6 +114,11 @@ export default new Router({
             path: '/harmonica',
             name: 'harmonica',
             component:  harmonica
+        },
+        {
+            path: '/playground',
+            name: 'playground',
+            component:  playground
         },
     ]
 })

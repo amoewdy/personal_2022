@@ -59,29 +59,29 @@ export default {
 <style>
 
 p.about-paragraph{
-    font-family: 'Lora', serif;
+    font-family: Source Sans Pro;
     margin:1.2rem auto;
     line-height: 29px;
     font-size: 16px;
     letter-spacing: 0.05em;
-    font-weight: lighter;
+    font-weight: 500;
     color: #000000;
     text-align:left;
     /* margin-bottom:5rem; */
 }
 h2.about-h2{
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing:1px;
-    font-family: 'Lato', sans-serif;
+    font-family: Source Sans Pro;
+    letter-spacing: 0.1em;
     font-size: 30px;
     /* color: #333333;  */
     color: rgb(0, 0, 0);
     margin:20px 0 0 0 ;
-    letter-spacing:1rem;
     text-align:left;
 }
 h2 b{
-    background-image: linear-gradient(180deg,transparent 70%,#D14343 0);
+    background-image: linear-gradient(180deg,transparent 70%,#3F67FF 0);
     transition: background-size .4s ease;
 }
 
@@ -106,6 +106,10 @@ h2 b{
 }
 
  li{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.1em;
     list-style:none;
     float:left;
     margin:0px 5px 10px 0px;
@@ -137,8 +141,8 @@ h2 b{
   }
 
 a:hover{
-    color:#C70C00 !important;
-    border-color:#C70C00 !important;
+    color:#000000 !important;
+    border-color:#000000 !important;
     transition: 0.8s ease;
 }
 
@@ -148,7 +152,7 @@ a:hover i{
     -o-transform:scale(1.4);
     -ms-transform:scale(1.4);
     transform:scale(1.4);
-    color:#C70C00;
+    color:#000000;
     transition: 0.3s ease;
 }
 .icon-element-about{

@@ -259,41 +259,41 @@ export default {
 
 
 p{
-    font-family: 'Lora', serif;
+    font-family: Source Sans Pro;
     margin:0 0 10px 0;
     line-height: 29px;
     font-size: 16px;
     letter-spacing: 0.05em;
-    font-weight: lighter;
+    font-weight: 500;
     color: #000000;
     text-align:left;
     /* margin-bottom:5rem; */
 }
 h1{
     font-weight: bold;
-    letter-spacing:2px;
-    font-family: 'Lato', sans-serif;
+    letter-spacing:0.1;
+    font-family: Source Sans Pro;
     font-size: 30px;
     line-height: 2.4rem;
-    color: #202020;
+    color: #000000;
     margin: 10px 0 0 0;
     text-align:left;
 }
 h2{
     font-weight: bold;
-    letter-spacing:0.8px;
-    font-family: 'Lato', sans-serif;
+    letter-spacing:0.1em;
+    font-family: Source Sans Pro;
     font-size: 20px;
-    color: #202020;
+    color: #000000;
     margin: 18px 0 11px 0;
     text-align:left;
 }
 h3{
     font-weight: bold;
-    letter-spacing:0.8px;
-    font-family: 'Lato', sans-serif;
+    letter-spacing:0.1em;
+    font-family: Source Sans Pro;
     font-size: 18px;
-    color: #202020;
+    color: #000000;
     line-height: 29px;
     text-align:left;
     /* text-transform: uppercase; */
@@ -302,8 +302,8 @@ h3{
 h4{
     font-weight:bolder;
     /* font-weight:1000; */
-    letter-spacing:0.6px;
-    font-family: 'Lato', sans-serif;
+    letter-spacing:0.1em;
+    font-family: Source Sans Pro;
     font-size: 24px;
     color:#000000;
     text-align:left;
@@ -315,7 +315,7 @@ h4{
 h6{
     font-weight: bold;
     letter-spacing:1px;
-    font-family: 'Lora', serif;
+    font-family: Source Sans Pro;
     font-size: 22px;
     color: #9d9d9d;
     margin: 12px 0 20px 0;

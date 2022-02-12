@@ -81,7 +81,7 @@
         <div class='right-large' style='position: relative;'>
                 <!-- <div class="hint"> -->
                         <h1 style="font-size:26px;letter-spacing: 0.4rem;">HARMONICA</h1>
-                        <h2 style='font-family: Lora;font-weight: normal;'>Enhanced audio experience with ambient awareness</h2>
+                        <h2 style='font-family: Source Sans Pro;font-weight: normal;'>Enhanced audio experience with ambient awareness</h2>
                         <div class='recent-content'>
                         <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> Feature Define・Audio Experience・Machine Learning・Co-creation
                         </p>
@@ -713,7 +713,7 @@ h2{
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0.1em;
-    color: #333333; 
+    color: #000000; 
     margin:20px 20px 0 0 ;
     text-align:left;
 }
@@ -722,7 +722,7 @@ h3{
     letter-spacing:1px;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
-    color: #333333; 
+    color: #000000; 
     // color: rgb(0, 0, 0);
     margin:12px 0 2px 0 ;
     letter-spacing:1.2px;
@@ -739,7 +739,7 @@ h3{
     float:right;
     position:absolute;
     margin:auto;
-    margin-top:-30rem;
+    margin-top:-40rem;
     margin-left:56%;
 }
 .intro{
@@ -764,7 +764,7 @@ p{
 label{
     font-family:'Lato', sans-serif;
     font-size: 18px;
-    color: #333333;
+    color: #000000;
     letter-spacing: 0.1em;
     font-weight: 300;
     margin-bottom: 5rem;
@@ -924,7 +924,7 @@ label:hover{
 //     height:350px;
 // }   
     p{
-    font-family: 'Lora', serif;
+    font-family: Source Sans Pro;
     margin:0;
     line-height: 22px;
     font-size: 13px;

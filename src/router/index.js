@@ -25,6 +25,7 @@ Vue.use(Router)
     // Vue.use(BootstrapVue);
 
 export default new Router({
+    mode : 'hash',
     routes: [{
             path: '/',
             name: 'home',

@@ -18,7 +18,7 @@
                     </h2>
                     <h2 class="longtext">
                         Currently, I work at 
-                    <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px solid rgb(160, 160, 160);" href="https://github.com/chemwolf6922" target="blank">
+                    <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px solid rgb(160, 160, 160);" href="https://www.usertesting.com/" target="blank">
                     UserTesting</a>, bringing customer empathy to more organizations.
                     </h2>
                 </div>

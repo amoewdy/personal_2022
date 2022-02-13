@@ -165,7 +165,7 @@
 
     <div class='recent-project'>
         <div class='right-large' style='position: relative;'>
-            <h1>A-watch</h1>
+            <h1>A-Watch</h1>
                 <h2 class="subtitle">
                     Partner with School of Nursing, University of Washington
                 </h2>
@@ -199,7 +199,7 @@
             </div>
         </div>
         <div class='right-large' id='recent-border' style='position: relative;'>
-                        <h1>Sketch slicer</h1>
+                        <h1>Sketch Slicer</h1>
                         <h2 class="subtitle">
                         Internal tool
                         </h2>
@@ -226,7 +226,7 @@
 
     <div class='recent-project'>
         <div class='right-large' style='position: relative;'>
-            <h1>Phone backup <img src="/static/home/icons/lock.png" width="32rem"> </h1>
+            <h1>Phone Backup <img src="/static/home/icons/lock.png" width="32rem"> </h1>
                 <h2 class="subtitle">
                     Client project
                 </h2>

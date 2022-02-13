@@ -11,7 +11,7 @@
 
   <div class = 'container'>
      <div class="content-container-large">
-            <img src="static/harmonica/title.png" width='100%' class='large-img'>
+            <img src="https://miro.medium.com/max/1400/1*rCot5fLOyaAEfuMV6ybvZw.png" width='100%' class='large-img'>
     </div>
     <div class="first-page">
         <div class="content-container-title">
@@ -125,7 +125,7 @@
             </div>
             <div class="paragraph">
                 <div class='image-middle-container'>
-                    <img src="/static/harmonica/Problem.png" width="70%">
+                    <img src="https://miro.medium.com/max/1400/1*bJcnbKVgP6hqoMKed5xnJQ.png" width="70%">
                 </div>
             </div>
             <div class="paragraph">
@@ -141,7 +141,7 @@
                     <b>Instant-away</b> Headphones can help people’s timely reactions to emergency, broadcasts, and greetings from others as if they disappear instantly
                 </p>
                 <div class='image-middle-container'>
-                    <img src="/static/harmonica/problem.gif" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*vYGEKKBGrisI9fYt6PWEvg.gif" width="100%">
                 </div>
             </div>
             <div class="paragraph">
@@ -153,7 +153,7 @@
             <div class="paragraph">
                 <div class='interview' >
                     <div class='left_p'>
-                        <img src="/static/harmonica/feature1.png" width="90%">
+                        <img src="https://miro.medium.com/max/1400/1*ltcM1L0NRbmev4Nj6Wrziw.png" width="90%">
                     </div>
                     <div class="right_p">
                         <h4>Seamless Conversation</h4>
@@ -166,7 +166,7 @@
             <div class="paragraph">
                 <div class='interview' >
                     <div class='left_p'>
-                        <img src="/static/harmonica/feature2.png" width="90%">
+                        <img src="https://miro.medium.com/max/1400/1*y2wa6INEdFmgSYD4qcc8wQ.png" width="90%">
                     </div>
                     <div class="right_p">
                         <h4>Just-enough Outside Sound</h4>
@@ -179,7 +179,7 @@
             <div class="paragraph">
                 <div class='interview' >
                     <div class='left_p'>
-                        <img src="/static/harmonica/feature3.png" width="90%">
+                        <img src="https://miro.medium.com/max/1400/1*AlAdvLu5eJbT9mph39FWWA.png" width="90%">
                     </div>
                     <div class="right_p">
                         <h4>Event Monitoring</h4>
@@ -192,7 +192,7 @@
             <div class="paragraph">
                 <h4>Onboarding UX</h4>
                 <div class='image-middle-container'>
-                    <img src="/static/harmonica/screen_recording_medium.gif" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*USAiEGuaQ6rDRlzw-cambA.gif" width="100%">
                 </div>
             </div>
             <div class="paragraph">
@@ -217,7 +217,7 @@
                 </p>
                 </div>
                 <div class='image-middle-container'>
-                    <img src="/static/harmonica/dataflow.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*fSupECZbSxWj1VaQVVXJ9A.png" width="100%">
                     <figcaption>Solution Logic & Data Flow</figcaption>
                 </div>
             </div>
@@ -246,7 +246,7 @@
             </div>
         </div>
         <div class="content-container-large">
-            <img src="/static/harmonica/timeline.png" width='100%' class='large-img'>
+            <img src="https://miro.medium.com/max/1400/1*yMcZfXlS7rjSgN90HjEUpw.png" width='100%' class='large-img'>
         </div>
         <div class="content-container">
             <div class="paragraph">
@@ -256,21 +256,21 @@
                 </blockquote>
                 <br>
                 <div class='image-middle-container'>
-                    <img src="/static/harmonica/user research.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*QGziI4T0RaP6IWXN2zJ8iQ.png" width="100%">
                 </div>
             <div class="paragraph">
                 <h4>Persona</h4>
+                <div class='image-middle-container'>
+                    <img src="https://miro.medium.com/max/1400/1*i_CWPfOVRm8lf69lTK6P8Q.png" width="100%">
+                </div>
             </div>
             </div>
-        </div>
-        <div class="content-container-large">
-            <img src="/static/harmonica/persona.png" width='100%' class='large-img'>
-        </div>   
+        </div> 
         <div class="content-container">
             <div class="paragraph">
                 <h4>Insights</h4>
                 <div class='image-middle-container'>
-                    <img src="/static/harmonica/insights.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*cG1SvJ0N7I8TvzLAUE9C8A.png" width="100%">
                 </div>
                 <blockquote>
                     People use ANC headphons to better achieve their primary tasks, with a compromise on their responsiveness
@@ -280,7 +280,7 @@
                     We can help users stay responsive while enjoying immersive music through headphones.
                 </p>
                 <div class='image-middle-container'>
-                    <img src="/static/harmonica/insights2.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*o0zQGL9g0RobY-AK6I6Ehw.png" width="100%">
                 </div>
             </div>
             <br>
@@ -294,7 +294,7 @@
                 <br>
                 <h4>Co-Design With User</h4>  
                 <div class='image-middle-container'>
-                    <img src="/static/harmonica/diary study.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*zzMfEnaI4d4rYnNw7xGI8w.png" width="100%">
                 </div>
                 <p>
                     We co-created with ANC headset users to explore the just-right features for headphones and collected 80+ ideas.
@@ -303,7 +303,7 @@
         </div> 
         <br>  
         <div class='content-container-large'>
-            <img src="/static/harmonica/co-design.png" width="100%">
+            <img src="https://miro.medium.com/max/1400/1*1nkTodcEi0yHoPpocdnNjQ.png" width="100%">
         </div>       
         <br>
         <div class="content-container">
@@ -313,7 +313,7 @@
             </div>
         </div>
         <div class='content-container-large'>
-            <img src="/static/harmonica/MVP.png" width="100%">
+            <img src="https://miro.medium.com/max/1400/1*aTA0URM0_ndCKjjB7OuUgw.png" width="100%">
         </div> 
         <br>
         <br>
@@ -330,14 +330,14 @@
             </div>           
         </div>  
         <div class='content-container-large'>
-            <img src="/static/harmonica/evaluation1.png" width="100%">
+            <img src="https://miro.medium.com/max/1400/1*Jta4IdqRVijwnRMIstAeKQ.png" width="100%">
             <figcaption>*Please read full case study for more details.*</figcaption>
         </div> 
         <div class="content-container">
             <div class="paragraph">
                 <h4>Find the right default settings through user experiments</h4> 
                 <div class='image-middle-container'>
-                    <img src="/static/harmonica/evaluation2.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*BlWVwfPK29-sjhhHAlt7Nw.png" width="100%">
                     <figcaption>*Please read full case study for more details.*</figcaption>
                 </div>
             </div>
@@ -371,7 +371,7 @@
             </div>
         </div>
         <div class='content-container-large'>
-            <img src="/static/harmonica/system.png" width="100%">
+            <img src="https://miro.medium.com/max/1400/1*E6Ldsljk1rX4ci72bV6i3A.png" width="100%">
         </div>
         <!-- <div class="content-container">
             <div class="paragraph">
@@ -394,7 +394,7 @@
             </div>
         </div>
         <div class='content-container-large'>
-            <img src="/static/harmonica/final presentation.png" width="100%">
+            <img src="https://miro.medium.com/max/1400/1*TsO44Pt2PnKyN2T7BSKyNw.png" width="100%">
             <figcaption> the working demo to Harman & GIX Leadership Team </figcaption> 
         </div>
         <div class="content-container">

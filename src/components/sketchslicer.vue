@@ -11,7 +11,7 @@
 
   <div class = 'container'>
      <div class="content-container-large">
-            <img src="static/sketch slicer/title.png" width='100%' class='large-img'>
+            <img src="https://miro.medium.com/max/1400/1*o7GPVXfM2GCrjksPqP_3SA.png" width='100%' class='large-img'>
     </div>
     <div class="first-page">
         <div class="content-container-title">
@@ -95,7 +95,7 @@
             </div>
             <div class="paragraph">
                 <div class='image-middle-container'>
-                    <img src="/static/sketch slicer/problem.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*fMq9W7JUTaEg5BFJiTrJbA.png" width="100%">
                 </div>
             </div>
             <div class="paragraph">
@@ -131,7 +131,7 @@
             <div class="paragraph">
                 <h4>User Journey</h4>
                 <div class='image-middle-container text-image' style='width:100%'>
-                    <img src="/static/sketch slicer/current workflow.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*37iKSs-39SnUrWQfuGddzg.png" width="100%">
                     <figcaption>Current workflow of VI design</figcaption>
                 </div>
                 <p>
@@ -144,7 +144,7 @@
                     What I did with OpenCV to automate this process…
                 </p>
                 <div class='image-middle-container text-image' style='width:100%'>
-                    <img src="/static/sketch slicer/function journey.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*y8TfbCYwcQre2ZE-2Xn5hw.png" width="100%">
                 </div>
 
             </div> 
@@ -154,14 +154,14 @@
                     Improve performance for edge cases with more testing samples
                 </p>
                 <div class='image-middle-container text-image' style='width:100%'>
-                    <img src="/static/sketch slicer/functional testing.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*KpzeXm0YtsH1EJuZR0CeMg.png" width="100%">
                     <figcaption>Testing samples collected from my colleagues</figcaption>
                 </div>
             </div>
             <div class="paragraph">
                 <h4>Deployment</h4>
                 <div class='image-middle-container text-image'>
-                    <img src="/static/sketch slicer/deployment.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*2eoS9ah9HJFSrfwsRD-3yw.png" width="100%">
                 </div>
                 <p>
                     The back-end is packaged into API and deployed to AWS Lambda, so it can be accessible for anyone from anywhere.

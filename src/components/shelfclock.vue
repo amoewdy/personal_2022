@@ -11,7 +11,8 @@
 
   <div class = 'container'>
      <div class="content-container-large">
-            <img src="static/shelfclock/title.png" width='100%' class='large-img'>
+            <img src="https://miro.medium.com/max/1400/1*bU-LAlKf_UtVjtL5wShiTg.png" width='100%' class='large-img'>
+            
     </div>
     <div class="first-page">
         <div class="content-container-title">
@@ -85,7 +86,7 @@
                 The decorative design makes it blends in your living room. To keep time, you don’t need a phone; nor do you need an alarm clock.
                 </p>
                 <div class='image-middle-container'>
-                    <img src="/static/shelfclock/background.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*WEEv8A64-LAUXhVB2oPJfA.png" width="100%">
                 </div>
             </div>
             <div class="paragraph">
@@ -94,7 +95,7 @@
                 it is everywhere in your physical home and digital life
                 </p>
                 <div class='image-middle-container'>
-                    <img src="/static/shelfclock/factors.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*3Fq4lgakkecrSer1vlXKHg.png" width="100%">
                 </div>
             </div>
         </div>
@@ -116,7 +117,7 @@
                         </p>
                     </div>
                 <div class='image-middle-container text-image' style='width:100%'>
-                    <img src="/static/shelfclock/target audience.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*JM-9ZDvySpVUlYZqCMKRfg.png" width="100%">
                 </div>
                 <p>
                 Home assistant and smart home devices are experiencing rapid growth & focused mainly on smart sensors. This product expands its territory to the “daily necessity” category.    
@@ -130,7 +131,7 @@
                         </p>
                     </div>
                 <div class='image-middle-container text-image' style='width:100%'>
-                    <img src="/static/shelfclock/google.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*CPI6ISNbecGXH4Tzb9CsoQ.png" width="100%">
                 </div>
                 <p>
                 Targeting mainly Android users, and more broadly, Google users.
@@ -161,7 +162,7 @@
             <div class="paragraph">
                 <h4>Flow with Google</h4>
                 <div class='image-middle-container text-image' style='width:100%'>
-                    <img src="/static/shelfclock/flow1.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*-nKj8vHLDxGWEqaX_LfK4w.png" width="100%">
                     <figcaption>Check Status(left), On the Call(middle), Set Reading Time(right)</figcaption>
                 </div>
             </div>
@@ -171,13 +172,13 @@
                     Example: a commandless Canvas software
                 </p>
                 <div class='image-middle-container text-image' style='width:100%'>
-                    <img src="/static/shelfclock/flow2.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*XScvcgYHzomJUQwIrH8eBQ.png" width="100%">
                     <figcaption>Prompt(left), Alert(middle), Dismissal(right)</figcaption>
                 </div>
             </div>
             <div class="paragraph">
                 <div class='image-middle-container text-image' style='width:100%'>
-                    <img src="/static/shelfclock/end.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*e7kI0qOw6FEfOu4GVTQWyg.png" width="100%">
                 </div>
             </div>
         </div>
@@ -194,19 +195,19 @@
             <div class="paragraph">
                 <h4>Icon in Google Home app</h4>
                 <div class='image-middle-container text-image' style='width:100%'>
-                    <img src="/static/shelfclock/brand1.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*u072AwGRVYMFKPWDcoImzQ.png" width="100%">
                 </div>
             </div>
             <div class="paragraph">
                 <h4>Typography</h4>
                 <div class='image-middle-container text-image' style='width:100%'>
-                    <img src="/static/shelfclock/brand2.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*7JBKKcDyILuerwFHYOOhgQ.png" width="100%">
                 </div>
             </div>
             <div class="paragraph">
                 <h4>Packaging</h4>
                 <div class='image-middle-container text-image' style='width:100%'>
-                    <img src="/static/shelfclock/brand3.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*Nr3M1wVgFTRzQhnOFg0nnA.png" width="100%">
                 </div>
             </div>
         </div>

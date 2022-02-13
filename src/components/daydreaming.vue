@@ -2,7 +2,7 @@
     <div class="animated fadeIn delay-0.5s">
   <div class = 'container'>
     <div class="content-container-large">
-            <img src="/static/daydreaming/1.png" width='100%' class='large-img'>
+            <img src="https://miro.medium.com/max/1400/1*ygpQIuoD5rritYdYJ37NkQ.png" width='100%' class='large-img'>
     </div>
     <div class="first-page">
         <div class="content-container-title">
@@ -76,7 +76,7 @@
             </p>
             <div class='interview' >
                     <div class='left_p'>
-                        <img src="/static/daydreaming/2.png" width="100%">
+                        <img src="https://miro.medium.com/max/1260/1*isUHeZFS9L86RYZAcBwRvQ.png" width="100%">
                     </div>
                     <div class="right_p">
                         <p>The spinning top in the film Inception gave us inspiration of using a top as the key to the dream. The top works as the trigger of the dream scene, which includes a mini city with a lot of buildings and a galaxy over the city. When the top is placed in the scene, light will become brighter and warmer; when it’s token away, the scene becomes dim. With this dramatic change, We try to visualize how people feel when they wake up from their dreams.
@@ -88,7 +88,7 @@
             <div class="paragraph">
                 <h4>System Flowchart</h4>
                 <div class='image-middle-container' style='margin-top: 30px'>
-                        <img src="/static/daydreaming/4.png" width="100%">
+                        <img src="https://miro.medium.com/max/1400/1*ay1ANIdtFPzNmrMO_m-Hog.png" width="100%">
                 </div>
                 <p>Throughout the whole system, we used two Adafruit Circuit Playground micro-controllers to control the dream scene and the top. Each section has its own power supply, charging module and a switch. The connectors (Bourns male contact) connected to the two parts determine the current state by detecting the high and low level signals, then the micro-controller issues a command to change the light.
                 </p>
@@ -131,7 +131,7 @@
                 <h4>The Top (that doesn’t rotate lol)</h4>
                     <div class='interview' >
                         <div class='left_p'>
-                            <img src="/static/daydreaming/5.png" width="100%">
+                            <img src="https://miro.medium.com/max/1400/1*fQTgY1zQAtY5rfWxFU5lmQ.png" width="100%">
                         </div>
                         <div class="right_p">
                             <p>The most challenging part of the top enclosure is to design a structure that we can put every electric components inside and place them steadily.
@@ -142,28 +142,28 @@
                     </div> 
                     <h4>Iterations of the enclosure</h4>
                     <div class='image-middle-container' style='margin-top:30px'>
-                        <img src="/static/daydreaming/6.png" width="100%">
+                        <img src="https://miro.medium.com/max/1400/1*wFI94MRoVo9Qfu6MX3NsHQ.png" width="100%">
                     </div>
                     <div class='image-middle-container' style='margin-top:30px'>
-                        <img src="/static/daydreaming/7.png" width="100%">
+                        <img src="https://miro.medium.com/max/1400/1*g1X8fX0lRzG2Kzdj1GoWjA.png" width="100%">
                     </div>
                     <p><br>
                     In addition to adjustments in measurements, we made major changes in how to put the three parts together, and how to place the circuits.
                     <br>
                     After testing, we used thread to fix the three parts, and changed the curved side face to cylindrical to increase strength. The top was fully functional but slightly brittle.</p>                           
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/8.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*XeOj_d8phgpbhsswagOWyw.png" width="100%">
                 </div>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/9.png" width="100%">
+                    <img src="https://miro.medium.com/max/1330/1*w18d0R6IvOXLh2q_iLAm-w.png" width="100%">
                 </div>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/10.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*299MWlS9Vj7plgystGhUZw.png" width="100%">
                 </div>
                 <p><br>We used buckles and limit structure to fix the two object together. In order to fix the top and the base properly, we 3D printed several bases and each time adjusted the measurements slightly.
                 </p>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/13.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*yALRki5nybWqXoycWvZ43w.png" width="100%">
                 </div>
                 <p><br>
                     The final iteration of the top is very robust and stable after we change the 3D printing material. The base and the top can be connected tightly.
@@ -175,16 +175,16 @@
                     We made an annular light guide with Acrylic by laser cutting.
                 </p> 
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/15.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*QEpUg1_txrKYrT2roJBxzg.png" width="100%">
                 </div>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/16.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*7sP0hDdSltBW-rp1XYle8w.png" width="100%">
                 </div>
             </div> 
             <div class='paragraph'>
                 <h4>The circuit inside the top</h4>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/17.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/0*I1WBPrb-8e0IcxOz.png" width="100%">
                 </div>
                 <p>
                     The circuits inside the top and the box are the same. The two objects are both sender and receiver at the same time.
@@ -193,19 +193,19 @@
                     The most challenging task was to solder all the components properly. There was only limited space inside the top, so we had to try different ways to fix the position of the components, which ultimately took us several hours to succeed.
                 </p>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/18.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*B6tzhvxv3LyRjJ6j6DHQ9A.png" width="100%">
                 </div>
             </div>
             <div class='paragraph'>
                 <h4>The light guide of the Dream Scene</h4>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/20.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*5JfFAeNUw5SD6Foj_bnhkg.png" width="100%">
                 </div>
                 <p><br>
                     We paid special attention to the light guide here, and did a lot of crazy experiments here. After these early experiments, we decided to use laser-cut Acrylic.
                </p> 
                <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/21.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*AU_H2ga3GJ480spbohR3ww.png" width="100%">
                 </div>
                 <p><br>
                     There are two kinds of light guide. The primary light guide is used to conduct LED light from the circuit board to the stage plane and the stars, and secondary light guide is used to illuminate the architecture model.
@@ -214,7 +214,7 @@
                     Although it seemed like an infeasible solution at first, the primary light guide worked well and result was beyond expectation.
                 </p>
                  <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/23.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*Sq0UzGnfu1tLu_S8jor59g.png" width="100%">
                 </div>
                 <p><br>
                 The difficult part of designing the primary light guide is to get the right shape and measurements. The design requirements include:
@@ -222,7 +222,7 @@
             </div> 
             <div class='interview' >
                     <div class='left_p'>
-                        <img src="/static/daydreaming/24.png" width="100%">
+                        <img src="https://miro.medium.com/max/942/1*iHbA7rv8Fq1_vFjmGqZJSQ.png" width="100%">
                     </div>
                     <div class="right_p">
                         <p>- The curve of the edges needs to be smooth to reduce light scattering<br>
@@ -237,22 +237,22 @@
                 The light guide certainly couldn’t meet all the requirement at the first attempt. We adjusted the measurements as we tested the light guides, and after three iterations they could work properly.
                 </p>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/25.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*fWR1czRmvMSCy4wkz-VUSQ.png" width="100%">
                 </div>
                 <p>
                     The secondary light guide is made of Acrylic rod. We cut it with the saw, and sand it with sanding machine then by hand.
                 </p>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/26.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*TsQzvPzxqXGSZcPN-TNlig.png" width="100%">
                 </div>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/27.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*KM9BP9fXhJ0Wp528fNHZmw.png" width="100%">
                 </div>
                 <p><br>
                     At first we worried about the light intensity, and it seemed that the light would be so dim after conducted by the two light guides. However, the result was very impressive. Actually we were surprised by the soft light when we test the frosted acrylic.
                 </p>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/28.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*U0B6W9fvlqAD4TyeDVPuuQ.png" width="100%">
                 </div>
             </div>    
             <div class='paragraph' style="margin-top:20px">
@@ -261,7 +261,7 @@
                     In order to create a dream-like atmosphere, we decided to add voronoi balls to the scene. They look like planets when illuminated ( and they look strange compared with other shapes).
                 </p>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/29.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*rnw7qOPGPmquV0qR1E6-6g.png" width="100%">
                 </div>
             </div>  
             <div class='paragraph' style="margin-top:20px">
@@ -269,22 +269,22 @@
                 <p>
                     We drew several sketches and made low-fidelity prototypes before laser cutting wood to make sure the measurements are right.</p>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/30.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*oI0DbX5IS-ZlLZOW7-BRgw.png" width="100%">
                 </div>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/31.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*d4lmPJJRsGkFs-MQc6eFTw.png" width="100%">
                 </div>
                 <p><br>
                     We also design an enclosure to fix the circuit board and other components. Thanks to the careful calculation and sketching, we were able to 3d print the enclosure successfully at the first attempt.
                 </p>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/32.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*mSQTE0U8BxqzsKRWvfiz2Q.png" width="100%">
                 </div>
                 <p><br>
                    To give the box a more pleasing appearance, we fixed its faces with screws instead of glue, and added a layer of acrylic over the wooden board as a protective surface.
                    </p>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/33.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*HmJUh9an8bqhj9Cc235cbg.png" width="100%">
                 </div>
             </div>   
              <div class='paragraph' style="margin-top:20px">
@@ -293,7 +293,7 @@
                     In order to enhance the sense of the scene, we decided to add a curtain to the stage. Again, we used screws only to fix the components for aesthetic reasons.
                 </p>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/34.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*0E1jkYqMQLTYnF7u18fvOw.png" width="100%">
                 </div>
             </div>              
         </div>
@@ -309,16 +309,16 @@
             </div>
             <div class='paragraph'>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/35.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*r-FmqferkXYcH2WkhBxMNg.png" width="100%">
                 </div>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/36.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*G-RfhZoYiOzCBx2Nn5V3rA.png" width="100%">
                 </div>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/37.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*0rem25tzMCWMz2UuyrXQUw.png" width="100%">
                 </div>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/daydreaming/38.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*sIMQvJrMnpGTqc4Bed5-7g.png" width="100%">
                 </div>
             </div>
 

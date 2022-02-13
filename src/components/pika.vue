@@ -11,7 +11,7 @@
 
   <div class = 'container'>
      <div class="content-container-large">
-            <img src="static/pika/1.png" width='100%' class='large-img'>
+            <img src="https://miro.medium.com/max/1400/1*FW4oATHFri5OHH770qYd4Q.png" width='100%' class='large-img'>
     </div>
     <div class="first-page">
         <div class="content-container-title">
@@ -115,13 +115,13 @@
             <div class="paragraph">
                 <h4>USE CASES</h4>
                 <div class='image-middle-container text-image' style='width:70%'>
-                    <img src="/static/pika/greetings.gif" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*2ISz8sJQVw54KN8TuzfniA.gif" width="100%">
                 </div>
                 <h4>Greet you with facial expressions</h4>
                 <p>The facial expression of the robot is coded with HTML Canvas and JavaScript. When you come home, she will greet you with a big smile.
                 </p>
                 <div class='image-middle-container text-image' style='width:70%'>
-                    <img src="/static/pika/browser.gif" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*ZhVKe6mqi30aurYlnNqZbg.gif" width="100%">
                 </div>
             </div>
             <div class="paragraph">
@@ -145,7 +145,7 @@
             <div class="paragraph">
                 <h4>SYSTEM DIAGRAM</h4>
                 <div class='image-middle-container text-image' style='width:80%'>
-                    <img src="/static/pika/4.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*zfFVrRSOC4_ILP-MG7b7yQ.png" width="100%">
                 </div>
             </div>
             <div class="paragraph">

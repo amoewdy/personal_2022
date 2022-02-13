@@ -11,7 +11,7 @@
 
   <div class = 'container'>
      <div class="content-container-large">
-            <img src="static/CAMT/a-watch.png" width='100%' class='large-img'>
+            <img src="https://miro.medium.com/max/1400/1*krUDHYctFPttzLBtb7hQrw.png" width='100%' class='large-img'>
     </div>
     <div class="first-page">
         <div class="content-container-title">
@@ -92,7 +92,7 @@
             </div>
              <div class="paragraph">
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/3.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*FN53Nbft320kDFRp5mEAng.png" width="100%">
                 </div>
                 <p>
                     For the development process, see 
@@ -104,14 +104,14 @@
             <div class="paragraph">
                 <h4>PROCESS IN NUMBERS</h4>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/4.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*jpa1aHwLdYeWMywzsBUlhQ.png" width="100%">
                 </div>
             </div>
             <div class="paragraph">
                 <h4>FINAL PRODUCT</h4>
                 <p>20 production level toolkits for children asthma care including the package, user manual, upload device, wearable, and web app.</p>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/2.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*hyUqQBLRTSdcqF-8c0cmcQ.png" width="100%">
                 </div>
             </div>
         </div>
@@ -140,10 +140,10 @@
             <div class="paragraph">
                 <h4>RESEARCH METHODS</h4>
                 <div class='image-middle-container text-image'>
-                    <img src="/static/CAMT/5-2.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*rSil5ecxcX9Qror4_LvtJA.png" width="100%">
                 </div>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/6.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*viGLrBXODQc_g3yVmdVCpA.png" width="100%">
                     <figcaption>Focus Group video from our sponsor</figcaption>
                 </div>
             </div>
@@ -193,20 +193,20 @@
             <div class="paragraph">
                 <h4>SYNTHESIS METHODS</h4>
                 <div class='image-middle-container text-image'>
-                    <img src="/static/CAMT/7.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*gj07AGGbTiFWUTiAGJczYw.png" width="100%">
                 </div>
             </div>
             <div class="paragraph">
                 <h4>USER NEEDS</h4>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/8.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*5Kwk2b3mIw_5Sks_JYU0kQ.png" width="100%">
                     <figcaption>* Features we will be working on</figcaption>
                 </div>
             </div>
             <div class="paragraph">
                 <h4>SYSTEM FLOW</h4>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/9.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*SQir86OvhWTIM_eriiid1g.png" width="100%">
                 </div>
             </div>
             <div class="paragraph">
@@ -220,14 +220,14 @@
             <div class="paragraph">
                 <h4>CONCEPT DESIGN</h4>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/10.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*4moGYrScmVdIwxDmQAhEzw.png" width="100%">
                     <figcaption>Storyboards of our early concept</figcaption>
                 </div>
                 <p>
                     With the findings, we came to a concept that includes a wearable, an upload device, and a web app. The central idea of this concept is to transfer the responsibility of managing asthma from parents to children and help them to self-report symptoms.
                 </p>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/11.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*FwbJdt-U7TduckC420uaBw.png" width="100%">
                     <figcaption>System design for the concept</figcaption>
                 </div>
             </div>
@@ -249,7 +249,7 @@
                     To confirm the previous assumptions under our concept design and collect additional information on wearable technologies usage, we conduct some quick user research (mostly online).
                 </p>
                 <div class='image-middle-container text-image'>
-                    <img src="/static/CAMT/14.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*dPAw1IknM46WmLq3PIPwpA.png" width="100%">
                 </div>
             </div>
 
@@ -284,7 +284,7 @@
                     OVERVIEW
                 </h4>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/12.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*v6LEa56tiLQ6m0TPHmW74w.png" width="100%">
                 </div>
                 <p>
                     <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://drive.google.com/file/d/1Kj5cNz7cdmk1OV1WGUs8BzwjAHc8vshK/view" target="blank">
@@ -297,7 +297,7 @@
                     DESIGN APPROACH
                 </h4>
                 <div class='image-middle-container text-image'>
-                    <img src="/static/CAMT/13.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*Bymf7TMR5D4N6rM_8Auxsg.png" width="100%">
                 </div>
                 <div class="quote">
                     <p>
@@ -310,11 +310,11 @@
                     EARLY PROTOTYPES
                 </h4>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/15.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*aOiB6d5G-RBJ3eNiJHnRJA.png" width="100%">
                     <figcaption>Wearable, upload device and wireframe for the web app</figcaption>
                 </div>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/15-2.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*iQ4wsWcUpZ3gGcvHsFO2DQ.png" width="100%">
                     <figcaption>Wireframe V2 using Figma</figcaption>
                 </div>
                 <p>See
@@ -328,7 +328,7 @@
                     USER EVALUATION ROUND 1
                 </h4>
                 <div class='image-middle-container text-image'>
-                    <img src="/static/CAMT/17.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*0DxAlpGwvu8xD9yZOGVTWA.png" width="100%">
                 </div>
                 <p>
                     We iterated quickly to refine our enclosure and interface. Although at this stage we haven’t finished the hardware and software, we decided to conduct usability testing and walkthroughs to evaluate our concept with prototypes.
@@ -339,7 +339,7 @@
                     Findings / Insights
                 </h4>
                 <div class='image-middle-container text-image'>
-                    <img src="/static/CAMT/18.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*IJ7eBTcGijDnDfxzXiTmQA.png" width="100%">
                 </div>
             </div>
             <div class="paragraph">
@@ -350,7 +350,7 @@
                     As part of the ‘out-of-box’ experience, the manual will guide the user through wi-fi config, upload device/wearable binding, symptom report, data sync, as well as troubleshooting.
                 </p>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/19-2.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*3QgtO4qi5lUhTLU00KiuxQ.png" width="100%">
                     <figcaption>The workflow of wi-fi config, account register and device binding.</figcaption>
                 </div>
             </div>
@@ -359,11 +359,11 @@
                     UI Refinement
                 </h4>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/before.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*htfkasU9Aj1ZiZLWfl64wA.png" width="100%">
                     <figcaption>Wireframe V2</figcaption>
                 </div>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/after.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*twzi79FH3iSUqeGzHjHXFg.png" width="100%">
                     <figcaption>Wireframe V3</figcaption>
                 </div>
             </div>
@@ -372,18 +372,18 @@
                     WEB APP IMPLEMENTATION
                 </h4>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/Asthma_Visual.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*dJkP0pC3dYrjShGq7nL83Q.png" width="100%">
                     <figcaption>Mid-fi user interface designed with Figma</figcaption>
                 </div>
                 <div class='image-middle-container'>
-                    <img src="/static/CAMT/20.gif" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*jUsL875IDcsyOAN4JwhJQQ.gif" width="100%">
                     <figcaption>Screenshot of the web app built with react, d3.js and material-ui</figcaption>
                 </div>
                 <p>
                     Based on the feedback we collected from the first round of user evaluation, we decide to only implement the most crucial features, which is the medication tracking and symptom report. ( We haven’t had time to implement any animation yet)
                 </p>
             </div>
-            <div class="paragraph">
+            <!-- <div class="paragraph">
                 <h4>
                     Branding
                 </h4>
@@ -399,13 +399,13 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="paragraph">
                 <h4>
                     USER EVALUATION ROUND 2 & 3
                 </h4>
                 <div class='image-middle-container text-image'>
-                            <img src="/static/CAMT/22.png" width="100%">
+                            <img src="https://miro.medium.com/max/1400/1*XyL01WFzhgeIdfEsy8eLjg.png" width="100%">
                 </div>
                 <p>
                 More quantitative analysis was necessary before we release the product to end users. As we implemented the web app and cloud server, we conducted 2 rounds of remote usability testing online through UserTesting.com separated by two weeks. We used the exact tasks, questions, and surveys so as to compare the user sentiments, key performance indicators, etc. to see how effective we have iterated based on users’ feedback.
@@ -421,7 +421,7 @@
                     Below is a comparison of time & difficulty of the same set of tasks. Our updates for the web app have resulted in improved efficiency & smoothness.
                 </p>
                  <div class='image-middle-container text-image'>
-                            <img src="/static/CAMT/23.png" width="100%">
+                            <img src="https://miro.medium.com/max/1400/1*A6lY8ONoKcnJSZFa1Gv7rA.png" width="100%">
                             <figcaption>KPI Results of the 2 rounds of usability testing</figcaption>
                 </div>
                 <blockquote>
@@ -434,7 +434,7 @@
                     QUASI-FINAL PRODUCT
                 </h4>
                  <div class='image-middle-container'>
-                            <img src="/static/CAMT/24.png" width="100%">
+                            <img src="https://miro.medium.com/max/1400/1*jq9ebEf9GOeBVWIyLIA_4w.jpeg" width="100%">
                             <figcaption>A functional asthma management tool</figcaption>
                 </div>
                 <p>
@@ -446,7 +446,7 @@
                     USER EVALUATION ROUND 4
                 </h4>
                 <div class='image-middle-container text-image'>
-                            <img src="/static/CAMT/25.png" width="100%">        
+                            <img src="https://miro.medium.com/max/1400/1*0d2oruEScrst6RPu-Qn03g.png" width="100%">        
                 </div>
                 <p>
                     This time we conducted detailed but concise in-home usability testing against real end-users which are families consisting of parents and children with asthma. Such testing would help us find out the last-minute feature-agnostic issues that reduce product stability and usability.
@@ -458,7 +458,7 @@
                     <br>Instead of the typical process which requires users to read aloud the task items, we have designed and printed <b>user manuals</b> and put them inside the product box. The users were supposed to follow the instructions on the user manual step by step.
                 </p>
                 <div class='image-middle-container text-image'>
-                            <img src="/static/CAMT/26.png" width="100%">        
+                            <img src="https://miro.medium.com/max/1400/1*EimW1j95d1pU1NTWsZ2diA.png" width="100%">        
                             <figcaption>User Evaluation Plan</figcaption>
                 </div>
             </div>
@@ -479,7 +479,7 @@
                     <br>• The upload device should be easily visible at home in the open area
                 </p>
                 <div class='image-middle-container'>
-                            <img src="/static/CAMT/27.png" width="100%">        
+                            <img src="https://miro.medium.com/max/1400/1*Chu1_c3ys19Ov_a0QpmlQg.png" width="100%">        
                             <figcaption>Usability issue list and testing metrics</figcaption>
                 </div>
             </div>
@@ -507,7 +507,7 @@
                     They are no longer prototypes. Let’s start the assembly line.
                 </p>
                 <div class='image-middle-container'>
-                            <img src="/static/CAMT/28.png" width="100%">        
+                            <img src="https://miro.medium.com/max/1400/1*w_5S9wLxh5fHaVpCNcNLww.png" width="100%">        
                             <figcaption>How we built the 20 pairs of devices</figcaption>
                 </div>
             </div>
@@ -516,7 +516,7 @@
                     FINAL DELIVERABLES
                 </h4>
                 <div class='image-middle-container'>
-                            <img src="/static/CAMT/29.png" width="100%">        
+                            <img src="https://miro.medium.com/max/1400/1*VBG-TiBZsGGwTeKJ_hkLjg.jpeg" width="100%">        
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@
     <div class="animated fadeIn delay-0.5s">
   <div class = 'container'>
      <div class="content-container-large">
-            <img src="static/spimo/1.png" width='100%' class='large-img'>
+            <img src="https://miro.medium.com/max/1400/1*wpQgRki7plwzHNBEsmJOYg.png" width='100%' class='large-img'>
     </div>
     <div class="first-page">
         <div class="content-container-title">
@@ -66,7 +66,7 @@
             <div class="paragraph">
                 <h4>The Incentive Spirometer</h4>
                 <div class='image-middle-container'>
-                    <img src="/static/spimo/2.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*flUxr-EbNed0gcclENbmbA.png" width="100%">
                     <figcaption>Typical incentive spirometers</figcaption>
                 </div>
                 <p>
@@ -79,7 +79,7 @@
                     The incentive spirometer is purely mechanical and has not had a major update in over 20 years. The doctors have no access to their patient’s spirometer usage and must trust that patients are using it as prescribed. However, that’s not always true.
                 </p>
                 <div class='image-middle-container'>
-                    <img src="/static/spimo/3.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*BHFXwJaTmOnuXmBoK4tChw.png" width="100%">
                     <figcaption>The gap between the doctors and the patients</figcaption>
                 </div>
             </div>
@@ -120,7 +120,7 @@
             <div class="paragraph">
                 <h4>Touchpoints Analysis</h4>
                 <div class='image-middle-container'>
-                    <img src="/static/spimo/4.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*PBr8_uBxI2z5tpvBQQRkkg.png" width="100%">
                     <figcaption>Blueprint of Treatment</figcaption>
                 </div>
                 <p>
@@ -142,7 +142,7 @@
             <div class="paragraph">
                 <h4>Ideation</h4>
                 <div class='image-middle-container'>
-                    <img src="/static/spimo/5.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*UPr0QsDHAR-5i48ezWWJgw.png" width="100%">
                     <figcaption>Original Idea of Spimo</figcaption>
                 </div>
                 <p>
@@ -163,7 +163,7 @@
             <div class="parent">
                 <div class = "left" style="margin-top:0">
                         <div class='image-middle-container'style="margin-top:0">
-                        <img src="/static/spimo/6.png" width="100%">
+                        <img src="https://miro.medium.com/max/1400/1*ywq6qSgstA62UaCHiY5j-Q.png" width="100%">
                         <figcaption>Stakeholder Map</figcaption>
                         </div>
                 </div>
@@ -175,7 +175,7 @@
             </div>
             <div class="paragraph">
                 <div class='image-middle-container'>
-                    <img src="/static/spimo/7.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*XZyTZoVueFhP9nIBrS2deA.png" width="100%">
                 </div>
             </div> 
         </div>
@@ -194,7 +194,7 @@
                     After three iterations, we developed our final prototypes. The detailed report can be found <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px dashed rgb(160, 160, 160);" href="https://docs.google.com/document/d/1lYISXqZL0g1TyaKzP_IOMxkH0jOTZy5tmiyPd0yLoGo/edit?usp=sharing" target="blank">here</a>.
                 </p>
                 <div class='image-middle-container'>
-                    <img src="/static/spimo/8.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*-ezeatAZ6Ne6RTw5icbiCg.png" width="100%">
                 </div>
             </div>
             <div class="paragraph">
@@ -202,15 +202,15 @@
                     System Diagram
                 </h4>
                 <div class='image-middle-container'style="margin-top:0">
-                    <img src="/static/spimo/9.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*_7xeiKyJSzU6lSSuLrf_5g.png" width="100%">
                     <figcaption>Software (left) and hardware (right) diagram</figcaption>
                 </div>
                 <div class='image-middle-container'style="margin-top:0">
-                    <img src="/static/spimo/10.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*XSWFVARGA_QQeKu3S7TKcA.png" width="100%">
                     <figcaption>Hardware Design</figcaption>
                 </div>
                 <div class='image-middle-container'style="margin-top:0">
-                    <img src="/static/spimo/11.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*pjd5jllS5dzMA3AURTH8rg.png" width="100%">
                     <figcaption>User Interface</figcaption>
                 </div>
             </div>
@@ -219,7 +219,7 @@
                     User Flow
                 </h4>
                 <div class='image-middle-container'style="margin-top:0">
-                    <img src="/static/spimo/12.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*MuNdQ-6b_I2auXJ9Vl9VbA.png" width="100%">
                     <figcaption>User flor of Spimo</figcaption>
                 </div>
                 <p>

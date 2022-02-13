@@ -3,7 +3,7 @@
   <div class = 'container'>
     <!-- <img src="/static/clubhusky/1.png" class="bannner"> -->
     <div class="content-container-large">
-            <img src="/static/clubhusky/1-2.png" width='100%' class='large-img'>
+            <img src="https://miro.medium.com/max/1400/1*vMIl8ikpMdIeX0Uz33NKLA.png" width='100%' class='large-img'>
     </div>
     <div class="first-page">
         <div class="content-container-title">
@@ -70,7 +70,7 @@
             </p>
             <h4>Design Constraints</h4>
                 <div class='image-middle-container' style='margin-top: 30px'>
-                    <img src="/static/clubhusky/2.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*J2baIcFwqu-4OYHFuyEufQ.png" width="100%">
                 </div>
             </div>
         </div>
@@ -92,7 +92,7 @@
                 is presented in form of personas.
                 </p>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/clubhusky/3.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*Id7OboZbTrV2rPZWptj-6w.png" width="100%">
                 </div>
             </div>
             <div class='paragraph'>
@@ -103,7 +103,7 @@
             </div>
         </div>
         <div class="content-container-large">
-            <img src="/static/clubhusky/4.png" width='100%' class='large-img'>
+            <img src="https://miro.medium.com/max/1400/1*sIxAqPj_-_GPqEjcKtasBA.png" width='100%' class='large-img'>
         </div>
         <div class="content-container">
             <div class="quote">
@@ -115,7 +115,7 @@
             <div class='paragraph'>
                 <h4>User Needs</h4>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/clubhusky/5.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*o1HfUFYtbGn-hhChcsOkaA.png" width="100%">
                 </div>                
             </div>
             <div class='paragraph'>
@@ -147,7 +147,7 @@
                 <h4>Platform Selection</h4>
                 <div class='interview' >
                     <div class='left_p'>
-                        <img src="/static/clubhusky/6.png" width="100%">
+                        <img src="https://miro.medium.com/max/1400/1*GS2CByjf5wL5yJwo3K2gJQ.png" width="100%">
                     </div>
                     <div class="right_p">
                         <p>How to <b>encourage students to use</b> this product or service？</p>
@@ -174,7 +174,7 @@
                     By writing scenarios, we can get the workflow of a possible solution.
                 </p> 
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/clubhusky/7.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*1lGWuuuioU1nchJ34OsH-A.png" width="100%">
                 </div>
             </div> 
             <div class='paragraph'>
@@ -207,7 +207,7 @@
             <div class='paragraph'>
                 <h4>Information Architecture</h4>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/clubhusky/8.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*zUtzgfYGvRchA3j4dHjF3A.png" width="100%">
                 </div>
             </div>
             <div class='paragraph'>
@@ -220,7 +220,7 @@
                 - Assume that you didn't find an interesting organization from the searching result. Propose a new organization
                 </p>               
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/clubhusky/9.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*bAwR0G_4NMWAyxS9w7iLMg.png" width="100%">
                 </div>
             </div>
             <div class='paragraph'>
@@ -229,12 +229,12 @@
             </div>               
         </div>
         <div class="content-container-large">
-            <img src="/static/clubhusky/10.png" width='100%' class='large-img'>
+            <img src="https://miro.medium.com/max/1400/1*7-5Ixd-ZQJRBl_Of-8uorg.png" width='100%' class='large-img'>
         </div>
         <div class="content-container">
             <h4>Designed User Scenarios</h4>
                 <div class='image-middle-container' style='margin-top:30px'>
-                    <img src="/static/clubhusky/11.png" width="100%">
+                    <img src="https://miro.medium.com/max/1400/1*8kIpQ4CyQwq2_Zm0odJeow.png" width="100%">
                 </div>    
         </div>
     </div>

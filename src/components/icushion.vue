@@ -488,7 +488,7 @@ img{
 }
 .table-3>tbody>tr>td{
     padding: 20px 30px;
-    font-family: Microsoft YaHei UI;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 29px;
@@ -513,7 +513,7 @@ img{
     border: solid #ffffff 2px;
     padding: 10px;
     vertical-align: middle;
-    font-family: Microsoft YaHei UI;
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: 27px;
     font-size: 15px;
     letter-spacing: 0.04em;
@@ -543,7 +543,7 @@ img{
 }
 
 h3.black{
-    font-family: Microsoft YaHei UI;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 29px;
@@ -553,7 +553,7 @@ h3.black{
 }
 
 h3.gray{
-    font-family: Microsoft YaHei UI;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: normal;
     line-height: 29px;

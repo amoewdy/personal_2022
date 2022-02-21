@@ -55,7 +55,7 @@ export default {
 <style>
 
 p{
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     margin:0;
     line-height: 29px;
     font-size: 16px;

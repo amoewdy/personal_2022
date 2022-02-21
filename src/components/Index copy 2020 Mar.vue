@@ -81,7 +81,7 @@
         <div class='right-large' style='position: relative;'>
                 <!-- <div class="hint"> -->
                         <h1 style="font-size:26px;letter-spacing: 0.4rem;">HARMONICA</h1>
-                        <h2 style='font-family: Source Sans Pro;font-weight: normal;'>Enhanced audio experience with ambient awareness</h2>
+                        <h2 style='font-family: 'Source Sans Pro', sans-serif;font-weight: normal;'>Enhanced audio experience with ambient awareness</h2>
                         <div class='recent-content'>
                         <p style='line-height: 22px;font-family:Lato, sans-serif;margin-top:1.4rem;margin-bottom:0rem;'> Feature Define・Audio Experience・Machine Learning・Co-creation
                         </p>
@@ -924,7 +924,7 @@ label:hover{
 //     height:350px;
 // }   
     p{
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     margin:0;
     line-height: 22px;
     font-size: 13px;

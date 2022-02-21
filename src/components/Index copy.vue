@@ -456,7 +456,7 @@ a:hover i{
 h1{
     font-weight: 900;
     /* letter-spacing:2px; */
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 38px;
     color: #000000;
     margin: 10px 0 12px 0px;
@@ -467,7 +467,7 @@ h1{
 h2{
     font-weight: 500;
     letter-spacing:0.1em;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     /* color: #C9C9C9; */
     color: rgb(0, 0, 0);
@@ -505,7 +505,7 @@ i{
     margin: 0.8rem 0.5rem 0 0;
 }
 p{
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     margin:0;
     line-height: 29px;
     font-size: 14px;
@@ -599,7 +599,7 @@ p{
     height:350px;
 }   
     p{
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     margin:0;
     line-height: 22px;
     font-size: 13px;
@@ -607,7 +607,7 @@ p{
     h1{
     font-weight: bold;
     letter-spacing:0.1em;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
 }  
     // .item .hint {
@@ -663,7 +663,7 @@ p{
     height:80%;
     transition: 0.5s;
     cursor: pointer;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 17px;
     text-align: center;
     letter-spacing: 0.1em;

@@ -398,7 +398,7 @@ a:hover i{
     line-height: 60px;
     letter-spacing: 0.1em;
     /* letter-spacing:2px; */
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 56px;
     color: #000000;
     margin: 0px 0 0px 0px;
@@ -424,7 +424,7 @@ h1 b{
 // }
 
 p{
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     margin:20px 20px 20px 0px;
     line-height: 29px;
     font-size: 16px;
@@ -435,7 +435,7 @@ p{
     /* margin-bottom:5rem; */
 }
 h2{
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     // font-family: Lora;
     font-style: normal;
     font-weight: bold;
@@ -447,7 +447,7 @@ h2{
     text-align:left;
 }
 h2.longtext{
-font-family: Source Sans Pro;
+font-family: 'Source Sans Pro', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -458,7 +458,7 @@ color: #000000;
 margin:10px 80px 10px 0;
 }
 h2.subtitle{
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -472,7 +472,7 @@ margin:0;
 h3{
     font-weight: 600;
     letter-spacing:1px;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     color: #000000; 
     // color: rgb(0, 0, 0);
@@ -523,7 +523,7 @@ p{
     text-align:left;
 }
 label{
-    font-family:Source Sans Pro;
+    font-family:'Source Sans Pro', sans-serif;
     font-size: 18px;
     color: #000000;
     letter-spacing: 0.1em;
@@ -684,7 +684,7 @@ label:hover{
 //     height:350px;
 // }   
     p{
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     margin:0;
     line-height: 22px;
     font-size: 13px;
@@ -925,7 +925,7 @@ label:hover{
     height:80%;
     transition: 0.5s;
     cursor: pointer;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 17px;
     text-align: center;
     letter-spacing: 0.1em;

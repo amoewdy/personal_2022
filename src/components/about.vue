@@ -59,7 +59,7 @@ export default {
 <style>
 
 p.about-paragraph{
-    font-family: Source Sans Pro;
+    font-family: ;
     margin:1.2rem auto;
     line-height: 29px;
     font-size: 16px;
@@ -72,7 +72,7 @@ p.about-paragraph{
 h2.about-h2{
     font-weight: 700;
     letter-spacing:1px;
-    font-family: Source Sans Pro;
+    font-family: ;
     letter-spacing: 0.1em;
     font-size: 30px;
     /* color: #333333;  */
@@ -106,7 +106,7 @@ h2 b{
 }
 
  li{
-    font-family: Source Sans Pro;
+    font-family: ;
     font-style: normal;
     font-weight: 900;
     letter-spacing: 0.1em;

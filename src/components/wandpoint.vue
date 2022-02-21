@@ -428,7 +428,7 @@ export default {
 
 <style>
 p{
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     margin:0;
     line-height: 29px;
     font-size: 16px;
@@ -441,7 +441,7 @@ p{
 h1{
     font-weight: bold;
     letter-spacing:0.1em;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
     color: #202020;
     margin: 10px 0 20px 0;
@@ -450,7 +450,7 @@ h1{
 h2{
     font-weight: bold;
     letter-spacing:0.1em;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     color: #202020;
     margin: 18px 0 11px 0;
@@ -459,7 +459,7 @@ h2{
 h3{
     font-weight: bold;
     letter-spacing:0.1em;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     color: #202020;
     line-height: 29px;
@@ -469,7 +469,7 @@ h3{
 h4{
     font-weight: bold;
     letter-spacing:0.1em;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     color:#000000;
     text-align:left;

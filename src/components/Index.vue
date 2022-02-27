@@ -8,18 +8,19 @@
                 </div>
             <div class='part2'>
                 <h1>
-                I solve complex puzzles.</h1>
+                Designing, Learning, with Curiosity</h1>
                 <div class='content'>
                     <h2 class="longtext">
-                 Hi, I’m Sixuan, a product designer with 2 years of experience in designing and launching SaaS products.
+                 Hi, I’m Sixuan, a product designer.
                     </h2>
                     <h2 class="longtext">
-                        With strong technical skills and product thinking, I strive to create innovative, elegant, and delightful solutions in the tech domain.
+                    I create thoughtful and intuitive solutions with curiosity, product thinking, and a human-centered approach.
+                    I enjoy listening to user voices, breaking down complexity, exploring wild ideas, and cross-functional collaboration.
                     </h2>
                     <h2 class="longtext">
                         Currently, I work at 
                     <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px solid rgb(160, 160, 160);" href="https://www.usertesting.com/" target="blank">
-                    UserTesting</a>, bringing customer empathy to more organizations.
+                    UserTesting</a>, bringing human empathy to more organizations.
                     </h2>
                 </div>
                 <div class='icon-element'>
@@ -74,6 +75,7 @@
                         </h2>
                         <h2 >Revealing insights from test videos automatically</h2>
                         <div class='tags'>
+                            <span class="tag">Web</span> 
                             <span class="tag">Data-driven design</span> 
                             <span class="tag">Machine intelligence</span> 
                             <span class="tag">HCI research</span>
@@ -110,6 +112,7 @@
                 <div class='tags'>
                     <span class="tag">Web</span>    
                     <span class="tag">User research</span>
+                    <span class="tag">Usability</span>
                     <span class="tag">End-to-end</span> 
                     <span class="tag">Design iteration</span> 
                 </div>

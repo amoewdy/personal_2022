@@ -11,11 +11,12 @@
                 Designing, Learning, with Curiosity</h1>
                 <div class='content'>
                     <h2 class="longtext">
-                 Hi, I’m Sixuan, a product designer.
+                 Hi, I’m Sixuan, a product designer. I design the dialog between machine and human.
                     </h2>
                     <h2 class="longtext">
+                    
                     I create thoughtful and intuitive solutions with curiosity, product thinking, and a human-centered approach.
-                    I enjoy listening to user voices, breaking down complexity, exploring wild ideas, and cross-functional collaboration.
+                    <!-- I enjoy listening to user voices, breaking down complexity, exploring wild ideas, and cross-functional collaboration. -->
                     </h2>
                     <h2 class="longtext">
                         Currently, I work at 

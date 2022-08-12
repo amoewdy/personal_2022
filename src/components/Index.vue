@@ -8,20 +8,20 @@
                 </div>
             <div class='part2'>
                 <h1>
-                Designing, Learning, with Curiosity</h1>
+                I solve complex puzzles</h1>
                 <div class='content'>
                     <h2 class="longtext">
-                 Hi, I’m Sixuan, a product designer. I design the dialog between machine and human.
+                 Hi, I’m Sixuan. I design the dialog between machine and human.
                     </h2>
                     <h2 class="longtext">
                     
-                    I create thoughtful and intuitive solutions with curiosity, product thinking, and a human-centered approach.
+                    I create thoughtful and intuitive solutions with curiosity, creativity, and a human-centered approach.
                     <!-- I enjoy listening to user voices, breaking down complexity, exploring wild ideas, and cross-functional collaboration. -->
                     </h2>
                     <h2 class="longtext">
                         Currently, I work at 
-                    <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px solid rgb(160, 160, 160);" href="https://www.usertesting.com/" target="blank">
-                    UserTesting</a>, bringing human empathy to more organizations.
+                    <a style="text-decoration: none; color: rgb(0, 0, 0);border-bottom:1px solid rgb(160, 160, 160);" href="https://www.tableau.com/" target="blank">
+                    Tableau/Salesforce</a>, helping people see and understand data.
                     </h2>
                 </div>
                 <div class='icon-element'>

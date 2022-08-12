@@ -14,10 +14,10 @@
                     <h2 class='about-h2'>HELLO, </br>I'M <b>SIXUAN</b>.</h2>
                     <!-- <h2 class='about-h2'>WELCOME!</h2> -->
                     <p class='about-paragraph'>
-                        I'm a Product Designer and Tech Enthusiast from Global Innovation Exchange, University of Washington. With a background in Design and Tech Innovation, I strive to deliver elegant and viable solutions to solve user problems. Currently, I work at UserTesting.com, bringing customer empathy to more companies.
+                        I'm a Product Designer based in Dallas, Texas. <br>With a background in Design and Tech Innovation, I strive to deliver elegant and intuitive solutions to users. <br>Currently, I work remotely at Tableau/Salesforce, helping people see and understand data.
                     </p>
                     <p class='about-paragraph'>
-                    I'm passionate about designing the dialog between machines and humans. Trying to spice up the cold world of tech and incorporate human touch into smart devices, I equipped myself with skills in both human-centered design, software/hardware prototyping, and product strategy.    
+                    I'm passionate about designing the dialog between machine and human. Trying to incorporate human touch into the most complex domains, I equipped myself with skills in human-centered design, data processing, software prototyping, and product strategy.
                     </p>
                     <!-- <p class='about-paragraph'>
                         Recent projects
